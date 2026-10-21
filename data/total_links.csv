@@ -1,0 +1,952 @@
+title,all_links
+Communication protocol,571
+Protocol ossification,54
+2BASE-TL,153
+Access stratum,128
+Acknowledgement (data networks),51
+Alternating bit protocol,23
+AMX192,14
+Apple Filing Protocol,253
+AppleTalk,177
+ARCNET,59
+ATA over Ethernet,42
+ATM adaptation layer,19
+ATM Adaptation Layer 2,19
+ATM Adaptation Layer 5,21
+Automatic switched-transport network,11
+Automatically switched optical network,19
+Autonegotiation,83
+Available bit rate,12
+BACnet,353
+Bandwidth allocation protocol,6
+BatiBUS,108
+Bearer-Independent Call Control,9
+BEEP,23
+BIP-8,12
+Bolt (network protocol),18
+Bonjour Sleep Proxy,85
+BSSGP,7
+C-Bus (protocol),168
+CANopen,116
+CcTalk,28
+Cell relay,30
+CIMD,9
+Coloured Book protocols,35
+Commercial Internet Protocol Security Option,9
+Common Gateway Interface,180
+Common Industrial Protocol,97
+Connection-oriented communication,39
+Connectionless communication,35
+Constrained Shortest Path First,6
+Constraint-based Routing Label Distribution Protocol,11
+Content Vectoring Protocol,9
+ControlNet,103
+CRC-based framing,17
+Cyphal,64
+D54 (protocol),16
+Data Stream Interface,11
+DCE/RPC,34
+Decentralized autonomous organization,215
+DECnet,201
+Delay-tolerant networking,120
+Deterministic Networking,83
+Devices Profile for Web Services,50
+Digital Audio Access Protocol,710
+Digital Data Communications Message Protocol,11
+Digital Media Access Protocol,518
+Digital Private Network Signalling System,170
+Direct Client-to-Client,116
+Direct End to End Secure Chat Protocol,8
+DirectAccess,90
+Discovery and Launch,25
+Distributed data flow,24
+Distributed Overlay Virtual Ethernet,223
+Distributed Universal Number Discovery,13
+DMX512,189
+DNP3,340
+Domain Name System,251
+DREAM (protocol),9
+Dynamic Adaptive Streaming over HTTP,136
+Dynamic synchronous transfer mode,68
+EMI (protocol),22
+Encapsulation (networking),31
+ERIPAX,11
+Ethernet Automatic Protection Switching,9
+Ethernet over SDH,11
+European Home Systems Protocol,153
+Fibre Channel over Ethernet,37
+Financial Information eXchange,50
+Factory Interface Network Service,99
+FlexRay,269
+Forward-confirmed reverse DNS,13
+Frame Relay,163
+FUDI,4
+G.9963,15
+G.9970,21
+G.9972,24
+G.hn,104
+Gemini (protocol),136
+Generalized Multi-Protocol Label Switching,15
+GPRS Tunnelling Protocol,77
+GPSoverIP,35
+Handshake (computing),66
+Heartbeat (computing),55
+High Efficiency Streaming Protocol,11
+Highway Addressable Remote Transducer Protocol,102
+Hop-by-hop transport,8
+HTTP Live Streaming,158
+HTTP Speed+Mobility,16
+HTTP tunnel,23
+Hybrid Wireless Mesh Protocol,10
+HyperSCSI,20
+IBM Advanced Peer-to-Peer Networking,14
+IBM Advanced Program-to-Program Communication,36
+IBM LU6.2,12
+IBM Network Control Program,18
+Systems Network Architecture,129
+Identity Registration Protocol,179
+IEC 60870-5,270
+IEC/IEEE 61850-9-3,15
+IF-MAP,17
+IL (network protocol),68
+Inter-server,32
+Interface Message Processor,60
+International Network Working Group,79
+Internet Fibre Channel Protocol,22
+Internet Gateway Device Protocol,33
+Internet Protocol Device Control,15
+Internet Protocol Options,12
+Internet Storage Name Service,11
+InterPlaNet,16
+InterPlanetary File System,195
+IP-HTTPS,7
+ISO 11783,475
+ISO/IEC JTC 1/SC 25,66
+IWARP,34
+JXTA,173
+Kinetics Internet Protocol,8
+Label Distribution Protocol,13
+LANtastic,32
+LEDBAT,25
+Lightweight protocol,9
+Link Layer Topology Discovery,34
+Link-Local Multicast Name Resolution,69
+Link-ZA,19
+Live distributed object,51
+Local Area Transport,166
+Local Peer Discovery,98
+LocalTalk,362
+LocalTalk-to-Ethernet bridge,23
+Lockstep protocol,12
+LonTalk,109
+Master–slave (technology),64
+Media Redundancy Protocol,69
+Media Transfer Protocol,60
+Medium-dependent interface,81
+Messaging pattern,33
+Microcom Networking Protocol,43
+Microsoft Host Integration Server,273
+Microsoft RPC,17
+Minimal Lower Layer Protocol,13
+Miredo,18
+Modbus,266
+Morse Micro,33
+Motorola FLEX,47
+MPLS-TP,14
+MQTT,93
+Multi-Drop Bus / Internal Communication Protocol,23
+Multiple Spanning Tree Protocol,309
+Multiwavelength optical networking,7
+MyriaNed,33
+NAT Port Mapping Protocol,21
+NAT traversal,46
+NDMP,8
+Netatalk,59
+NetBIOS,88
+NetBIOS over TCP/IP,218
+NetWare Core Protocol,208
+NetWare Link Services Protocol,10
+Network Control Protocol (ARPANET),53
+Network Device Control Protocol,10
+Network Direct Attached Storage,18
+Next Steps in Signaling,8
+Next-generation network,204
+NISO Circulation Interchange Protocol,6
+NMEA 0183,65
+Non-access stratum,125
+Non-broadcast multiple-access network,22
+NWLink,13
+OFTP,19
+ONVIF,70
+Open Control Architecture,10
+OpenFlow,50
+OpenWire (binary protocol),6
+Optical burst switching,13
+Optical mesh network,92
+Overlay transport virtualization,11
+P-cycle protection,15
+PFCP,24
+Packet over SONET/SDH,23
+Packet switching,341
+Parallel Redundancy Protocol,21
+PAROLI,12
+Path protection,45
+Peer Distributed Transfer Protocol,9
+Peer Name Resolution Protocol,26
+Photuris (protocol),13
+Picture Transfer Protocol,520
+PL-3,17
+PL-4,20
+PME Aggregation Function,21
+Port Control Protocol,145
+Precision Time Protocol,304
+Precision Time Protocol Industry Profile,14
+Private IP,10
+Proprietary protocol,30
+Protected Streaming,82
+Protocol for Web Description Resources,7
+Protocol implementation conformance statement,9
+Protocol pipelining,11
+Protocol stack,55
+Protocol Wars,245
+Provider Backbone Bridge Traffic Engineering,241
+Proximity-1 Space Link Protocol,39
+Proxy Mobile IPv6,3
+PXE boot,162
+RADIUS,151
+RANAP,7
+RDM (lighting),27
+Real-Time Messaging Protocol,127
+Regenerative Satellite Mesh – A,12
+RelayNet,46
+Reliability (computer networking),73
+Reliable Internet Stream Transport,18
+Remote Audio Output Protocol,69
+Request–response,23
+Resilient Ethernet Protocol,10
+Retransmission (data networks),22
+Ring latency,10
+RNSAP,5
+Route reestablishment notification,3
+Router alert label,5
+Routing in delay-tolerant networking,50
+RP-570,2
+Secure Socket Tunneling Protocol,99
+Security service (telecommunication),43
+Segmentation and reassembly,15
+Sensor Media Access Control,17
+Server Message Block,386
+Service Advertising Protocol,9
+Session ID,15
+Short Message Peer-to-Peer,67
+Signaling protocol,237
+Signalling System No. 7,125
+Simple Common Gateway Interface,147
+Simple Gateway Monitoring Protocol,20
+Simple Network Paging Protocol,8
+Simple Sensor Interface protocol,17
+Singulation,14
+Skypix,89
+SNDCP,9
+Sockets Direct Protocol,18
+Sorcerer's Apprentice syndrome,19
+Source-specific multicast,12
+Spanning Tree Protocol,352
+SPI-3,10
+SPI-4.2,19
+Protocol spoofing,23
+Standard Interchange Protocol,14
+Stateless protocol,20
+Stimulus protocol,11
+Store and forward,212
+Structured Stream Transport,3
+Stunnel,219
+Switch56,19
+Synchronous Ethernet,74
+Synchronous optical networking,112
+System Packet Interface,22
+T-MPLS,9
+TDM over IP,41
+Telecommunications Management Network,22
+Telehash,19
+Telocator Alphanumeric Protocol,8
+Terminal Identifier – Address Resolution Protocol,6
+Third Party Control Protocol,3
+Time-Sensitive Networking,89
+TransferJet,132
+Transparent Network Substrate,12
+Transport Driver Interface,9
+Traversal Using Relays around NAT,17
+Triangular routing,11
+Trillium Digital Systems,173
+Trivial File Transfer Protocol,40
+Tunnel Setup Protocol,37
+Tunneling protocol,115
+TV Network Protocol,14
+TZSP,17
+UniPro,38
+UniPro protocol stack,18
+Universal Communication Format,8
+User Location Service,9
+UUCP,372
+Variant object,101
+Verse protocol,17
+Virtual circuit,72
+Virtual Interface Adapter,6
+Virtual leased line,14
+Virtual Link Aggregation Control Protocol,56
+Virtual Link Trunking,18
+Virtual Private LAN Service,39
+VLAN,174
+VoFR,3
+VT1.5,8
+Waffle (BBS software),9
+WAN optimization,29
+Web Application Messaging Protocol,79
+Web Services for Devices,6
+WebTorrent,600
+Windows Rally,163
+Worldwide Industrial Telemetry Standards,16
+X.PC,16
+Xcast,23
+Xerox Network Systems,111
+XOT,7
+Z-Wave,249
+Zebra Media Access Control,14
+ZeroNet,226
+Routing protocol,63
+Associativity-based routing,24
+Babel (protocol),46
+Backhaul Adaptation Protocol,6
+Border Gateway Multicast Protocol,76
+Border Gateway Protocol,181
+Collection Tree Protocol,7
+Diffusing update algorithm,14
+Distance Vector Multicast Routing Protocol,10
+Distance-vector routing protocol,41
+Enhanced Interior Gateway Routing Protocol,65
+EraMobile,5
+Exterior gateway protocol,16
+Exterior Gateway Protocol,13
+Fuzzy routing,7
+Geographic routing,22
+Holddown,6
+Interior gateway protocol,71
+Interior Gateway Routing Protocol,78
+IPv6 Routing Protocol for Low-Power and Lossy Networks,16
+IS-IS,611
+Link-state routing protocol,46
+Lollipop sequence numbering,6
+Longest prefix match,11
+Multicast Source Discovery Protocol,16
+Narada multicast protocol,5
+Next Hop Resolution Protocol,13
+Open Shortest Path First,165
+Optimized Link State Routing Protocol,43
+Path-vector routing protocol,12
+Private Network-to-Network Interface,11
+Protocol-Independent Multicast,39
+Resource Public Key Infrastructure,36
+Route poisoning,10
+Routing Information Protocol,130
+SCION (Internet architecture),39
+Split horizon route advertisement,17
+Tinc (protocol),107
+Vehicular Reactive Routing protocol,3
+Virtual Router Redundancy Protocol,40
+Virtual Switch Redundancy Protocol,11
+Wireless network,289
+2016 United States wireless spectrum auction,121
+Ad hoc wireless distribution service,13
+Air2Web,9
+AirHop Communications,24
+Augmented tree-based routing,13
+Backhaul (telecommunications),82
+Barker code,42
+Base station,384
+Base transceiver station,26
+Body area network,61
+Broadcast storm,41
+Buffalo AirStation,156
+Bureau 1440,265
+Cambium Networks,58
+Cantenna,93
+Carrier aggregation,17
+Castalia (simulator),19
+CCKM,12
+CCMP (cryptography),24
+Cellular V2X,23
+Certified wireless network administrator,6
+Certified wireless network expert,180
+Certified wireless security professional,6
+Cisco Valet routers,8
+Cognitive radio,79
+Communication Linking Protocol,4
+CommView,31
+Wireless configuration utility,25
+Competitive Carriers Association,7
+Complementary code keying,8
+Contention free pollable,5
+Contention-based protocol,8
+Continuous phase modulation,73
+Control and Provisioning of Wireless Access Points protocol,12
+CTIA (organization),60
+DataTAC,116
+Decentralized physical infrastructure network,41
+Dedicated short-range communications,30
+Detect and avoid,8
+Device-to-device,15
+Direct-sequence spread spectrum,124
+DiY networking,23
+Dynamic frequency hopping,10
+Dynamic single-frequency networks,26
+ExOR,26
+Expected transmission count,6
+Exposed node problem,9
+Extensible Authentication Protocol,132
+Federated Wireless,202
+Fixed wireless,194
+Frame-bursting,23
+Fronthaul,24
+Gi-Fi,54
+Gigabit wireless,32
+GloMoSim,9
+Andrea Goldsmith (engineer),115
+Wireless grid,45
+Guowang,510
+Handover keying,5
+Hazy Sighted Link State Routing Protocol,27
+Hidden node problem,34
+High Performance Wireless Research and Education Network,152
+High-capacity data radio,17
+IEEE 802.11ad,238
+IEEE 802.11af,248
+IEEE 802.11ay,235
+Ingenu,17
+InSSIDer,30
+Intel PRO/Wireless,257
+Intelligent vehicular ad hoc network,14
+Inter-working function,7
+Wireless network interface controller,52
+International Journal of Wireless Information Networks,21
+Intersymbol interference,42
+IP over Avian Carriers,220
+IP-DECT,46
+KisMAC,32
+Kismet (software),47
+Legality of piggybacking,56
+Li-Fi,288
+Ligado Networks,75
+Lightweight Extensible Authentication Protocol,11
+Link Labs,6
+Link margin,10
+Linksys,46
+Local multipoint distribution service,24
+LoRa,56
+LoRaWAN,36
+Low-power wide-area network,65
+Manhattan mobility model,15
+Wireless distribution system,24
+Media-independent handover,36
+Microwave transmission,462
+Mioty,14
+MMARP,10
+Mobile communications over IP,17
+Mobile QoS,23
+Mobility model,190
+Mobolize,0
+Monitor mode,35
+MORE protocol,4
+Multi-hop routing,6
+Multicast-broadcast single-frequency network,25
+National Broadband Plan (United States),213
+Navini Networks,34
+NB-Fi,10
+Near-term digital radio,8
+Negroponte switch,17
+Net3,13
+NetGenie,23
+NetStumbler,22
+Network detector,39
+Network enumeration,27
+Networked flying platform,21
+NIMO (non-interfering multiple output),6
+Nomad (eSIM),30
+Nomad Digital,102
+Nomadix,28
+ODMRP,9
+Open spectrum,145
+OpenWireless.org,33
+Opportunistic mesh,13
+Order One Network Protocol,10
+Packet analyzer,84
+Paradox Engineering,31
+Personal communications network,7
+Piggybacking (Internet access),115
+Point-to-multipoint communication,217
+Policies promoting wireless broadband in the United States,74
+Private Shared Wireless Network,22
+Qianfan,417
+QualNet,12
+Radio Link Protocol,25
+Radio modem,189
+Ralink,118
+Random waypoint model,10
+Reconfigurability,11
+Restricted random waypoint model,9
+Rise over thermal,7
+Rogue access point,15
+Wireless Router Application Platform,27
+SecureEasySetup,8
+Network encryption cracking,10
+Wireless security,155
+Self-interference cancellation,21
+Semaphore Flag Signaling System,50
+Service set (802.11 network),29
+Shared mesh,10
+Sierra Wireless,62
+Sigfox,40
+Silver Spring Networks,39
+NetSpot,39
+TamoGraph Site Survey,16
+Wireless site survey,22
+Smartphone ad hoc network,41
+Solstar,33
+SpaceX Starshield,373
+Spatial capacity,15
+Spectral efficiency,129
+Spectrum commons theory,15
+Starlink,964
+Streaming data,38
+Successive interference cancellation,5
+Switched mesh,11
+Temporal Key Integrity Protocol,39
+Temporally ordered routing algorithm,17
+Tethering,182
+Thread (network protocol),82
+Topology dissemination based on reverse-path forwarding,7
+TP-Link,261
+Tp-Link Deco,20
+Traffic indication map,12
+TRENDnet,13
+Twimight,0
+Typhoid adware,27
+UAProf,19
+UASAT,245
+UMTS,531
+Vehicular ad hoc network,57
+Vehicular communication systems,94
+Vehicle-to-device,35
+Vehicle-to-everything,154
+Vertical handover,24
+Voice over WLAN,168
+Wardriving,67
+Warshipping,17
+WaveLAN,119
+White space Internet,10
+White spaces (radio),216
+Wi-Fi positioning system,88
+WiFi Explorer,25
+WiFi-Where,19
+Wireless Gigabit Alliance,53
+WiGLE,29
+Wired Equivalent Privacy,65
+Wireless ad hoc network,179
+Wireless application service provider,4
+Wireless broadband,133
+Wireless game adapter,21
+Wireless HDMI,72
+Wireless Infrastructure Association,45
+Wireless Intelligent Network,4
+Wireless Internet service provider,60
+Wireless intrusion prevention system,30
+Wireless LAN,121
+Wireless LAN controller,12
+Wireless mobility management,11
+Wireless Multimedia Extensions,20
+Wireless Network after Next,8
+Wireless supplicant,9
+Wireless WAN,24
+Wireless Zero Configuration,316
+Wirelesspt,47
+WSSUS model,9
+WURFL,37
+Xsupplicant,27
+Zero-rating,63
+ZHLS-GF,6
+Zone Routing Protocol,4
+Computer network,906
+10BASE2,86
+10BASE5,78
+ADSL,134
+ALOHAnet,127
+API,260
+ARPANET,458
+Address Resolution Protocol,147
+Alexander Graham Bell,1171
+Alexander Stepanovich Popov,283
+Alfred Vail,209
+Algorithm,460
+Almon Brown Strowger,202
+Amos Dolbear,208
+Andrew S. Tanenbaum,161
+Antonio Meucci,252
+Application software,174
+Artificial intelligence,2141
+Asynchronous Transfer Mode,102
+Audio coding format,488
+BITNET,215
+Backbone network,69
+Bandwidth (computing),248
+Beacon,291
+Bluetooth,724
+Bob Kahn,774
+Booting,433
+Broadcast domain,25
+Bus network,29
+CDMA2000,337
+CSMA/CA,78
+CYCLADES,222
+Cable Internet access,237
+Cable protection system,239
+Cable television,1095
+Camille Tissot,210
+CdmaOne,324
+Cellular network,489
+Charles Bourseul,177
+Charles Grafton Page,243
+Charles K. Kao,1027
+Charles Sumner Tainter,205
+Charles Wheatstone,367
+Circuit switching,262
+Claude Chappe,214
+Claude Shannon,1419
+Client (computing),251
+Cloud computing,390
+Coaxial cable,372
+Code-division multiple access,319
+Communications satellite,675
+Computer,1017
+Computer data storage,549
+Computer file,189
+Computer hardware,492
+Computer science,582
+Computer security,892
+Computing,370
+Computing platform,312
+Confidentiality,161
+Cryptography,947
+DARPA,901
+DOCSIS,74
+Daniel Davis Jr.,176
+Darknet,207
+Data,592
+Data communication,390
+Data compression,986
+Data integrity,174
+Data link,204
+Data link layer,206
+Database,791
+Dawon Kahng,249
+Denial-of-service attack,382
+Device driver,224
+Device file,464
+DiffServ,74
+Digital AMPS,152
+Digital Enhanced Cordless Telecommunications,255
+Digital data,384
+Digital media,321
+Digital subscriber line,429
+Digital television,557
+Discrete cosine transform,930
+Distributed computing,427
+Distributed hash table,206
+Donald Davies,404
+Drums in communication,228
+Dynamic Host Configuration Protocol,158
+Edholm's law,252
+Edwin Howard Armstrong,336
+Electrical telegraph,419
+Electronic Frontier Foundation,402
+Elisha Gray,235
+Email,390
+Embedded system,559
+Emile Berliner,389
+Encrypting,297
+End-to-end encryption,244
+End-to-end principle,88
+Enterprise software,70
+Erna Schneider Hoover,202
+Ethernet,721
+Ethernet frame,141
+Ethernet hub,42
+Ethernet over coax,89
+Evolution-Data Optimized,229
+Facebook,946
+Fault tolerance,192
+Fax,362
+Fiber Distributed Data Interface,551
+Fiber-optic cable,261
+Fiber-optic communication,424
+FidoNet,311
+File attribute,293
+File server,105
+File system,577
+Firewall (computing),282
+Frame (networking),36
+Francis Blake (inventor),182
+Free-space optical communication,313
+Frequency-division multiplexing,243
+Friend-to-friend,105
+Gardiner Greene Hubbard,360
+General Packet Radio Service,222
+General Services Administration,215
+Global System for Mobile Communications,451
+Goodput,35
+Guglielmo Marconi,836
+HTTP,599
+HTTPS,600
+Harold Hopkins (physicist),241
+Header (computing),41
+Hedy Lamarr,444
+Heliograph,299
+Henry Sutton (inventor),211
+History of broadcasting,354
+History of mobile phones,471
+History of prepaid mobile phones,205
+History of radio,509
+History of telecommunication,439
+History of television,946
+History of the Internet,806
+History of the telephone,366
+History of the transistor,630
+History of videotelephony,389
+Home network,107
+Host (network),44
+Hostname,40
+Hydraulic telegraph,188
+IEEE 802,347
+IEEE 802.11,459
+IEEE 802.1D,239
+IEEE 802.1Q,258
+IEEE 802.1X,292
+IEEE 802.3,356
+IP address,137
+IP multicast,108
+IPv6,252
+ISO/IEC 11801,578
+ITU,1151
+ITU-T,463
+Image compression,619
+Information Age,1519
+Innocenzo Manzetti,207
+Inode,235
+Instant messaging,592
+Institute of Electrical and Electronics Engineers,111
+IntServ,19
+Integrated Services Digital Network,437
+Integrated circuit,1547
+Integrated development environment,475
+Internet,1078
+Internet Assigned Numbers Authority,148
+Internet Engineering Task Force,163
+Internet Protocol,162
+Internet backbone,70
+Internet of things,668
+Internet protocol suite,254
+Internet service provider,395
+Internet video,209
+Internet2,260
+Internetworking,68
+Interplanetary Internet,150
+Intranet,52
+JANET,299
+Jagadish Chandra Bose,689
+Johann Philipp Reis,210
+John Bardeen,680
+John Logie Baird,289
+Journaling file system,274
+Jun-ichi Nishizawa,224
+Kernel (operating system),313
+Last mile (telecommunications),254
+Leased line,77
+Lee de Forest,578
+Leonard Kleinrock,810
+Library (computing),321
+Line-of-sight propagation,132
+Local area network,362
+Louis Pouzin,208
+MAC address,114
+MOSFET,629
+Machine learning,1031
+Mass media,536
+Maximum transmission unit,83
+Mesh network,39
+Metrics (networking),14
+Metropolitan area network,88
+Microwave,747
+Middleware,219
+Mobile computing,206
+Mobile telephony,536
+Modem,453
+Mohamed M. Atalla,440
+Molecular communication,183
+Multicast,87
+Multipath routing,20
+Multiplexing,324
+Municipal wireless network,731
+NPL network,241
+Narinder Singh Kapany,574
+Nasir Ahmed (engineer),255
+National Physical Laboratory (United Kingdom),585
+National Science Foundation,335
+Near-field communication,271
+Network address,27
+Network administrator,13
+Network architecture,271
+Network bridge,49
+Network congestion,97
+Network delay,21
+Network interface controller,180
+Network layer,118
+Network on a chip,475
+Network packet,70
+Network security,225
+Network segment,24
+Network service,144
+Network simulation,57
+Network switch,284
+Network topology,430
+Networking hardware,303
+Nikola Tesla,685
+Node (networking),219
+OSI model,823
+Octet (computing),62
+Oliver Heaviside,327
+Online video platform,327
+Open source,596
+Open standard,307
+Operating system,524
+Optical communication,347
+Optical fiber,586
+Optical telegraph,1010
+Orbital angular momentum multiplexing,226
+Overlay network,72
+PARC Universal Packet,53
+Packet forwarding,26
+Packet loss,58
+Packet radio,405
+Pager,259
+Paul Baran,404
+Peer-to-peer,469
+Peer-to-peer file sharing,284
+Peripheral,232
+Personal area network,256
+Personal computer,480
+Philo Farnsworth,378
+Photophone,374
+Phryctoria,245
+Physical layer,236
+Point-to-point (telecommunications),212
+Polarization-division multiplexing,241
+Port (computer networking),65
+Power line communication,142
+Pretty Good Privacy,269
+Printer (computing),276
+Processor (computing),69
+Programming language,542
+Public data network,56
+Public switched telephone network,311
+Quality of service,159
+Radar,453
+Radia Perlman,382
+Radio network,210
+Radio wave,464
+Radiotelephone,252
+Real-time computing,272
+Reginald Fessenden,307
+Request for Comments,85
+Robert Hooke,729
+Robert Metcalfe,535
+Roberto Landell de Moura,201
+Router (computing),210
+Routing,121
+Routing table,37
+Rémi Després,53
+Samuel Morse,470
+Semaphore,770
+Semiconductor,417
+Semiconductor device,591
+Server (computing),256
+Signal,148
+Sliding window,45
+Smartphone,975
+Smoke signal,223
+Social media,1018
+Software configuration management,552
+Software maintenance,1073
+Space-division multiple access,233
+Spread spectrum,288
+Star network,40
+Storage area network,116
+Streaming media,702
+Streaming television,616
+Submarine communications cable,540
+System on a chip,1100
+TANet,193
+Telautograph,199
+Telecommunication circuit,196
+Telecommunications,823
+Telecommunications equipment,217
+Telecommunications link,221
+Telecommunications network,300
+Telegraphy,457
+Telephone,369
+Telephone exchange,337
+Telephony,353
+Teleprinter,360
+Television broadcasting,578
+Telex,285
+Terabit Ethernet,104
+Terminal (telecommunication),187
+The Telephone Cases,260
+Thomas A. Watson,257
+Thomas Edison,866
+Throughput,101
+Tim Berners-Lee,849
+Time-division multiplexing,235
+Tivadar Puskás,202
+Toasternet,219
+Token Ring,340
+Transceiver,78
+Transmission Control Protocol,282
+Transmission line,328
+Transmission medium,302
+Transport Layer Security,362
+Twisted pair,279
+UCLA,1206
+USB,616
+Ubiquitous computing,476
+United States Department of Defense,743
+Usenet,689
+Video coding format,448
+Video game,982
+Vint Cerf,884
+Virtual file system,322
+Virtual machine,459
+Virtual private network,447
+Vladimir K. Zworykin,962
+Walter Houser Brattain,512
+Whistled language,390
+Wi-Fi,887
+Wide area network,253
+Wire,134
+Wireless,18
+Wireless access point,71
+Wireless router,44
+Wireless sensor network,223
+World Wide Web,695
+X.25,110
+X.75,10
+Xerox PARC,192
+Yogen Dalal,589

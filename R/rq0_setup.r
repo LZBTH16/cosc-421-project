@@ -1,0 +1,359 @@
+# =============================================================================
+# rq0_setup.r - shared setup for all research-question scripts
+#   * loads packages and defines the plotting/table helpers
+#   * loads data/nodes.csv + data/edges.csv, removes citation pages, builds the graph
+#   * loads the optional supplementary data and assigns domains
+#   * writes the data-description tables used in the paper's Data section
+# You normally don't run this file yourself: every rqN_*.r script sources it.
+# =============================================================================
+
+# install.packages(c("tidyverse", "igraph", "wordcloud", "knitr", "here", "svglite"))
+# Load tidyverse FIRST, then igraph, so igraph's functions win where names clash
+# (igraph::as_data_frame vs dplyr's, igraph::simplify vs purrr's).
+library(tidyverse)
+library(igraph)
+library(wordcloud)   # wordlayout(): keeps text labels from overlapping
+library(knitr)       # kable(): writes data frames as LaTeX tables
+library(here)        # here() = the project folder (found via .git / .Rproj)
+
+DATA_DIR  <- here("data")
+CACHE_DIR <- here("cache")
+OUT_DIR   <- here("results")              # results/rqN/   : CSV + SVG per question
+FIG_DIR   <- here("paper", "figures")     # paper/figures/rqN/   : PDF figures for LaTeX
+GEN_DIR   <- here("paper", "generated")   # paper/generated/rqN/ : LaTeX tables + numbers
+TOP_N <- 20
+
+# Every output goes into a folder named after the current research question.
+# Each script calls set_rq("rq1"), set_rq("rq2"), ... before saving anything.
+set_rq <- function(tag) {
+  RQ <<- tag
+  for (d in c(file.path(OUT_DIR, tag), file.path(FIG_DIR, tag), file.path(GEN_DIR, tag)))
+    dir.create(d, recursive = TRUE, showWarnings = FALSE)
+  invisible(tag)
+}
+rq_out <- function(file) file.path(OUT_DIR, RQ, file)    # path inside results/rqN/
+set.seed(2026)
+
+# igraph >= 2.0 renamed as.undirected() to as_undirected(); support both
+to_undirected <- if (exists("as_undirected", asNamespace("igraph"))) {
+  igraph::as_undirected
+} else {
+  igraph::as.undirected
+}
+
+
+# =============================================================================
+# Output helpers
+# =============================================================================
+# Every figure is drawn by a function. save_fig() shows it on screen (when run
+# interactively, e.g. "Source" in RStudio) and saves it twice, both as vector
+# graphics (sharp at any zoom):
+#   results/rqN/<name>.svg        -> for slides, the GitHub repository, the appendix
+#   paper/figures/rqN/<name>.pdf  -> for the paper (pdflatex cannot read SVG files,
+#                                    so LaTeX gets the identical drawing as PDF)
+# Sizes are in inches. LNCS text width is about 4.8 in, so a 7-in-wide figure
+# included at \textwidth prints at about 70% of its size.
+svg_device <- if (requireNamespace("svglite", quietly = TRUE)) svglite::svglite else grDevices::svg
+save_fig <- function(draw, name, width = 7, height = 4.5) {
+  if (interactive()) draw()
+  svg_device(rq_out(paste0(name, ".svg")), width = width, height = height)
+  draw(); invisible(dev.off())
+  pdf(file.path(FIG_DIR, RQ, paste0(name, ".pdf")), width = width, height = height)
+  draw(); invisible(dev.off())
+}
+
+# Save a table as CSV (results/rqN/) and as a LaTeX tabular (paper/generated/rqN/).
+# Only the tabular is generated, so captions written in main.tex are never
+# overwritten. Numbers are rounded with `digits`.
+save_table <- function(df, name, digits = 3, align = NULL) {
+  write_csv(df, rq_out(paste0(name, ".csv")))
+  tex <- kable(df, format = "latex", booktabs = TRUE, digits = digits,
+               linesep = "", align = align, format.args = list(big.mark = ","))
+  writeLines(tex, file.path(GEN_DIR, RQ, paste0(name, ".tex")))
+  invisible(df)
+}
+
+# Key numbers for the text, written as LaTeX macros:
+# num("nNodes", 951) -> \newcommand{\rNNodes}{951}; write \rNNodes{} in main.tex.
+# Each script writes paper/generated/rqN/numbers_rqN.tex, and all of them are
+# combined into paper/generated/numbers.tex, which main.tex reads.
+numbers <- list()
+tex_escape <- function(x) str_replace_all(x, c("\\\\" = "\\\\textbackslash{}",
+                                               "([&%$#_{}])" = "\\\\\\1",
+                                               "~" = "\\\\textasciitilde{}"))
+num <- function(name, value, digits = 2) {
+  numbers[[name]] <<- if (is.numeric(value)) {
+    format(round(value, digits), big.mark = ",", nsmall = 0, scientific = FALSE, trim = TRUE)
+  } else tex_escape(as.character(value))
+}
+# Every macro gets the prefix \r (for "result") so it can't clash with LaTeX's
+# own commands: num("nNodes", ...) becomes \rNNodes, num("sigma", ...) \rSigma.
+write_numbers <- function() {
+  macro <- paste0("r", toupper(substr(names(numbers), 1, 1)), substring(names(numbers), 2))
+  lines <- sprintf("\\newcommand{\\%s}{%s}", macro, unlist(numbers))
+  writeLines(c(sprintf("%% Generated by the %s script - do not edit by hand", RQ), lines),
+             file.path(GEN_DIR, RQ, paste0("numbers_", RQ, ".tex")))
+  parts <- sort(list.files(GEN_DIR, "^numbers_rq.+\\.tex$", full.names = TRUE, recursive = TRUE))
+  writeLines(c("% Combined from numbers_*.tex by the R scripts - do not edit by hand",
+               unlist(map(parts, readLines))), file.path(GEN_DIR, "numbers.tex"))
+  numbers <<- list()
+}
+
+# Shorten long titles. Non-ASCII characters (e.g. the dash in "Request–response")
+# are converted to ASCII so the PDF fonts never miss a glyph.
+short_label <- function(x, max_chars = 30) {
+  x <- iconv(x, "UTF-8", "ASCII//TRANSLIT", sub = "?")
+  ifelse(nchar(x) > max_chars, paste0(substr(x, 1, max_chars - 3), "..."), x)
+}
+# Text with a white outline so it stays readable on top of points and edges
+halo_text <- function(x, y, labels, cex = 0.7, col = "black", halo = "white", ...) {
+  dx <- 0.12 * strwidth("M", cex = cex); dy <- 0.12 * strheight("M", cex = cex)
+  for (a in seq(0, 2 * pi, length.out = 17)[-17])
+    text(x + cos(a) * dx, y + sin(a) * dy, labels, cex = cex, col = halo, ...)
+  text(x, y, labels, cex = cex, col = col, ...)
+}
+# Tick marks for an axis drawn on log10(value + 1)
+log_ticks <- function(v) {
+  mx <- max(v, na.rm = TRUE)
+  t  <- c(0, as.vector(outer(c(1, 2, 5), 10^(0:max(1, ceiling(log10(mx + 1)))))))
+  t[t <= mx * 1.5]
+}
+fmt_num <- function(x) format(x, big.mark = ",", scientific = FALSE, trim = TRUE)
+
+# Place short labels (numbers) next to points without overlap, with leader lines
+spread_labels <- function(x, y, labels, cex = 0.8, col = "firebrick",
+                          xlim = par("usr")[1:2], ylim = par("usr")[3:4]) {
+  x0 <- x + 0.7 * strwidth("00", cex = cex); y0 <- y + 0.9 * strheight("0", cex = cex)
+  wl <- wordlayout(x0, y0, paste0(" ", labels, " "), cex = cex * 1.4, xlim = xlim, ylim = ylim)
+  cx <- wl[, 1] + wl[, 3] / 2; cy <- wl[, 2] + wl[, 4] / 2
+  segments(x, y, cx, cy, col = "grey40", lwd = 0.6)
+  halo_text(cx, cy, labels, cex = cex, font = 2, col = col)
+}
+
+# Scatter on log10(x+1) / log10(y+1); highlighted points are numbered and
+# named in a key on the right
+numbered_scatter <- function(x, y, ids, key_labels, xlab, ylab, key_title,
+                             cex = 0.75, point_col = NULL) {
+  lx <- log10(x + 1); ly <- log10(y + 1); tx <- log_ticks(x); ty <- log_ticks(y)
+  layout(matrix(1:2, nrow = 1), widths = c(3, 1.9))
+  left <- 2.2 + 0.55 * max(nchar(fmt_num(ty)))
+  par(mar = c(4, left, 0.8, 0.3))
+  plot(lx, ly, pch = 16, cex = 0.5,
+       col = point_col %||% adjustcolor("grey30", alpha.f = 0.35),
+       axes = FALSE, xlab = xlab, ylab = "",
+       xlim = range(lx) + c(-0.03, 0.08) * diff(range(lx)),
+       ylim = range(ly) + c(-0.03, 0.12) * diff(range(ly)))
+  axis(1, at = log10(tx + 1), labels = fmt_num(tx), cex.axis = 0.85)
+  axis(2, at = log10(ty + 1), labels = fmt_num(ty), las = 1, cex.axis = 0.85)
+  title(ylab = ylab, line = left - 1.3); box()
+  points(lx[ids], ly[ids], pch = 16, cex = 0.8, col = "tomato")
+  spread_labels(lx[ids], ly[ids], seq_along(ids), cex = cex)
+  par(mar = c(4, 0, 0.8, 0.5)); plot.new()
+  legend("left", bty = "n", cex = 0.7, y.intersp = if (length(ids) > 15) 1 else 1.15,
+         title = key_title, title.font = 2,
+         legend = sprintf("%2d. %s", seq_along(ids), key_labels))
+  layout(1)
+}
+
+# Network drawing with numbered highlighted nodes and up to two keys on the right
+draw_net <- function(gr, lay, vsize, vcol, hl, hl_labels, key1 = NULL, key2 = NULL,
+                     edge_alpha = 0.05) {
+  layout(matrix(1:2, nrow = 1), widths = c(3, 1.6))
+  par(mar = c(0, 0, 0, 0))
+  plot(gr, layout = lay, rescale = FALSE, xlim = c(-1, 1), ylim = c(-1, 1),
+       vertex.size = vsize, vertex.color = vcol, vertex.frame.color = NA,
+       vertex.label = NA, edge.arrow.size = 0, edge.width = 0.25,
+       edge.color = adjustcolor("grey50", alpha.f = edge_alpha))
+  points(lay[hl, 1], lay[hl, 2], pch = 21, bg = "tomato", col = "white", cex = 1.1)
+  spread_labels(lay[hl, 1], lay[hl, 2], hl_labels, cex = 0.8, xlim = c(-1, 1), ylim = c(-1, 1))
+  par(mar = c(0, 0, 0, 0.5)); plot.new()
+  if (!is.null(key1)) do.call(legend, c(list(x = "topleft", bty = "n", cex = 0.72,
+                                             title.font = 2, y.intersp = 1.2), key1))
+  if (!is.null(key2)) do.call(legend, c(list(x = "bottomleft", bty = "n", cex = 0.72,
+                                             title.font = 2, pch = 16, pt.cex = 1.3), key2))
+  layout(1)
+}
+
+# Graph on a circle with labels pointing outward (never overlap)
+circle_graph <- function(gr, labels, order_by, vsize, vcol = "tomato",
+                         ewidth = 0.8, cex = 0.7, arrows = TRUE) {
+  k <- vcount(gr); ord <- order(order_by, decreasing = TRUE)
+  ang <- numeric(k); ang[ord] <- pi / 2 - 2 * pi * (seq_len(k) - 1) / k
+  lay <- cbind(cos(ang), sin(ang))
+  par(mar = rep(0.3, 4)); plot.new()
+  label_in <- max(strwidth(labels, units = "inches", cex = cex))
+  L <- 1.12 / max(1 - 2 * label_in / min(par("pin")), 0.35) + 0.05
+  plot.window(xlim = c(-L, L), ylim = c(-L, L), asp = 1)
+  plot(gr, layout = lay, rescale = FALSE, add = TRUE, vertex.size = vsize,
+       vertex.color = vcol, vertex.frame.color = "white", vertex.label = NA,
+       edge.arrow.size = if (arrows) 0.3 else 0, edge.curved = 0.15, edge.width = ewidth,
+       edge.color = adjustcolor("grey40", alpha.f = 0.45))
+  deg <- ang * 180 / pi; right <- cos(ang) >= -1e-9
+  for (i in seq_len(k))
+    text(1.12 * cos(ang[i]), 1.12 * sin(ang[i]), labels[i], cex = cex,
+         srt = if (right[i]) deg[i] else deg[i] + 180, adj = if (right[i]) 0 else 1)
+}
+
+# Horizontal bar chart whose margins fit the labels; optional colour key
+hbar <- function(values, labels, xlab, col = "steelblue", cex = 0.75,
+                 value_fmt = fmt_num, key = NULL) {
+  labels <- rev(short_label(labels, 34)); values <- rev(values)
+  left_in  <- max(strwidth(labels, units = "inches", cex = cex)) + 0.2
+  right_in <- if (is.null(key)) 0.4 else max(strwidth(names(key), units = "inches", cex = 0.7)) + 0.6
+  par(mai = c(0.6, left_in, 0.15, right_in))
+  bp <- barplot(values, names.arg = labels, horiz = TRUE, las = 1, cex.names = cex,
+                col = rev(col), border = NA, xlim = c(0, max(values) * 1.15), xlab = xlab)
+  text(values, bp, value_fmt(values), pos = 4, cex = cex * 0.9, xpd = TRUE)
+  if (!is.null(key))
+    legend(par("usr")[2], par("usr")[4], legend = names(key), fill = key, border = NA,
+           bty = "n", cex = 0.7, xpd = TRUE)
+}
+
+# Horizontal boxplots of a count on a log scale, one per group
+log_boxplot <- function(v, group, levels, cols, xlab, cex = 0.8) {
+  lv <- intersect(levels, unique(as.character(group)))
+  left_in <- max(strwidth(lv, units = "inches", cex = cex)) + 0.25
+  par(mai = c(0.6, left_in, 0.1, 0.15))
+  boxplot(log10(v + 1) ~ factor(group, levels = rev(lv)), horizontal = TRUE, las = 1,
+          col = cols[rev(lv)], xaxt = "n", ylab = "", xlab = xlab, cex.axis = cex,
+          outcex = 0.4)
+  t <- log_ticks(v); axis(1, at = log10(t + 1), labels = fmt_num(t), cex.axis = 0.85)
+}
+
+set_rq("rq0")   # the setup's own tables (Data section of the paper) go to rq0/
+
+# =============================================================================
+# Data: load, remove citation pages, build the graph
+# =============================================================================
+nodes_raw <- read_csv(file.path(DATA_DIR, "nodes.csv"), show_col_types = FALSE)
+edges_raw <- read_csv(file.path(DATA_DIR, "edges.csv"), show_col_types = FALSE)
+
+# Citation-identifier pages (ISBN, DOI, ...) and a copyright notice are linked
+# from almost every reference list, not because of the topic. Left in, they
+# would be the biggest "hubs", so they are removed.
+EXCLUDE_PATTERN <- "\\(identifier\\)$|^Copyright status of works"
+excluded <- nodes_raw |>
+  filter(str_detect(title, EXCLUDE_PATTERN)) |>
+  left_join(count(edges_raw, to, name = "in_degree_before_removal"), by = c("title" = "to")) |>
+  select(title, in_degree_before_removal) |>
+  arrange(desc(in_degree_before_removal))
+save_table(transmute(excluded, Page = short_label(title, 45),
+                     `In-degree before removal` = in_degree_before_removal), "tab_excluded")
+
+subfield_levels <- c("Network protocols", "Routing protocols", "Wireless networking",
+                     "Seed neighbourhood", "Seed article")
+subfield_cols <- c("Network protocols" = "#0072B2", "Routing protocols" = "#009E73",
+                   "Wireless networking" = "#E69F00", "Seed neighbourhood" = "#CC79A7",
+                   "Seed article" = "black")
+category_subfields <- subfield_levels[1:3]
+# Short names keep the tables within the narrow LNCS text width
+sub_short <- c("Network protocols" = "Protocols", "Routing protocols" = "Routing",
+               "Wireless networking" = "Wireless", "Seed neighbourhood" = "Seed nbhd.",
+               "Seed article" = "Seed")
+
+nodes <- nodes_raw |>
+  filter(!title %in% excluded$title) |>
+  mutate(subfield = case_when(origin == "seed"      ~ "Seed article",
+                              origin == "seed_link" ~ "Seed neighbourhood",
+                              TRUE                  ~ str_remove(source_cat, "^Category:")))
+edges <- edges_raw |> filter(from %in% nodes$title, to %in% nodes$title)
+
+g <- graph_from_data_frame(edges, directed = TRUE, vertices = nodes)
+n <- vcount(g); m <- ecount(g)
+gu       <- to_undirected(g, mode = "collapse")
+comp_w   <- components(g, mode = "weak")
+giant_v  <- V(g)$name[comp_w$membership == which.max(comp_w$csize)]
+g_giant  <- induced_subgraph(g, giant_v)
+gu_giant <- to_undirected(g_giant, mode = "collapse")
+
+num("nNodesRaw", nrow(nodes_raw)); num("nEdgesRaw", nrow(edges_raw))
+num("nExcluded", nrow(excluded));  num("nNodes", n); num("nEdges", m)
+num("nCategoryArticles", sum(nodes$subfield %in% category_subfields))
+num("nSeedNeighbourhood", sum(nodes$subfield == "Seed neighbourhood"))
+for (.sf in category_subfields)
+  num(paste0("n", str_remove_all(.sf, "[^A-Za-z]")), sum(nodes$subfield == .sf))
+
+# Optional supplementary data
+meta_files <- file.path(DATA_DIR, c("page_categories.csv", "page_meta.csv",
+                                    "pageviews_monthly.csv", "edits_12m.csv"))
+has_meta <- all(file.exists(meta_files))
+if (has_meta) {
+  page_categories <- read_csv(meta_files[1], show_col_types = FALSE)
+  page_meta       <- read_csv(meta_files[2], show_col_types = FALSE)
+  pageviews       <- read_csv(meta_files[3], show_col_types = FALSE)
+  edits_12m       <- read_csv(meta_files[4], show_col_types = FALSE)
+}
+message("Supplementary metadata (R/collect_page_metadata.R) found: ", has_meta)
+
+# ---- Domains (keyword rules on categories + title; first match wins) --------
+domain_rules <- tribble(
+  ~domain,                         ~pattern,
+  "People",                        "births|deaths|living people|people from|computer scientists|engineers|inventors|businesspeople|physicists|internet pioneers",
+  "Organizations & companies",     "companies|organi[sz]ations|consortia|standards bodies|agencies|nonprofit|manufacturers|service providers|universit",
+  "History & early telecom",       "history of|^history|telegraph|semaphore|heliograph|smoke signal|drums in communication|whistled|phryctoria",
+  "Security",                      "security|cryptograph|malware|attacks?\\b|vulnerab|firewall|authentication|encryption|hacking|privacy|wardriving",
+  "Wireless & mobile",             "wireless|mobile|cellular|wi-?fi|ieee 802\\.11|bluetooth|radio|satellite|\\blte\\b|\\b[2345]g\\b|gsm|umts|cdma|spectrum",
+  "Routing",                       "routing|router|gateway protocol|\\bbgp\\b|ospf|multicast",
+  "Protocols & standards",         "protocol|standards|\\brfc\\b|ieee 802|itu-t|\\bosi\\b|tcp/ip|ip address|ethernet",
+  "Hardware & transmission media", "hardware|cables?\\b|coaxial|twisted pair|optical fib|fiber-optic|fibre|modem|network switch|ethernet hub|network bridge|transistor|semiconductor|integrated circuit|mosfet|physical layer|transmission medi",
+  "Software & computing",          "software|applications|operating system|\\bweb\\b|e-?mail|servers?\\b|cloud|file system|distributed computing|computer science|programming|database|artificial intelligence|machine learning|video game|social media|streaming"
+)
+domain_levels <- c(domain_rules$domain, "Other networking concepts")
+domain_cols <- setNames(c(unname(palette.colors(8, "Okabe-Ito")[2:8]), "#882255", "#44AA99", "grey75"),
+                        domain_levels)
+classify_domain <- function(text) {
+  text <- str_to_lower(text); out <- rep("Other networking concepts", length(text))
+  for (i in rev(seq_len(nrow(domain_rules))))
+    out[str_detect(text, domain_rules$pattern[i])] <- domain_rules$domain[i]
+  out
+}
+cat_text <- if (has_meta) {
+  page_categories |> group_by(title) |>
+    summarise(categories = paste(category, collapse = " | "), .groups = "drop")
+} else tibble(title = character(), categories = character())
+node_info <- nodes |>
+  left_join(cat_text, by = "title") |>
+  mutate(domain = classify_domain(paste(coalesce(categories, ""), coalesce(source_cat, ""), title)))
+override_file <- file.path(DATA_DIR, "domain_overrides.csv")
+if (file.exists(override_file)) {
+  node_info <- node_info |>
+    left_join(rename(read_csv(override_file, show_col_types = FALSE), domain_fix = domain),
+              by = "title") |>
+    mutate(domain = coalesce(domain_fix, domain)) |> select(-domain_fix)
+}
+V(g)$domain <- node_info$domain[match(V(g)$name, node_info$title)]
+
+# =============================================================================
+# Data description: core vs periphery, data-quality check
+# =============================================================================
+cent <- tibble(
+  article      = V(g)$name,
+  subfield     = V(g)$subfield,
+  domain       = V(g)$domain,
+  in_degree    = degree(g, mode = "in"),
+  out_degree   = degree(g, mode = "out"),
+  total_degree = degree(g, mode = "all"),
+  in_norm      = degree(g, mode = "in",  normalized = TRUE),
+  out_norm     = degree(g, mode = "out", normalized = TRUE)
+)
+
+subfield_summary <- cent |>
+  mutate(subfield = factor(subfield, levels = subfield_levels)) |>
+  group_by(Subfield = subfield) |>
+  summarise(Articles = n(), `Mean in` = mean(in_degree),
+            `Median in` = median(in_degree), `Mean out` = mean(out_degree),
+            .groups = "drop")
+save_table(subfield_summary, "tab_subfields", digits = 1)
+num("meanInSeedNeighbourhood", mean(cent$in_degree[cent$subfield == "Seed neighbourhood"]), 1)
+num("meanInCategories", mean(cent$in_degree[cent$subfield %in% category_subfields]), 1)
+
+zero_out <- cent |> filter(out_degree == 0) |> arrange(desc(in_degree)) |>
+  transmute(Article = short_label(article, 40), Subfield = sub_short[subfield], `In-degree` = in_degree)
+save_table(zero_out, "tab_zero_out_degree")
+num("nZeroOut", nrow(zero_out))
+
+
+
+num("hasMeta", if (has_meta) "yes" else "no")
+write_numbers()
+message("Setup done: ", n, " articles, ", m, " links.")

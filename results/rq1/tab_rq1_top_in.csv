@@ -1,0 +1,11 @@
+#,Article,Subfield,In,In (norm.),Out
+1,Computer network,Seed,449,0.4726315789473684,405
+2,Communication protocol,Protocols,406,0.42736842105263156,265
+3,Ethernet,Seed nbhd.,330,0.3473684210526316,241
+4,Internet,Seed nbhd.,311,0.3273684210526316,240
+5,Local area network,Seed nbhd.,296,0.31157894736842107,232
+6,Wireless,Seed nbhd.,247,0.26,196
+7,Telecommunications,Seed nbhd.,244,0.25684210526315787,196
+8,Packet switching,Protocols,243,0.2557894736842105,216
+9,Network switch,Seed nbhd.,241,0.2536842105263158,196
+10,Wireless network,Wireless,236,0.24842105263157896,202
