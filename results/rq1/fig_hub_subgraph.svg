@@ -775,26 +775,26 @@
 <circle cx='292.42' cy='240.83' r='2.92' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #CC79A7;' />
 <circle cx='168.77' cy='281.01' r='2.86' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #CC79A7;' />
 <circle cx='296.35' cy='216.00' r='2.93' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #CC79A7;' />
-<text transform='translate(245.88,131.08) rotate(-72)' style='font-size: 8.40px; font-family: "Arial";' textLength='112.45px' lengthAdjust='spacingAndGlyphs'>Communication protocol (406)</text>
-<text transform='translate(287.53,270.65) rotate(36)' style='font-size: 8.40px; font-family: "Arial";' textLength='84.47px' lengthAdjust='spacingAndGlyphs'>Packet switching (243)</text>
-<text transform='translate(241.74,302.26) rotate(72)' style='font-size: 8.40px; font-family: "Arial";' textLength='85.86px' lengthAdjust='spacingAndGlyphs'>Wireless network (236)</text>
-<text transform='translate(218.17,126.01) rotate(-90)' style='font-size: 8.40px; font-family: "Arial";' textLength='90.53px' lengthAdjust='spacingAndGlyphs'>Computer network (449)</text>
-<text transform='translate(131.08,245.87) rotate(-18)' text-anchor='end' style='font-size: 8.40px; font-family: "Arial";' textLength='60.78px' lengthAdjust='spacingAndGlyphs'>ARPANET (230)</text>
-<text x='126.01' y='218.17' text-anchor='end' style='font-size: 8.40px; font-family: "Arial";' textLength='107.80px' lengthAdjust='spacingAndGlyphs'>Bandwidth (computing) (228)</text>
-<text transform='translate(129.74,190.26) rotate(18)' text-anchor='end' style='font-size: 8.40px; font-family: "Arial";' textLength='82.12px' lengthAdjust='spacingAndGlyphs'>Cellular network (223)</text>
-<text transform='translate(141.92,164.86) rotate(36)' text-anchor='end' style='font-size: 8.40px; font-family: "Arial";' textLength='82.58px' lengthAdjust='spacingAndGlyphs'>Circuit switching (216)</text>
-<text transform='translate(190.26,302.26) rotate(-72)' text-anchor='end' style='font-size: 8.40px; font-family: "Arial";' textLength='98.45px' lengthAdjust='spacingAndGlyphs'>Data communication (233)</text>
-<text transform='translate(270.65,144.47) rotate(-54)' style='font-size: 8.40px; font-family: "Arial";' textLength='53.67px' lengthAdjust='spacingAndGlyphs'>Ethernet (330)</text>
-<text transform='translate(290.08,164.86) rotate(-36)' style='font-size: 8.40px; font-family: "Arial";' textLength='49.78px' lengthAdjust='spacingAndGlyphs'>Internet (311)</text>
-<text transform='translate(302.26,190.26) rotate(-18)' style='font-size: 8.40px; font-family: "Arial";' textLength='92.89px' lengthAdjust='spacingAndGlyphs'>Local area network (296)</text>
-<text transform='translate(267.14,290.08) rotate(54)' style='font-size: 8.40px; font-family: "Arial";' textLength='78.39px' lengthAdjust='spacingAndGlyphs'>Network switch (241)</text>
-<text transform='translate(213.83,305.99) rotate(90)' style='font-size: 8.40px; font-family: "Arial";' textLength='86.81px' lengthAdjust='spacingAndGlyphs'>Network topology (234)</text>
-<text transform='translate(144.47,270.65) rotate(-36)' text-anchor='end' style='font-size: 8.40px; font-family: "Arial";' textLength='90.55px' lengthAdjust='spacingAndGlyphs'>Node (networking) (231)</text>
-<text transform='translate(161.34,144.47) rotate(54)' text-anchor='end' style='font-size: 8.40px; font-family: "Arial";' textLength='66.72px' lengthAdjust='spacingAndGlyphs'>Optical fiber (216)</text>
-<text transform='translate(186.12,131.08) rotate(72)' text-anchor='end' style='font-size: 8.40px; font-family: "Arial";' textLength='67.67px' lengthAdjust='spacingAndGlyphs'>Smartphone (215)</text>
-<text transform='translate(300.92,245.87) rotate(18)' style='font-size: 8.40px; font-family: "Arial";' textLength='97.98px' lengthAdjust='spacingAndGlyphs'>Telecommunications (244)</text>
-<text transform='translate(164.86,290.08) rotate(-54)' text-anchor='end' style='font-size: 8.40px; font-family: "Arial";' textLength='91.94px' lengthAdjust='spacingAndGlyphs'>Wide area network (233)</text>
-<text x='305.99' y='218.17' style='font-size: 8.40px; font-family: "Arial";' textLength='54.12px' lengthAdjust='spacingAndGlyphs'>Wireless (247)</text>
+<text transform='translate(245.87,131.08) rotate(-72)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='112.45px' lengthAdjust='spacingAndGlyphs'>Communication protocol (406)</text>
+<text transform='translate(287.53,270.65) rotate(36)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='84.47px' lengthAdjust='spacingAndGlyphs'>Packet switching (243)</text>
+<text transform='translate(241.74,302.26) rotate(72)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='85.86px' lengthAdjust='spacingAndGlyphs'>Wireless network (236)</text>
+<text transform='translate(218.17,126.01) rotate(-90)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='90.53px' lengthAdjust='spacingAndGlyphs'>Computer network (449)</text>
+<text transform='translate(131.08,245.87) rotate(-18)' text-anchor='end' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='60.78px' lengthAdjust='spacingAndGlyphs'>ARPANET (230)</text>
+<text x='126.01' y='218.17' text-anchor='end' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='107.80px' lengthAdjust='spacingAndGlyphs'>Bandwidth (computing) (228)</text>
+<text transform='translate(129.74,190.26) rotate(18)' text-anchor='end' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='82.12px' lengthAdjust='spacingAndGlyphs'>Cellular network (223)</text>
+<text transform='translate(141.92,164.86) rotate(36)' text-anchor='end' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='82.58px' lengthAdjust='spacingAndGlyphs'>Circuit switching (216)</text>
+<text transform='translate(190.26,302.26) rotate(-72)' text-anchor='end' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='98.45px' lengthAdjust='spacingAndGlyphs'>Data communication (233)</text>
+<text transform='translate(270.65,144.47) rotate(-54)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='53.67px' lengthAdjust='spacingAndGlyphs'>Ethernet (330)</text>
+<text transform='translate(290.08,164.86) rotate(-36)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='49.78px' lengthAdjust='spacingAndGlyphs'>Internet (311)</text>
+<text transform='translate(302.26,190.26) rotate(-18)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='92.89px' lengthAdjust='spacingAndGlyphs'>Local area network (296)</text>
+<text transform='translate(267.14,290.08) rotate(54)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='78.39px' lengthAdjust='spacingAndGlyphs'>Network switch (241)</text>
+<text transform='translate(213.83,305.99) rotate(90)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='86.81px' lengthAdjust='spacingAndGlyphs'>Network topology (234)</text>
+<text transform='translate(144.47,270.65) rotate(-36)' text-anchor='end' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='90.55px' lengthAdjust='spacingAndGlyphs'>Node (networking) (231)</text>
+<text transform='translate(161.35,144.47) rotate(54)' text-anchor='end' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='66.72px' lengthAdjust='spacingAndGlyphs'>Optical fiber (216)</text>
+<text transform='translate(186.13,131.08) rotate(72)' text-anchor='end' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='67.67px' lengthAdjust='spacingAndGlyphs'>Smartphone (215)</text>
+<text transform='translate(300.92,245.87) rotate(18)' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='97.98px' lengthAdjust='spacingAndGlyphs'>Telecommunications (244)</text>
+<text transform='translate(164.86,290.08) rotate(-54)' text-anchor='end' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='91.94px' lengthAdjust='spacingAndGlyphs'>Wide area network (233)</text>
+<text x='305.99' y='218.17' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='54.12px' lengthAdjust='spacingAndGlyphs'>Wireless (247)</text>
 </g>
 </g>
 </svg>

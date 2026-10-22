@@ -1,0 +1,11 @@
+#,Article,Subfield,Betw. (norm.),In-degree rank
+1,Computer network,Seed,0.13498050463077044,1
+2,Communication protocol,Protocols,0.06361616454371864,2
+3,Wi-Fi,Seed nbhd.,0.046611506458754115,168
+4,Ethernet,Seed nbhd.,0.036291260622852456,3
+5,Internet,Seed nbhd.,0.02953921637594453,4
+6,Wireless,Seed nbhd.,0.024590591337373294,6
+7,Wireless network,Wireless,0.022238781549247726,10
+8,Local area network,Seed nbhd.,0.021644998147735427,5
+9,Network topology,Seed nbhd.,0.015715908768085433,11
+10,OSI model,Seed nbhd.,0.014679550953292599,175

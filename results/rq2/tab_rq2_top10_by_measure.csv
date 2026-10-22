@@ -1,0 +1,11 @@
+#,In-degree,Out-degree,Betweenness,Eigenvector,Closeness,PageRank
+1,Computer network,Computer network,Computer network,Computer network,Computer network,Computer network
+2,Communication protocol,Communication protocol,Communication protocol,Internet,Communication protocol,Communication protocol
+3,Ethernet,Wi-Fi,Wi-Fi,Communication protocol,Internet,Internet
+4,Internet,Ethernet,Ethernet,Ethernet,Ethernet,Ethernet
+5,Local area network,Internet,Internet,Local area network,Local area network,Local area network
+6,Wireless,Local area network,Wireless,Packet switching,Wi-Fi,Wireless
+7,Telecommunications,History of the Inte...,Wireless network,ARPANET,Data communication,Request for Comments
+8,Packet switching,Bluetooth,Local area network,Telecommunications,Network topology,Internet Protocol
+9,Network switch,Network topology,Network topology,Node (networking),Packet switching,Internet Engineerin...
+10,Wireless network,Packet switching,OSI model,Image compression,Telecommunications,Telecommunications
