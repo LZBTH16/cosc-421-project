@@ -4,12 +4,9 @@
 #   * loads data/nodes.csv + data/edges.csv, removes citation pages, builds the graph
 #   * loads the optional supplementary data and assigns domains
 #   * writes the data-description tables used in the paper's Data section
-# You normally don't run this file yourself: every rqN_*.r script sources it.
 # =============================================================================
 
 # install.packages(c("tidyverse", "igraph", "wordcloud", "knitr", "here", "svglite"))
-# Load tidyverse FIRST, then igraph, so igraph's functions win where names clash
-# (igraph::as_data_frame vs dplyr's, igraph::simplify vs purrr's).
 library(tidyverse)
 library(igraph)
 library(wordcloud)   # wordlayout(): keeps text labels from overlapping
@@ -51,8 +48,6 @@ to_undirected <- if (exists("as_undirected", asNamespace("igraph"))) {
 #   results/rqN/<name>.svg        -> for slides, the GitHub repository, the appendix
 #   paper/figures/rqN/<name>.pdf  -> for the paper (pdflatex cannot read SVG files,
 #                                    so LaTeX gets the identical drawing as PDF)
-# Sizes are in inches. LNCS text width is about 4.8 in, so a 7-in-wide figure
-# included at \textwidth prints at about 70% of its size.
 svg_device <- if (requireNamespace("svglite", quietly = TRUE)) svglite::svglite else grDevices::svg
 save_fig <- function(draw, name, width = 7, height = 4.5) {
   if (interactive()) draw()

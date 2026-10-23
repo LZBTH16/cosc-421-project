@@ -1,7 +1,6 @@
 # =============================================================================
 # rq2_structural_betweenness.r - RQ2: What articles are structural bridges in terms of betweenness?
 # Outputs: tab_rq2_*, fig_betweenness, results/all_centrality_scores.csv
-# Run: open the project in RStudio and click "Source" (or run R/run_all.r).
 # =============================================================================
 source(here::here("R", "rq0_setup.r"))
 set_rq("rq2")   # outputs go to results/rq2/, paper/figures/rq2/, paper/generated/rq2/
