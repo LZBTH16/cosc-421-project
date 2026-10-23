@@ -1,0 +1,518 @@
+article,community,community_name
+Communication protocol,1,C1: Communication protocol
+Protocol ossification,1,C1: Communication protocol
+2BASE-TL,1,C1: Communication protocol
+Access stratum,4,C4: UMTS
+Acknowledgement (data networks),1,C1: Communication protocol
+Alternating bit protocol,1,C1: Communication protocol
+AMX192,7,C7: DNP3
+Apple Filing Protocol,1,C1: Communication protocol
+AppleTalk,1,C1: Communication protocol
+ARCNET,1,C1: Communication protocol
+ATA over Ethernet,1,C1: Communication protocol
+ATM adaptation layer,1,C1: Communication protocol
+ATM Adaptation Layer 2,1,C1: Communication protocol
+ATM Adaptation Layer 5,1,C1: Communication protocol
+Automatic switched-transport network,8,C8: Synchronous optical n...
+Automatically switched optical network,8,C8: Synchronous optical n...
+Autonegotiation,5,C5: Spanning Tree Protocol
+BACnet,7,C7: DNP3
+BatiBUS,7,C7: DNP3
+Bearer-Independent Call Control,4,C4: UMTS
+BIP-8,8,C8: Synchronous optical n...
+Bolt (network protocol),1,C1: Communication protocol
+Bonjour Sleep Proxy,3,C3: Open Shortest Path First
+BSSGP,1,C1: Communication protocol
+C-Bus (protocol),7,C7: DNP3
+CANopen,7,C7: DNP3
+Cell relay,1,C1: Communication protocol
+CIMD,1,C1: Communication protocol
+Coloured Book protocols,1,C1: Communication protocol
+Commercial Internet Protocol Security Option,11,C11: Internet Protocol Opt...
+Common Gateway Interface,1,C1: Communication protocol
+Common Industrial Protocol,7,C7: DNP3
+Connection-oriented communication,1,C1: Communication protocol
+Connectionless communication,1,C1: Communication protocol
+Constrained Shortest Path First,3,C3: Open Shortest Path First
+Constraint-based Routing Label Distribution Protocol,8,C8: Synchronous optical n...
+Content Vectoring Protocol,1,C1: Communication protocol
+ControlNet,7,C7: DNP3
+CRC-based framing,8,C8: Synchronous optical n...
+Cyphal,7,C7: DNP3
+D54 (protocol),7,C7: DNP3
+Data Stream Interface,1,C1: Communication protocol
+DCE/RPC,9,C9: Windows Rally
+Decentralized autonomous organization,1,C1: Communication protocol
+DECnet,1,C1: Communication protocol
+Delay-tolerant networking,6,C6: Wireless ad hoc network
+Deterministic Networking,5,C5: Spanning Tree Protocol
+Devices Profile for Web Services,9,C9: Windows Rally
+Digital Audio Access Protocol,5,C5: Spanning Tree Protocol
+Digital Data Communications Message Protocol,1,C1: Communication protocol
+Digital Media Access Protocol,5,C5: Spanning Tree Protocol
+Direct Client-to-Client,1,C1: Communication protocol
+Direct End to End Secure Chat Protocol,2,C2: Wireless LAN
+DirectAccess,10,C10: DirectAccess
+Distributed data flow,1,C1: Communication protocol
+Distributed Overlay Virtual Ethernet,5,C5: Spanning Tree Protocol
+Distributed Universal Number Discovery,3,C3: Open Shortest Path First
+DMX512,7,C7: DNP3
+DNP3,7,C7: DNP3
+Domain Name System,3,C3: Open Shortest Path First
+DREAM (protocol),6,C6: Wireless ad hoc network
+Dynamic Adaptive Streaming over HTTP,9,C9: Windows Rally
+Dynamic synchronous transfer mode,3,C3: Open Shortest Path First
+EMI (protocol),1,C1: Communication protocol
+Encapsulation (networking),1,C1: Communication protocol
+ERIPAX,1,C1: Communication protocol
+Ethernet Automatic Protection Switching,5,C5: Spanning Tree Protocol
+Ethernet over SDH,8,C8: Synchronous optical n...
+European Home Systems Protocol,7,C7: DNP3
+Fibre Channel over Ethernet,1,C1: Communication protocol
+Financial Information eXchange,1,C1: Communication protocol
+Factory Interface Network Service,7,C7: DNP3
+FlexRay,7,C7: DNP3
+Forward-confirmed reverse DNS,3,C3: Open Shortest Path First
+Frame Relay,1,C1: Communication protocol
+G.9963,4,C4: UMTS
+G.9970,4,C4: UMTS
+G.9972,4,C4: UMTS
+G.hn,4,C4: UMTS
+Gemini (protocol),3,C3: Open Shortest Path First
+Generalized Multi-Protocol Label Switching,8,C8: Synchronous optical n...
+GPRS Tunnelling Protocol,3,C3: Open Shortest Path First
+Handshake (computing),1,C1: Communication protocol
+Heartbeat (computing),1,C1: Communication protocol
+High Efficiency Streaming Protocol,9,C9: Windows Rally
+Highway Addressable Remote Transducer Protocol,7,C7: DNP3
+Hop-by-hop transport,6,C6: Wireless ad hoc network
+HTTP Live Streaming,9,C9: Windows Rally
+HTTP Speed+Mobility,1,C1: Communication protocol
+HTTP tunnel,1,C1: Communication protocol
+Hybrid Wireless Mesh Protocol,2,C2: Wireless LAN
+HyperSCSI,1,C1: Communication protocol
+IBM Advanced Peer-to-Peer Networking,1,C1: Communication protocol
+IBM Advanced Program-to-Program Communication,1,C1: Communication protocol
+IBM LU6.2,1,C1: Communication protocol
+IBM Network Control Program,1,C1: Communication protocol
+Systems Network Architecture,1,C1: Communication protocol
+Identity Registration Protocol,2,C2: Wireless LAN
+IEC 60870-5,7,C7: DNP3
+IEC/IEEE 61850-9-3,5,C5: Spanning Tree Protocol
+IL (network protocol),3,C3: Open Shortest Path First
+Inter-server,1,C1: Communication protocol
+Interface Message Processor,1,C1: Communication protocol
+International Network Working Group,1,C1: Communication protocol
+Internet Fibre Channel Protocol,1,C1: Communication protocol
+Internet Gateway Device Protocol,1,C1: Communication protocol
+Internet Protocol Device Control,1,C1: Communication protocol
+Internet Protocol Options,11,C11: Internet Protocol Opt...
+Internet Storage Name Service,1,C1: Communication protocol
+InterPlaNet,6,C6: Wireless ad hoc network
+InterPlanetary File System,1,C1: Communication protocol
+IP-HTTPS,10,C10: DirectAccess
+ISO 11783,9,C9: Windows Rally
+ISO/IEC JTC 1/SC 25,1,C1: Communication protocol
+IWARP,1,C1: Communication protocol
+JXTA,4,C4: UMTS
+Kinetics Internet Protocol,1,C1: Communication protocol
+Label Distribution Protocol,8,C8: Synchronous optical n...
+LANtastic,1,C1: Communication protocol
+Lightweight protocol,1,C1: Communication protocol
+Link Layer Topology Discovery,9,C9: Windows Rally
+Link-Local Multicast Name Resolution,3,C3: Open Shortest Path First
+Link-ZA,2,C2: Wireless LAN
+Live distributed object,1,C1: Communication protocol
+Local Area Transport,1,C1: Communication protocol
+Local Peer Discovery,1,C1: Communication protocol
+LocalTalk,1,C1: Communication protocol
+LocalTalk-to-Ethernet bridge,1,C1: Communication protocol
+LonTalk,7,C7: DNP3
+Master–slave (technology),7,C7: DNP3
+Media Redundancy Protocol,5,C5: Spanning Tree Protocol
+Media Transfer Protocol,9,C9: Windows Rally
+Medium-dependent interface,5,C5: Spanning Tree Protocol
+Messaging pattern,1,C1: Communication protocol
+Microcom Networking Protocol,1,C1: Communication protocol
+Microsoft Host Integration Server,1,C1: Communication protocol
+Microsoft RPC,9,C9: Windows Rally
+Modbus,7,C7: DNP3
+Morse Micro,2,C2: Wireless LAN
+Motorola FLEX,4,C4: UMTS
+MPLS-TP,8,C8: Synchronous optical n...
+MQTT,3,C3: Open Shortest Path First
+Multi-Drop Bus / Internal Communication Protocol,1,C1: Communication protocol
+Multiple Spanning Tree Protocol,5,C5: Spanning Tree Protocol
+Multiwavelength optical networking,8,C8: Synchronous optical n...
+MyriaNed,7,C7: DNP3
+NAT Port Mapping Protocol,1,C1: Communication protocol
+NAT traversal,1,C1: Communication protocol
+NDMP,1,C1: Communication protocol
+Netatalk,1,C1: Communication protocol
+NetBIOS,1,C1: Communication protocol
+NetBIOS over TCP/IP,1,C1: Communication protocol
+NetWare Core Protocol,1,C1: Communication protocol
+NetWare Link Services Protocol,3,C3: Open Shortest Path First
+Network Control Protocol (ARPANET),1,C1: Communication protocol
+Network Device Control Protocol,5,C5: Spanning Tree Protocol
+Network Direct Attached Storage,1,C1: Communication protocol
+Next-generation network,2,C2: Wireless LAN
+NISO Circulation Interchange Protocol,10,C10: DirectAccess
+NMEA 0183,2,C2: Wireless LAN
+Non-access stratum,4,C4: UMTS
+Non-broadcast multiple-access network,1,C1: Communication protocol
+NWLink,1,C1: Communication protocol
+OFTP,1,C1: Communication protocol
+ONVIF,5,C5: Spanning Tree Protocol
+Open Control Architecture,5,C5: Spanning Tree Protocol
+OpenFlow,1,C1: Communication protocol
+OpenWire (binary protocol),1,C1: Communication protocol
+Optical burst switching,8,C8: Synchronous optical n...
+Optical mesh network,8,C8: Synchronous optical n...
+Overlay transport virtualization,5,C5: Spanning Tree Protocol
+P-cycle protection,8,C8: Synchronous optical n...
+PFCP,1,C1: Communication protocol
+Packet over SONET/SDH,8,C8: Synchronous optical n...
+Packet switching,1,C1: Communication protocol
+Parallel Redundancy Protocol,5,C5: Spanning Tree Protocol
+PAROLI,5,C5: Spanning Tree Protocol
+Path protection,1,C1: Communication protocol
+Peer Distributed Transfer Protocol,1,C1: Communication protocol
+Peer Name Resolution Protocol,1,C1: Communication protocol
+Photuris (protocol),1,C1: Communication protocol
+Picture Transfer Protocol,9,C9: Windows Rally
+PL-3,8,C8: Synchronous optical n...
+PL-4,8,C8: Synchronous optical n...
+PME Aggregation Function,1,C1: Communication protocol
+Port Control Protocol,3,C3: Open Shortest Path First
+Precision Time Protocol,3,C3: Open Shortest Path First
+Precision Time Protocol Industry Profile,5,C5: Spanning Tree Protocol
+Private IP,1,C1: Communication protocol
+Proprietary protocol,5,C5: Spanning Tree Protocol
+Protected Streaming,5,C5: Spanning Tree Protocol
+Protocol implementation conformance statement,5,C5: Spanning Tree Protocol
+Protocol pipelining,1,C1: Communication protocol
+Protocol stack,1,C1: Communication protocol
+Protocol Wars,1,C1: Communication protocol
+Provider Backbone Bridge Traffic Engineering,5,C5: Spanning Tree Protocol
+Proximity-1 Space Link Protocol,1,C1: Communication protocol
+Proxy Mobile IPv6,3,C3: Open Shortest Path First
+PXE boot,1,C1: Communication protocol
+RADIUS,3,C3: Open Shortest Path First
+RANAP,1,C1: Communication protocol
+RDM (lighting),7,C7: DNP3
+Real-Time Messaging Protocol,5,C5: Spanning Tree Protocol
+RelayNet,1,C1: Communication protocol
+Reliability (computer networking),1,C1: Communication protocol
+Reliable Internet Stream Transport,5,C5: Spanning Tree Protocol
+Remote Audio Output Protocol,3,C3: Open Shortest Path First
+Request–response,3,C3: Open Shortest Path First
+Resilient Ethernet Protocol,5,C5: Spanning Tree Protocol
+Retransmission (data networks),1,C1: Communication protocol
+RNSAP,1,C1: Communication protocol
+Route reestablishment notification,1,C1: Communication protocol
+Router alert label,11,C11: Internet Protocol Opt...
+Routing in delay-tolerant networking,3,C3: Open Shortest Path First
+RP-570,1,C1: Communication protocol
+Secure Socket Tunneling Protocol,10,C10: DirectAccess
+Security service (telecommunication),1,C1: Communication protocol
+Segmentation and reassembly,1,C1: Communication protocol
+Sensor Media Access Control,1,C1: Communication protocol
+Server Message Block,1,C1: Communication protocol
+Service Advertising Protocol,1,C1: Communication protocol
+Session ID,5,C5: Spanning Tree Protocol
+Short Message Peer-to-Peer,1,C1: Communication protocol
+Signalling System No. 7,1,C1: Communication protocol
+Simple Common Gateway Interface,1,C1: Communication protocol
+Simple Gateway Monitoring Protocol,3,C3: Open Shortest Path First
+Simple Sensor Interface protocol,5,C5: Spanning Tree Protocol
+Skypix,1,C1: Communication protocol
+Sockets Direct Protocol,1,C1: Communication protocol
+Sorcerer's Apprentice syndrome,1,C1: Communication protocol
+Source-specific multicast,3,C3: Open Shortest Path First
+Spanning Tree Protocol,5,C5: Spanning Tree Protocol
+SPI-3,8,C8: Synchronous optical n...
+SPI-4.2,8,C8: Synchronous optical n...
+Protocol spoofing,1,C1: Communication protocol
+Standard Interchange Protocol,10,C10: DirectAccess
+Stateless protocol,3,C3: Open Shortest Path First
+Store and forward,2,C2: Wireless LAN
+Stunnel,10,C10: DirectAccess
+Switch56,1,C1: Communication protocol
+Synchronous Ethernet,5,C5: Spanning Tree Protocol
+Synchronous optical networking,8,C8: Synchronous optical n...
+System Packet Interface,8,C8: Synchronous optical n...
+T-MPLS,8,C8: Synchronous optical n...
+TDM over IP,1,C1: Communication protocol
+Telecommunications Management Network,8,C8: Synchronous optical n...
+Terminal Identifier – Address Resolution Protocol,8,C8: Synchronous optical n...
+Time-Sensitive Networking,5,C5: Spanning Tree Protocol
+Transparent Network Substrate,1,C1: Communication protocol
+Transport Driver Interface,1,C1: Communication protocol
+Traversal Using Relays around NAT,1,C1: Communication protocol
+Triangular routing,1,C1: Communication protocol
+Trillium Digital Systems,1,C1: Communication protocol
+Trivial File Transfer Protocol,1,C1: Communication protocol
+Tunnel Setup Protocol,3,C3: Open Shortest Path First
+Tunneling protocol,3,C3: Open Shortest Path First
+TV Network Protocol,5,C5: Spanning Tree Protocol
+TZSP,1,C1: Communication protocol
+UniPro,1,C1: Communication protocol
+UniPro protocol stack,1,C1: Communication protocol
+UUCP,2,C2: Wireless LAN
+Verse protocol,1,C1: Communication protocol
+Virtual circuit,1,C1: Communication protocol
+Virtual Interface Adapter,1,C1: Communication protocol
+Virtual leased line,5,C5: Spanning Tree Protocol
+Virtual Link Aggregation Control Protocol,5,C5: Spanning Tree Protocol
+Virtual Link Trunking,5,C5: Spanning Tree Protocol
+Virtual Private LAN Service,5,C5: Spanning Tree Protocol
+VLAN,5,C5: Spanning Tree Protocol
+VoFR,1,C1: Communication protocol
+VT1.5,8,C8: Synchronous optical n...
+Waffle (BBS software),2,C2: Wireless LAN
+WAN optimization,1,C1: Communication protocol
+Web Application Messaging Protocol,3,C3: Open Shortest Path First
+Web Services for Devices,9,C9: Windows Rally
+WebTorrent,1,C1: Communication protocol
+Windows Rally,9,C9: Windows Rally
+Worldwide Industrial Telemetry Standards,1,C1: Communication protocol
+X.PC,1,C1: Communication protocol
+Xerox Network Systems,1,C1: Communication protocol
+Z-Wave,7,C7: DNP3
+Zebra Media Access Control,1,C1: Communication protocol
+ZeroNet,1,C1: Communication protocol
+Routing protocol,3,C3: Open Shortest Path First
+Associativity-based routing,6,C6: Wireless ad hoc network
+Babel (protocol),3,C3: Open Shortest Path First
+Backhaul Adaptation Protocol,3,C3: Open Shortest Path First
+Border Gateway Multicast Protocol,3,C3: Open Shortest Path First
+Border Gateway Protocol,3,C3: Open Shortest Path First
+Collection Tree Protocol,3,C3: Open Shortest Path First
+Diffusing update algorithm,3,C3: Open Shortest Path First
+Distance Vector Multicast Routing Protocol,3,C3: Open Shortest Path First
+Distance-vector routing protocol,3,C3: Open Shortest Path First
+Enhanced Interior Gateway Routing Protocol,3,C3: Open Shortest Path First
+EraMobile,6,C6: Wireless ad hoc network
+Exterior gateway protocol,3,C3: Open Shortest Path First
+Exterior Gateway Protocol,3,C3: Open Shortest Path First
+Fuzzy routing,6,C6: Wireless ad hoc network
+Geographic routing,6,C6: Wireless ad hoc network
+Holddown,3,C3: Open Shortest Path First
+Interior gateway protocol,3,C3: Open Shortest Path First
+Interior Gateway Routing Protocol,3,C3: Open Shortest Path First
+IS-IS,3,C3: Open Shortest Path First
+Link-state routing protocol,3,C3: Open Shortest Path First
+Lollipop sequence numbering,3,C3: Open Shortest Path First
+Multicast Source Discovery Protocol,3,C3: Open Shortest Path First
+Narada multicast protocol,3,C3: Open Shortest Path First
+Next Hop Resolution Protocol,1,C1: Communication protocol
+Open Shortest Path First,3,C3: Open Shortest Path First
+Optimized Link State Routing Protocol,3,C3: Open Shortest Path First
+Path-vector routing protocol,3,C3: Open Shortest Path First
+Private Network-to-Network Interface,3,C3: Open Shortest Path First
+Protocol-Independent Multicast,3,C3: Open Shortest Path First
+Resource Public Key Infrastructure,3,C3: Open Shortest Path First
+Route poisoning,3,C3: Open Shortest Path First
+Routing Information Protocol,3,C3: Open Shortest Path First
+SCION (Internet architecture),3,C3: Open Shortest Path First
+Split horizon route advertisement,3,C3: Open Shortest Path First
+Tinc (protocol),10,C10: DirectAccess
+Vehicular Reactive Routing protocol,5,C5: Spanning Tree Protocol
+Virtual Router Redundancy Protocol,5,C5: Spanning Tree Protocol
+Virtual Switch Redundancy Protocol,5,C5: Spanning Tree Protocol
+Wireless network,2,C2: Wireless LAN
+2016 United States wireless spectrum auction,4,C4: UMTS
+Ad hoc wireless distribution service,3,C3: Open Shortest Path First
+AirHop Communications,4,C4: UMTS
+Augmented tree-based routing,6,C6: Wireless ad hoc network
+Backhaul (telecommunications),2,C2: Wireless LAN
+Barker code,6,C6: Wireless ad hoc network
+Base station,2,C2: Wireless LAN
+Base transceiver station,2,C2: Wireless LAN
+Body area network,2,C2: Wireless LAN
+Broadcast storm,5,C5: Spanning Tree Protocol
+Buffalo AirStation,2,C2: Wireless LAN
+Bureau 1440,8,C8: Synchronous optical n...
+Cambium Networks,2,C2: Wireless LAN
+Cantenna,2,C2: Wireless LAN
+Carrier aggregation,4,C4: UMTS
+Castalia (simulator),2,C2: Wireless LAN
+CCKM,2,C2: Wireless LAN
+CCMP (cryptography),2,C2: Wireless LAN
+Cellular V2X,6,C6: Wireless ad hoc network
+Certified wireless network administrator,2,C2: Wireless LAN
+Certified wireless network expert,2,C2: Wireless LAN
+Certified wireless security professional,2,C2: Wireless LAN
+Cognitive radio,4,C4: UMTS
+Communication Linking Protocol,1,C1: Communication protocol
+CommView,2,C2: Wireless LAN
+Wireless configuration utility,2,C2: Wireless LAN
+Competitive Carriers Association,4,C4: UMTS
+Complementary code keying,6,C6: Wireless ad hoc network
+Contention free pollable,1,C1: Communication protocol
+Contention-based protocol,4,C4: UMTS
+Continuous phase modulation,4,C4: UMTS
+Control and Provisioning of Wireless Access Points protocol,2,C2: Wireless LAN
+CTIA (organization),4,C4: UMTS
+DataTAC,4,C4: UMTS
+Decentralized physical infrastructure network,7,C7: DNP3
+Dedicated short-range communications,6,C6: Wireless ad hoc network
+Device-to-device,6,C6: Wireless ad hoc network
+Direct-sequence spread spectrum,6,C6: Wireless ad hoc network
+DiY networking,2,C2: Wireless LAN
+Dynamic frequency hopping,4,C4: UMTS
+Dynamic single-frequency networks,4,C4: UMTS
+ExOR,3,C3: Open Shortest Path First
+Expected transmission count,3,C3: Open Shortest Path First
+Exposed node problem,2,C2: Wireless LAN
+Extensible Authentication Protocol,2,C2: Wireless LAN
+Federated Wireless,2,C2: Wireless LAN
+Fixed wireless,2,C2: Wireless LAN
+Frame-bursting,6,C6: Wireless ad hoc network
+Fronthaul,2,C2: Wireless LAN
+Gi-Fi,4,C4: UMTS
+Gigabit wireless,2,C2: Wireless LAN
+GloMoSim,1,C1: Communication protocol
+Wireless grid,4,C4: UMTS
+Guowang,8,C8: Synchronous optical n...
+Handover keying,2,C2: Wireless LAN
+Hazy Sighted Link State Routing Protocol,3,C3: Open Shortest Path First
+Hidden node problem,2,C2: Wireless LAN
+High Performance Wireless Research and Education Network,2,C2: Wireless LAN
+High-capacity data radio,6,C6: Wireless ad hoc network
+IEEE 802.11ad,5,C5: Spanning Tree Protocol
+IEEE 802.11af,5,C5: Spanning Tree Protocol
+IEEE 802.11ay,5,C5: Spanning Tree Protocol
+Ingenu,7,C7: DNP3
+InSSIDer,2,C2: Wireless LAN
+Intel PRO/Wireless,2,C2: Wireless LAN
+Intelligent vehicular ad hoc network,6,C6: Wireless ad hoc network
+Inter-working function,1,C1: Communication protocol
+Wireless network interface controller,2,C2: Wireless LAN
+International Journal of Wireless Information Networks,2,C2: Wireless LAN
+Intersymbol interference,4,C4: UMTS
+IP over Avian Carriers,3,C3: Open Shortest Path First
+IP-DECT,2,C2: Wireless LAN
+KisMAC,2,C2: Wireless LAN
+Kismet (software),2,C2: Wireless LAN
+Legality of piggybacking,2,C2: Wireless LAN
+Li-Fi,2,C2: Wireless LAN
+Ligado Networks,4,C4: UMTS
+Lightweight Extensible Authentication Protocol,2,C2: Wireless LAN
+Link Labs,7,C7: DNP3
+Linksys,2,C2: Wireless LAN
+Local multipoint distribution service,2,C2: Wireless LAN
+LoRa,7,C7: DNP3
+LoRaWAN,7,C7: DNP3
+Low-power wide-area network,7,C7: DNP3
+Manhattan mobility model,6,C6: Wireless ad hoc network
+Wireless distribution system,2,C2: Wireless LAN
+Media-independent handover,4,C4: UMTS
+Microwave transmission,2,C2: Wireless LAN
+Mioty,7,C7: DNP3
+MMARP,6,C6: Wireless ad hoc network
+Mobile QoS,2,C2: Wireless LAN
+Mobility model,2,C2: Wireless LAN
+Mobolize,4,C4: UMTS
+Monitor mode,2,C2: Wireless LAN
+MORE protocol,3,C3: Open Shortest Path First
+Multi-hop routing,6,C6: Wireless ad hoc network
+Multicast-broadcast single-frequency network,4,C4: UMTS
+National Broadband Plan (United States),4,C4: UMTS
+Navini Networks,5,C5: Spanning Tree Protocol
+NB-Fi,7,C7: DNP3
+Near-term digital radio,6,C6: Wireless ad hoc network
+Net3,2,C2: Wireless LAN
+NetStumbler,2,C2: Wireless LAN
+Network detector,2,C2: Wireless LAN
+Network enumeration,10,C10: DirectAccess
+Networked flying platform,2,C2: Wireless LAN
+NIMO (non-interfering multiple output),4,C4: UMTS
+Nomad Digital,4,C4: UMTS
+Nomadix,1,C1: Communication protocol
+ODMRP,3,C3: Open Shortest Path First
+Open spectrum,4,C4: UMTS
+OpenWireless.org,2,C2: Wireless LAN
+Opportunistic mesh,6,C6: Wireless ad hoc network
+Order One Network Protocol,3,C3: Open Shortest Path First
+Packet analyzer,2,C2: Wireless LAN
+Piggybacking (Internet access),2,C2: Wireless LAN
+Point-to-multipoint communication,2,C2: Wireless LAN
+Policies promoting wireless broadband in the United States,4,C4: UMTS
+Private Shared Wireless Network,2,C2: Wireless LAN
+Qianfan,8,C8: Synchronous optical n...
+QualNet,2,C2: Wireless LAN
+Radio Link Protocol,1,C1: Communication protocol
+Radio modem,2,C2: Wireless LAN
+Ralink,2,C2: Wireless LAN
+Random waypoint model,6,C6: Wireless ad hoc network
+Reconfigurability,4,C4: UMTS
+Restricted random waypoint model,6,C6: Wireless ad hoc network
+Rise over thermal,2,C2: Wireless LAN
+Rogue access point,2,C2: Wireless LAN
+Network encryption cracking,2,C2: Wireless LAN
+Wireless security,2,C2: Wireless LAN
+Self-interference cancellation,4,C4: UMTS
+Semaphore Flag Signaling System,3,C3: Open Shortest Path First
+Service set (802.11 network),2,C2: Wireless LAN
+Shared mesh,2,C2: Wireless LAN
+Sierra Wireless,2,C2: Wireless LAN
+Sigfox,7,C7: DNP3
+NetSpot,2,C2: Wireless LAN
+TamoGraph Site Survey,2,C2: Wireless LAN
+Wireless site survey,2,C2: Wireless LAN
+Smartphone ad hoc network,6,C6: Wireless ad hoc network
+SpaceX Starshield,8,C8: Synchronous optical n...
+Spatial capacity,4,C4: UMTS
+Spectral efficiency,4,C4: UMTS
+Spectrum commons theory,4,C4: UMTS
+Starlink,8,C8: Synchronous optical n...
+Successive interference cancellation,4,C4: UMTS
+Switched mesh,2,C2: Wireless LAN
+Temporal Key Integrity Protocol,2,C2: Wireless LAN
+Temporally ordered routing algorithm,6,C6: Wireless ad hoc network
+Tethering,2,C2: Wireless LAN
+Thread (network protocol),7,C7: DNP3
+Topology dissemination based on reverse-path forwarding,3,C3: Open Shortest Path First
+TP-Link,2,C2: Wireless LAN
+Tp-Link Deco,2,C2: Wireless LAN
+Twimight,6,C6: Wireless ad hoc network
+Typhoid adware,2,C2: Wireless LAN
+UASAT,8,C8: Synchronous optical n...
+UMTS,4,C4: UMTS
+Vehicular ad hoc network,6,C6: Wireless ad hoc network
+Vehicular communication systems,6,C6: Wireless ad hoc network
+Vehicle-to-device,6,C6: Wireless ad hoc network
+Vehicle-to-everything,6,C6: Wireless ad hoc network
+Vertical handover,4,C4: UMTS
+Voice over WLAN,2,C2: Wireless LAN
+Wardriving,2,C2: Wireless LAN
+Warshipping,2,C2: Wireless LAN
+WaveLAN,6,C6: Wireless ad hoc network
+White space Internet,4,C4: UMTS
+White spaces (radio),4,C4: UMTS
+Wi-Fi positioning system,2,C2: Wireless LAN
+WiFi Explorer,2,C2: Wireless LAN
+WiFi-Where,2,C2: Wireless LAN
+Wireless Gigabit Alliance,4,C4: UMTS
+WiGLE,2,C2: Wireless LAN
+Wired Equivalent Privacy,2,C2: Wireless LAN
+Wireless ad hoc network,6,C6: Wireless ad hoc network
+Wireless broadband,4,C4: UMTS
+Wireless HDMI,1,C1: Communication protocol
+Wireless Infrastructure Association,4,C4: UMTS
+Wireless Internet service provider,2,C2: Wireless LAN
+Wireless intrusion prevention system,2,C2: Wireless LAN
+Wireless LAN,2,C2: Wireless LAN
+Wireless LAN controller,2,C2: Wireless LAN
+Wireless mobility management,2,C2: Wireless LAN
+Wireless Multimedia Extensions,2,C2: Wireless LAN
+Wireless Network after Next,6,C6: Wireless ad hoc network
+Wireless supplicant,2,C2: Wireless LAN
+Wireless WAN,2,C2: Wireless LAN
+Wireless Zero Configuration,2,C2: Wireless LAN
+Wirelesspt,3,C3: Open Shortest Path First
+Xsupplicant,2,C2: Wireless LAN
+ZHLS-GF,3,C3: Open Shortest Path First
+Zone Routing Protocol,6,C6: Wireless ad hoc network
