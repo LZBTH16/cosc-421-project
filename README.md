@@ -16,7 +16,7 @@ Wikipedia articles about computer networking and analyze it in R with igraph.
 - Source: Wikipedia / MediaWiki API
 - Seed article: "Computer network", crawled to depth 0 and restricted to "Category:Network protocols", "Category:Routing protocols", "Category:Wireless networking"
 - Nodes: Wikipedia articles. Edges: directed hyperlinks (A links to B)
-- Collected on: 2026-10. Wikipedia changes constantly, so the saved data in
+- Collected on: 2026-10-03. Wikipedia changes constantly, so the saved data in
   `data/` is the snapshot all results come from.
 
 ## Repository structure
