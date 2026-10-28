@@ -51,7 +51,7 @@ to_undirected <- if (exists("as_undirected", asNamespace("igraph"))) {
 svg_device <- if (requireNamespace("svglite", quietly = TRUE)) svglite::svglite else grDevices::svg
 save_fig <- function(draw, name, width = 7, height = 4.5) {
   if (interactive()) draw()
-  svg_device(rq_out(paste0(name, ".svg")), width = width, height = height)
+  svg_device(rq_out(paste0(name, ".svg")), width = width, height = height, bg = "white")
   draw(); invisible(dev.off())
   pdf(file.path(FIG_DIR, RQ, paste0(name, ".pdf")), width = width, height = height)
   draw(); invisible(dev.off())
