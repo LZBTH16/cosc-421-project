@@ -1,0 +1,952 @@
+article,subfield,domain,in_degree,is_hub,views_12m
+Communication protocol,Network protocols,Protocols & standards,406,TRUE,98905
+Protocol ossification,Network protocols,Protocols & standards,3,FALSE,10641
+2BASE-TL,Network protocols,Protocols & standards,1,FALSE,4997
+Access stratum,Network protocols,Wireless & mobile,1,FALSE,678
+Acknowledgement (data networks),Network protocols,Routing,12,FALSE,18215
+Alternating bit protocol,Network protocols,Protocols & standards,2,FALSE,1968
+AMX192,Network protocols,Protocols & standards,1,FALSE,916
+Apple Filing Protocol,Network protocols,Protocols & standards,15,FALSE,15605
+AppleTalk,Network protocols,Protocols & standards,32,FALSE,22478
+ARCNET,Network protocols,Protocols & standards,12,FALSE,12699
+ATA over Ethernet,Network protocols,Protocols & standards,3,FALSE,5602
+ATM adaptation layer,Network protocols,Protocols & standards,5,FALSE,1087
+ATM Adaptation Layer 2,Network protocols,Protocols & standards,3,FALSE,525
+ATM Adaptation Layer 5,Network protocols,Protocols & standards,5,FALSE,1068
+Automatic switched-transport network,Network protocols,Protocols & standards,3,FALSE,396
+Automatically switched optical network,Network protocols,Protocols & standards,2,FALSE,1533
+Autonegotiation,Network protocols,Protocols & standards,12,FALSE,21260
+Available bit rate,Network protocols,Protocols & standards,0,FALSE,249
+BACnet,Network protocols,Protocols & standards,14,FALSE,32092
+Bandwidth allocation protocol,Network protocols,Protocols & standards,2,FALSE,321
+BatiBUS,Network protocols,Protocols & standards,14,FALSE,1067
+Bearer-Independent Call Control,Network protocols,Protocols & standards,0,FALSE,700
+BEEP,Network protocols,Protocols & standards,0,FALSE,2319
+BIP-8,Network protocols,Protocols & standards,0,FALSE,1144
+Bolt (network protocol),Network protocols,Protocols & standards,0,FALSE,2758
+Bonjour Sleep Proxy,Network protocols,Protocols & standards,3,FALSE,4893
+BSSGP,Network protocols,Protocols & standards,2,FALSE,383
+C-Bus (protocol),Network protocols,Protocols & standards,14,FALSE,4654
+CANopen,Network protocols,Protocols & standards,15,FALSE,46072
+CcTalk,Network protocols,Protocols & standards,0,FALSE,3154
+Cell relay,Network protocols,Protocols & standards,6,FALSE,1072
+CIMD,Network protocols,Wireless & mobile,2,FALSE,693
+Coloured Book protocols,Network protocols,History & early telecom,5,FALSE,1761
+Commercial Internet Protocol Security Option,Network protocols,Security,1,FALSE,393
+Common Gateway Interface,Network protocols,Protocols & standards,4,FALSE,70605
+Common Industrial Protocol,Network protocols,Protocols & standards,14,FALSE,8805
+Connection-oriented communication,Network protocols,Protocols & standards,28,FALSE,6621
+Connectionless communication,Network protocols,Protocols & standards,18,FALSE,4601
+Constrained Shortest Path First,Network protocols,Routing,6,FALSE,3477
+Constraint-based Routing Label Distribution Protocol,Network protocols,Routing,2,FALSE,358
+Content Vectoring Protocol,Network protocols,Protocols & standards,0,FALSE,292
+ControlNet,Network protocols,Protocols & standards,15,FALSE,6151
+CRC-based framing,Network protocols,Protocols & standards,1,FALSE,1162
+Cyphal,Network protocols,Protocols & standards,15,FALSE,2511
+D54 (protocol),Network protocols,Protocols & standards,1,FALSE,757
+Data Stream Interface,Network protocols,Protocols & standards,2,FALSE,493
+DCE/RPC,Network protocols,Protocols & standards,1,FALSE,7085
+Decentralized autonomous organization,Network protocols,Security,1,FALSE,82919
+DECnet,Network protocols,History & early telecom,19,FALSE,6986
+Delay-tolerant networking,Network protocols,Protocols & standards,16,FALSE,13025
+Deterministic Networking,Network protocols,Protocols & standards,2,FALSE,3113
+Devices Profile for Web Services,Network protocols,Protocols & standards,2,FALSE,1597
+Digital Audio Access Protocol,Network protocols,Protocols & standards,2,FALSE,2883
+Digital Data Communications Message Protocol,Network protocols,Protocols & standards,1,FALSE,670
+Digital Media Access Protocol,Network protocols,Protocols & standards,1,FALSE,415
+Digital Private Network Signalling System,Network protocols,History & early telecom,0,FALSE,1731
+Direct Client-to-Client,Network protocols,Protocols & standards,0,FALSE,7543
+Direct End to End Secure Chat Protocol,Network protocols,Protocols & standards,0,FALSE,294
+DirectAccess,Network protocols,Protocols & standards,4,FALSE,4236
+Discovery and Launch,Network protocols,Protocols & standards,0,FALSE,2875
+Distributed data flow,Network protocols,Protocols & standards,2,FALSE,822
+Distributed Overlay Virtual Ethernet,Network protocols,Protocols & standards,2,FALSE,1026
+Distributed Universal Number Discovery,Network protocols,Protocols & standards,0,FALSE,445
+DMX512,Network protocols,Protocols & standards,6,FALSE,53647
+DNP3,Network protocols,Protocols & standards,34,FALSE,21438
+Domain Name System,Network protocols,Organizations & companies,80,FALSE,456002
+DREAM (protocol),Network protocols,Routing,0,FALSE,323
+Dynamic Adaptive Streaming over HTTP,Network protocols,Protocols & standards,11,FALSE,30244
+Dynamic synchronous transfer mode,Network protocols,Protocols & standards,1,FALSE,803
+EMI (protocol),Network protocols,Wireless & mobile,2,FALSE,998
+Encapsulation (networking),Network protocols,Protocols & standards,17,FALSE,12670
+ERIPAX,Network protocols,Protocols & standards,0,FALSE,281
+Ethernet Automatic Protection Switching,Network protocols,Protocols & standards,4,FALSE,1643
+Ethernet over SDH,Network protocols,Protocols & standards,2,FALSE,2198
+European Home Systems Protocol,Network protocols,Protocols & standards,14,FALSE,852
+Fibre Channel over Ethernet,Network protocols,Protocols & standards,5,FALSE,5838
+Financial Information eXchange,Network protocols,Routing,0,FALSE,29715
+Factory Interface Network Service,Network protocols,Protocols & standards,14,FALSE,1100
+FlexRay,Network protocols,Protocols & standards,14,FALSE,18195
+Forward-confirmed reverse DNS,Network protocols,Security,1,FALSE,7410
+Frame Relay,Network protocols,Protocols & standards,41,FALSE,13495
+FUDI,Network protocols,Protocols & standards,0,FALSE,3055
+G.9963,Network protocols,Protocols & standards,6,FALSE,470
+G.9970,Network protocols,Protocols & standards,6,FALSE,247
+G.9972,Network protocols,Protocols & standards,6,FALSE,408
+G.hn,Network protocols,Protocols & standards,44,FALSE,18354
+Gemini (protocol),Network protocols,Protocols & standards,4,FALSE,69036
+Generalized Multi-Protocol Label Switching,Network protocols,Protocols & standards,3,FALSE,1295
+GPRS Tunnelling Protocol,Network protocols,Wireless & mobile,4,FALSE,15464
+GPSoverIP,Network protocols,Protocols & standards,0,FALSE,550
+Handshake (computing),Network protocols,Protocols & standards,9,FALSE,22838
+Heartbeat (computing),Network protocols,Protocols & standards,0,FALSE,14369
+High Efficiency Streaming Protocol,Network protocols,Protocols & standards,0,FALSE,1146
+Highway Addressable Remote Transducer Protocol,Network protocols,Protocols & standards,14,FALSE,16585
+Hop-by-hop transport,Network protocols,Protocols & standards,2,FALSE,1971
+HTTP Live Streaming,Network protocols,Protocols & standards,5,FALSE,86421
+HTTP Speed+Mobility,Network protocols,Protocols & standards,0,FALSE,219
+HTTP tunnel,Network protocols,Security,2,FALSE,14503
+Hybrid Wireless Mesh Protocol,Network protocols,Wireless & mobile,0,FALSE,1971
+HyperSCSI,Network protocols,Protocols & standards,3,FALSE,898
+IBM Advanced Peer-to-Peer Networking,Network protocols,Protocols & standards,3,FALSE,638
+IBM Advanced Program-to-Program Communication,Network protocols,Protocols & standards,4,FALSE,1204
+IBM LU6.2,Network protocols,Protocols & standards,2,FALSE,921
+IBM Network Control Program,Network protocols,Protocols & standards,2,FALSE,744
+Systems Network Architecture,Network protocols,Protocols & standards,16,FALSE,7747
+Identity Registration Protocol,Network protocols,Protocols & standards,1,FALSE,469
+IEC 60870-5,Network protocols,Protocols & standards,16,FALSE,18319
+IEC/IEEE 61850-9-3,Network protocols,Protocols & standards,3,FALSE,2596
+IF-MAP,Network protocols,Security,0,FALSE,691
+IL (network protocol),Network protocols,Protocols & standards,0,FALSE,2138
+Inter-server,Network protocols,Protocols & standards,1,FALSE,1779
+Interface Message Processor,Network protocols,History & early telecom,18,FALSE,12683
+International Network Working Group,Network protocols,Protocols & standards,18,FALSE,3219
+Internet Fibre Channel Protocol,Network protocols,Protocols & standards,3,FALSE,593
+Internet Gateway Device Protocol,Network protocols,Protocols & standards,3,FALSE,14027
+Internet Protocol Device Control,Network protocols,Protocols & standards,0,FALSE,359
+Internet Protocol Options,Network protocols,Routing,1,FALSE,5093
+Internet Storage Name Service,Network protocols,Protocols & standards,0,FALSE,1458
+InterPlaNet,Network protocols,Protocols & standards,1,FALSE,1325
+InterPlanetary File System,Network protocols,Security,11,FALSE,78097
+IP-HTTPS,Network protocols,Protocols & standards,1,FALSE,473
+ISO 11783,Network protocols,Protocols & standards,6,FALSE,8517
+ISO/IEC JTC 1/SC 25,Network protocols,Protocols & standards,1,FALSE,916
+IWARP,Network protocols,Protocols & standards,0,FALSE,4533
+JXTA,Network protocols,Protocols & standards,4,FALSE,1442
+Kinetics Internet Protocol,Network protocols,Protocols & standards,0,FALSE,319
+Label Distribution Protocol,Network protocols,Protocols & standards,2,FALSE,4960
+LANtastic,Network protocols,Protocols & standards,2,FALSE,2582
+LEDBAT,Network protocols,Protocols & standards,1,FALSE,1714
+Lightweight protocol,Network protocols,Protocols & standards,0,FALSE,392
+Link Layer Topology Discovery,Network protocols,Protocols & standards,1,FALSE,2116
+Link-Local Multicast Name Resolution,Network protocols,Routing,1,FALSE,17042
+Link-ZA,Network protocols,Wireless & mobile,0,FALSE,599
+Live distributed object,Network protocols,Protocols & standards,0,FALSE,627
+Local Area Transport,Network protocols,History & early telecom,1,FALSE,1679
+Local Peer Discovery,Network protocols,Protocols & standards,2,FALSE,3843
+LocalTalk,Network protocols,Protocols & standards,6,FALSE,6670
+LocalTalk-to-Ethernet bridge,Network protocols,Protocols & standards,2,FALSE,1275
+Lockstep protocol,Network protocols,Protocols & standards,0,FALSE,3616
+LonTalk,Network protocols,Protocols & standards,14,FALSE,2124
+Master–slave (technology),Network protocols,Protocols & standards,9,FALSE,57127
+Media Redundancy Protocol,Network protocols,Protocols & standards,3,FALSE,7039
+Media Transfer Protocol,Network protocols,Protocols & standards,5,FALSE,27991
+Medium-dependent interface,Network protocols,Protocols & standards,12,FALSE,19076
+Messaging pattern,Network protocols,Protocols & standards,1,FALSE,7769
+Microcom Networking Protocol,Network protocols,Protocols & standards,4,FALSE,1445
+Microsoft Host Integration Server,Network protocols,Protocols & standards,3,FALSE,1099
+Microsoft RPC,Network protocols,Protocols & standards,2,FALSE,4806
+Minimal Lower Layer Protocol,Network protocols,Protocols & standards,0,FALSE,894
+Miredo,Network protocols,Security,0,FALSE,842
+Modbus,Network protocols,Protocols & standards,20,FALSE,157872
+Morse Micro,Network protocols,Organizations & companies,0,FALSE,3979
+Motorola FLEX,Network protocols,Wireless & mobile,1,FALSE,1537
+MPLS-TP,Network protocols,Protocols & standards,1,FALSE,3461
+MQTT,Network protocols,Protocols & standards,35,FALSE,148623
+Multi-Drop Bus / Internal Communication Protocol,Network protocols,Protocols & standards,0,FALSE,6158
+Multiple Spanning Tree Protocol,Network protocols,Protocols & standards,4,FALSE,11381
+Multiwavelength optical networking,Network protocols,Protocols & standards,2,FALSE,371
+MyriaNed,Network protocols,Wireless & mobile,4,FALSE,719
+NAT Port Mapping Protocol,Network protocols,Protocols & standards,3,FALSE,12492
+NAT traversal,Network protocols,Security,13,FALSE,28242
+NDMP,Network protocols,Protocols & standards,0,FALSE,2757
+Netatalk,Network protocols,Protocols & standards,3,FALSE,2668
+NetBIOS,Network protocols,Protocols & standards,25,FALSE,32199
+NetBIOS over TCP/IP,Network protocols,Protocols & standards,2,FALSE,9606
+NetWare Core Protocol,Network protocols,Protocols & standards,10,FALSE,2356
+NetWare Link Services Protocol,Network protocols,Protocols & standards,0,FALSE,355
+Network Control Protocol (ARPANET),Network protocols,Protocols & standards,11,FALSE,7339
+Network Device Control Protocol,Network protocols,Protocols & standards,0,FALSE,452
+Network Direct Attached Storage,Network protocols,Protocols & standards,0,FALSE,779
+Next Steps in Signaling,Network protocols,Organizations & companies,1,FALSE,340
+Next-generation network,Network protocols,Protocols & standards,191,FALSE,10220
+NISO Circulation Interchange Protocol,Network protocols,Protocols & standards,1,FALSE,746
+NMEA 0183,Network protocols,Wireless & mobile,0,FALSE,59383
+Non-access stratum,Network protocols,Wireless & mobile,2,FALSE,3317
+Non-broadcast multiple-access network,Network protocols,Protocols & standards,3,FALSE,1611
+NWLink,Network protocols,Protocols & standards,1,FALSE,1099
+OFTP,Network protocols,Protocols & standards,0,FALSE,3415
+ONVIF,Network protocols,Organizations & companies,1,FALSE,26787
+Open Control Architecture,Network protocols,Protocols & standards,2,FALSE,2467
+OpenFlow,Network protocols,Protocols & standards,1,FALSE,17775
+OpenWire (binary protocol),Network protocols,Protocols & standards,0,FALSE,847
+Optical burst switching,Network protocols,Protocols & standards,2,FALSE,1033
+Optical mesh network,Network protocols,Protocols & standards,10,FALSE,3828
+Overlay transport virtualization,Network protocols,Protocols & standards,1,FALSE,521
+P-cycle protection,Network protocols,Protocols & standards,2,FALSE,387
+PFCP,Network protocols,Wireless & mobile,1,FALSE,4204
+Packet over SONET/SDH,Network protocols,Protocols & standards,9,FALSE,1058
+Packet switching,Network protocols,History & early telecom,243,TRUE,54803
+Parallel Redundancy Protocol,Network protocols,Protocols & standards,5,FALSE,11385
+PAROLI,Network protocols,Protocols & standards,0,FALSE,258
+Path protection,Network protocols,Protocols & standards,1,FALSE,864
+Peer Distributed Transfer Protocol,Network protocols,Protocols & standards,1,FALSE,329
+Peer Name Resolution Protocol,Network protocols,Protocols & standards,1,FALSE,1466
+Photuris (protocol),Network protocols,Protocols & standards,0,FALSE,399
+Picture Transfer Protocol,Network protocols,Protocols & standards,2,FALSE,8908
+PL-3,Network protocols,Protocols & standards,4,FALSE,413
+PL-4,Network protocols,Protocols & standards,3,FALSE,296
+PME Aggregation Function,Network protocols,Protocols & standards,0,FALSE,750
+Port Control Protocol,Network protocols,Protocols & standards,3,FALSE,13135
+Precision Time Protocol,Network protocols,Protocols & standards,55,FALSE,103882
+Precision Time Protocol Industry Profile,Network protocols,Protocols & standards,2,FALSE,1540
+Private IP,Network protocols,Protocols & standards,1,FALSE,1958
+Proprietary protocol,Network protocols,Protocols & standards,23,FALSE,4978
+Protected Streaming,Network protocols,Protocols & standards,1,FALSE,1358
+Protocol for Web Description Resources,Network protocols,Protocols & standards,0,FALSE,438
+Protocol implementation conformance statement,Network protocols,Protocols & standards,1,FALSE,632
+Protocol pipelining,Network protocols,Protocols & standards,0,FALSE,1042
+Protocol stack,Network protocols,Protocols & standards,40,FALSE,35597
+Protocol Wars,Network protocols,History & early telecom,32,FALSE,25920
+Provider Backbone Bridge Traffic Engineering,Network protocols,Protocols & standards,20,FALSE,2620
+Proximity-1 Space Link Protocol,Network protocols,Protocols & standards,0,FALSE,1271
+Proxy Mobile IPv6,Network protocols,Wireless & mobile,2,FALSE,1171
+PXE boot,Network protocols,Protocols & standards,12,FALSE,7222
+RADIUS,Network protocols,Security,11,FALSE,58881
+RANAP,Network protocols,Wireless & mobile,4,FALSE,806
+RDM (lighting),Network protocols,Protocols & standards,3,FALSE,8409
+Real-Time Messaging Protocol,Network protocols,Protocols & standards,5,FALSE,28777
+Regenerative Satellite Mesh – A,Network protocols,Wireless & mobile,0,FALSE,363
+RelayNet,Network protocols,Protocols & standards,2,FALSE,928
+Reliability (computer networking),Network protocols,Protocols & standards,23,FALSE,4622
+Reliable Internet Stream Transport,Network protocols,Protocols & standards,1,FALSE,4512
+Remote Audio Output Protocol,Network protocols,Protocols & standards,1,FALSE,3856
+Request–response,Network protocols,Protocols & standards,8,FALSE,10613
+Resilient Ethernet Protocol,Network protocols,Protocols & standards,1,FALSE,1521
+Retransmission (data networks),Network protocols,Protocols & standards,10,FALSE,4263
+Ring latency,Network protocols,Protocols & standards,0,FALSE,176
+RNSAP,Network protocols,Protocols & standards,1,FALSE,266
+Route reestablishment notification,Network protocols,Protocols & standards,1,FALSE,159
+Router alert label,Network protocols,Routing,0,FALSE,505
+Routing in delay-tolerant networking,Network protocols,Routing,1,FALSE,1691
+RP-570,Network protocols,Protocols & standards,0,FALSE,396
+Secure Socket Tunneling Protocol,Network protocols,Protocols & standards,4,FALSE,12052
+Security service (telecommunication),Network protocols,Security,28,FALSE,2419
+Segmentation and reassembly,Network protocols,Protocols & standards,3,FALSE,811
+Sensor Media Access Control,Network protocols,Protocols & standards,1,FALSE,643
+Server Message Block,Network protocols,Protocols & standards,25,FALSE,125056
+Service Advertising Protocol,Network protocols,Protocols & standards,3,FALSE,682
+Session ID,Network protocols,Protocols & standards,1,FALSE,12432
+Short Message Peer-to-Peer,Network protocols,Wireless & mobile,15,FALSE,7971
+Signaling protocol,Network protocols,Protocols & standards,2,FALSE,6743
+Signalling System No. 7,Network protocols,Protocols & standards,10,FALSE,54267
+Simple Common Gateway Interface,Network protocols,Protocols & standards,3,FALSE,4445
+Simple Gateway Monitoring Protocol,Network protocols,Protocols & standards,0,FALSE,655
+Simple Network Paging Protocol,Network protocols,Protocols & standards,2,FALSE,3554
+Simple Sensor Interface protocol,Network protocols,Protocols & standards,13,FALSE,1125
+Singulation,Network protocols,Wireless & mobile,0,FALSE,1059
+Skypix,Network protocols,Protocols & standards,2,FALSE,676
+SNDCP,Network protocols,Wireless & mobile,0,FALSE,510
+Sockets Direct Protocol,Network protocols,Protocols & standards,2,FALSE,981
+Sorcerer's Apprentice syndrome,Network protocols,Protocols & standards,2,FALSE,4121
+Source-specific multicast,Network protocols,Routing,3,FALSE,3861
+Spanning Tree Protocol,Network protocols,Protocols & standards,38,FALSE,102839
+SPI-3,Network protocols,Protocols & standards,3,FALSE,430
+SPI-4.2,Network protocols,Protocols & standards,5,FALSE,497
+Protocol spoofing,Network protocols,Protocols & standards,2,FALSE,857
+Standard Interchange Protocol,Network protocols,Protocols & standards,1,FALSE,2756
+Stateless protocol,Network protocols,Protocols & standards,5,FALSE,15243
+Stimulus protocol,Network protocols,Protocols & standards,1,FALSE,316
+Store and forward,Network protocols,Protocols & standards,199,TRUE,12355
+Structured Stream Transport,Network protocols,Protocols & standards,0,FALSE,872
+Stunnel,Network protocols,Security,8,FALSE,9544
+Switch56,Network protocols,Protocols & standards,0,FALSE,403
+Synchronous Ethernet,Network protocols,Protocols & standards,11,FALSE,11570
+Synchronous optical networking,Network protocols,Protocols & standards,51,FALSE,22563
+System Packet Interface,Network protocols,Protocols & standards,5,FALSE,613
+T-MPLS,Network protocols,Protocols & standards,2,FALSE,285
+TDM over IP,Network protocols,Protocols & standards,0,FALSE,2032
+Telecommunications Management Network,Network protocols,Protocols & standards,1,FALSE,2469
+Telehash,Network protocols,Protocols & standards,0,FALSE,743
+Telocator Alphanumeric Protocol,Network protocols,Wireless & mobile,1,FALSE,1004
+Terminal Identifier – Address Resolution Protocol,Network protocols,Protocols & standards,0,FALSE,235
+Third Party Control Protocol,Network protocols,Protocols & standards,0,FALSE,207
+Time-Sensitive Networking,Network protocols,Protocols & standards,24,FALSE,33648
+TransferJet,Network protocols,Protocols & standards,3,FALSE,1910
+Transparent Network Substrate,Network protocols,Protocols & standards,0,FALSE,2391
+Transport Driver Interface,Network protocols,Protocols & standards,0,FALSE,1091
+Traversal Using Relays around NAT,Network protocols,Protocols & standards,1,FALSE,44081
+Triangular routing,Network protocols,Routing,1,FALSE,1712
+Trillium Digital Systems,Network protocols,Organizations & companies,0,FALSE,1530
+Trivial File Transfer Protocol,Network protocols,Protocols & standards,5,FALSE,40319
+Tunnel Setup Protocol,Network protocols,Protocols & standards,0,FALSE,1444
+Tunneling protocol,Network protocols,Security,45,FALSE,37153
+TV Network Protocol,Network protocols,Protocols & standards,0,FALSE,456
+TZSP,Network protocols,Protocols & standards,0,FALSE,2495
+UniPro,Network protocols,Wireless & mobile,1,FALSE,4227
+UniPro protocol stack,Network protocols,Protocols & standards,1,FALSE,2388
+Universal Communication Format,Network protocols,Protocols & standards,0,FALSE,239
+User Location Service,Network protocols,Protocols & standards,0,FALSE,197
+UUCP,Network protocols,Protocols & standards,193,FALSE,22231
+Variant object,Network protocols,Protocols & standards,1,FALSE,364
+Verse protocol,Network protocols,Protocols & standards,0,FALSE,609
+Virtual circuit,Network protocols,Protocols & standards,27,FALSE,6886
+Virtual Interface Adapter,Network protocols,Protocols & standards,0,FALSE,376
+Virtual leased line,Network protocols,Protocols & standards,2,FALSE,1031
+Virtual Link Aggregation Control Protocol,Network protocols,Protocols & standards,0,FALSE,559
+Virtual Link Trunking,Network protocols,Protocols & standards,1,FALSE,2039
+Virtual Private LAN Service,Network protocols,Protocols & standards,4,FALSE,10297
+VLAN,Network protocols,Protocols & standards,42,FALSE,91052
+VoFR,Network protocols,Protocols & standards,1,FALSE,374
+VT1.5,Network protocols,Protocols & standards,1,FALSE,531
+Waffle (BBS software),Network protocols,Protocols & standards,0,FALSE,1124
+WAN optimization,Network protocols,Protocols & standards,4,FALSE,2556
+Web Application Messaging Protocol,Network protocols,Protocols & standards,0,FALSE,2099
+Web Services for Devices,Network protocols,Protocols & standards,0,FALSE,4651
+WebTorrent,Network protocols,Security,10,FALSE,15170
+Windows Rally,Network protocols,Protocols & standards,2,FALSE,962
+Worldwide Industrial Telemetry Standards,Network protocols,Protocols & standards,0,FALSE,585
+X.PC,Network protocols,Protocols & standards,2,FALSE,551
+Xcast,Network protocols,Protocols & standards,1,FALSE,921
+Xerox Network Systems,Network protocols,Protocols & standards,7,FALSE,5560
+XOT,Network protocols,Protocols & standards,1,FALSE,903
+Z-Wave,Network protocols,Security,23,FALSE,42029
+Zebra Media Access Control,Network protocols,Protocols & standards,1,FALSE,256
+ZeroNet,Network protocols,Security,10,FALSE,12569
+Routing protocol,Routing protocols,Routing,46,FALSE,19043
+Associativity-based routing,Routing protocols,Wireless & mobile,2,FALSE,654
+Babel (protocol),Routing protocols,Routing,9,FALSE,6043
+Backhaul Adaptation Protocol,Routing protocols,Wireless & mobile,0,FALSE,346
+Border Gateway Multicast Protocol,Routing protocols,Routing,5,FALSE,678
+Border Gateway Protocol,Routing protocols,Routing,58,FALSE,137970
+Collection Tree Protocol,Routing protocols,Routing,6,FALSE,589
+Diffusing update algorithm,Routing protocols,Routing,2,FALSE,2090
+Distance Vector Multicast Routing Protocol,Routing protocols,Routing,10,FALSE,1274
+Distance-vector routing protocol,Routing protocols,Routing,16,FALSE,14847
+Enhanced Interior Gateway Routing Protocol,Routing protocols,Routing,15,FALSE,17460
+EraMobile,Routing protocols,Wireless & mobile,0,FALSE,228
+Exterior gateway protocol,Routing protocols,Routing,6,FALSE,4084
+Exterior Gateway Protocol,Routing protocols,Routing,12,FALSE,5144
+Fuzzy routing,Routing protocols,Wireless & mobile,1,FALSE,247
+Geographic routing,Routing protocols,Wireless & mobile,2,FALSE,1628
+Holddown,Routing protocols,Routing,2,FALSE,724
+Interior gateway protocol,Routing protocols,Routing,12,FALSE,9254
+Interior Gateway Routing Protocol,Routing protocols,Routing,13,FALSE,2721
+IPv6 Routing Protocol for Low-Power and Lossy Networks,Routing protocols,Routing,0,FALSE,2016
+IS-IS,Routing protocols,Routing,37,FALSE,24065
+Link-state routing protocol,Routing protocols,Routing,19,FALSE,11756
+Lollipop sequence numbering,Routing protocols,Routing,0,FALSE,804
+Longest prefix match,Routing protocols,Routing,0,FALSE,8728
+Multicast Source Discovery Protocol,Routing protocols,Routing,2,FALSE,1948
+Narada multicast protocol,Routing protocols,Routing,1,FALSE,240
+Next Hop Resolution Protocol,Routing protocols,Routing,0,FALSE,1957
+Open Shortest Path First,Routing protocols,Routing,60,FALSE,66110
+Optimized Link State Routing Protocol,Routing protocols,Wireless & mobile,15,FALSE,5443
+Path-vector routing protocol,Routing protocols,Routing,3,FALSE,6781
+Private Network-to-Network Interface,Routing protocols,Routing,2,FALSE,1171
+Protocol-Independent Multicast,Routing protocols,Routing,7,FALSE,8610
+Resource Public Key Infrastructure,Routing protocols,Security,2,FALSE,10739
+Route poisoning,Routing protocols,Routing,2,FALSE,2155
+Routing Information Protocol,Routing protocols,Routing,54,FALSE,31243
+SCION (Internet architecture),Routing protocols,Routing,0,FALSE,12090
+Split horizon route advertisement,Routing protocols,Routing,6,FALSE,4320
+Tinc (protocol),Routing protocols,Routing,7,FALSE,4153
+Vehicular Reactive Routing protocol,Routing protocols,Routing,1,FALSE,529
+Virtual Router Redundancy Protocol,Routing protocols,Routing,3,FALSE,26797
+Virtual Switch Redundancy Protocol,Routing protocols,Routing,0,FALSE,428
+Wireless network,Wireless networking,Wireless & mobile,236,TRUE,54168
+2016 United States wireless spectrum auction,Wireless networking,Wireless & mobile,3,FALSE,6538
+Ad hoc wireless distribution service,Wireless networking,Wireless & mobile,1,FALSE,651
+Air2Web,Wireless networking,Organizations & companies,0,FALSE,420
+AirHop Communications,Wireless networking,Organizations & companies,0,FALSE,558
+Augmented tree-based routing,Wireless networking,Wireless & mobile,0,FALSE,195
+Backhaul (telecommunications),Wireless networking,Wireless & mobile,16,FALSE,21153
+Barker code,Wireless networking,Wireless & mobile,5,FALSE,21460
+Base station,Wireless networking,Wireless & mobile,27,FALSE,14574
+Base transceiver station,Wireless networking,Wireless & mobile,7,FALSE,19124
+Body area network,Wireless networking,Wireless & mobile,17,FALSE,21006
+Broadcast storm,Wireless networking,Security,4,FALSE,14531
+Buffalo AirStation,Wireless networking,Wireless & mobile,0,FALSE,1945
+Bureau 1440,Wireless networking,Wireless & mobile,5,FALSE,27974
+Cambium Networks,Wireless networking,Organizations & companies,2,FALSE,14551
+Cantenna,Wireless networking,Wireless & mobile,1,FALSE,21986
+Carrier aggregation,Wireless networking,Wireless & mobile,0,FALSE,7181
+Castalia (simulator),Wireless networking,Wireless & mobile,0,FALSE,294
+CCKM,Wireless networking,Wireless & mobile,0,FALSE,1908
+CCMP (cryptography),Wireless networking,Security,4,FALSE,10314
+Cellular V2X,Wireless networking,Wireless & mobile,3,FALSE,6400
+Certified wireless network administrator,Wireless networking,Wireless & mobile,2,FALSE,1150
+Certified wireless network expert,Wireless networking,Wireless & mobile,2,FALSE,820
+Certified wireless security professional,Wireless networking,Security,1,FALSE,342
+Cisco Valet routers,Wireless networking,Wireless & mobile,0,FALSE,492
+Cognitive radio,Wireless networking,Wireless & mobile,6,FALSE,11792
+Communication Linking Protocol,Wireless networking,Wireless & mobile,0,FALSE,222
+CommView,Wireless networking,Wireless & mobile,2,FALSE,1171
+Wireless configuration utility,Wireless networking,Wireless & mobile,2,FALSE,413
+Competitive Carriers Association,Wireless networking,Organizations & companies,0,FALSE,1052
+Complementary code keying,Wireless networking,Wireless & mobile,3,FALSE,2986
+Contention free pollable,Wireless networking,Wireless & mobile,1,FALSE,278
+Contention-based protocol,Wireless networking,Wireless & mobile,2,FALSE,1040
+Continuous phase modulation,Wireless networking,Wireless & mobile,3,FALSE,6411
+Control and Provisioning of Wireless Access Points protocol,Wireless networking,Wireless & mobile,2,FALSE,5602
+CTIA (organization),Wireless networking,Organizations & companies,6,FALSE,17064
+DataTAC,Wireless networking,Wireless & mobile,11,FALSE,3633
+Decentralized physical infrastructure network,Wireless networking,Wireless & mobile,0,FALSE,11273
+Dedicated short-range communications,Wireless networking,Wireless & mobile,6,FALSE,7776
+Detect and avoid,Wireless networking,Wireless & mobile,1,FALSE,520
+Device-to-device,Wireless networking,Wireless & mobile,4,FALSE,4424
+Direct-sequence spread spectrum,Wireless networking,Wireless & mobile,29,FALSE,26581
+DiY networking,Wireless networking,Wireless & mobile,0,FALSE,678
+Dynamic frequency hopping,Wireless networking,Wireless & mobile,0,FALSE,738
+Dynamic single-frequency networks,Wireless networking,Wireless & mobile,1,FALSE,431
+ExOR,Wireless networking,Wireless & mobile,2,FALSE,287
+Expected transmission count,Wireless networking,Wireless & mobile,2,FALSE,695
+Exposed node problem,Wireless networking,Wireless & mobile,4,FALSE,2251
+Extensible Authentication Protocol,Wireless networking,Security,13,FALSE,30289
+Federated Wireless,Wireless networking,Organizations & companies,0,FALSE,2310
+Fixed wireless,Wireless networking,Wireless & mobile,10,FALSE,7425
+Frame-bursting,Wireless networking,Wireless & mobile,0,FALSE,903
+Fronthaul,Wireless networking,Wireless & mobile,1,FALSE,1725
+Gi-Fi,Wireless networking,Wireless & mobile,2,FALSE,1290
+Gigabit wireless,Wireless networking,Wireless & mobile,1,FALSE,1356
+GloMoSim,Wireless networking,Wireless & mobile,1,FALSE,1072
+Andrea Goldsmith (engineer),Wireless networking,People,1,FALSE,12706
+Wireless grid,Wireless networking,Wireless & mobile,1,FALSE,367
+Guowang,Wireless networking,Organizations & companies,5,FALSE,32240
+Handover keying,Wireless networking,Wireless & mobile,1,FALSE,172
+Hazy Sighted Link State Routing Protocol,Wireless networking,Wireless & mobile,2,FALSE,663
+Hidden node problem,Wireless networking,Wireless & mobile,7,FALSE,8986
+High Performance Wireless Research and Education Network,Wireless networking,Organizations & companies,0,FALSE,596
+High-capacity data radio,Wireless networking,Wireless & mobile,1,FALSE,979
+IEEE 802.11ad,Wireless networking,Wireless & mobile,22,FALSE,9425
+IEEE 802.11af,Wireless networking,Wireless & mobile,20,FALSE,5823
+IEEE 802.11ay,Wireless networking,Wireless & mobile,19,FALSE,7800
+Ingenu,Wireless networking,Organizations & companies,2,FALSE,946
+InSSIDer,Wireless networking,Security,2,FALSE,6439
+Intel PRO/Wireless,Wireless networking,Wireless & mobile,0,FALSE,1527
+Intelligent vehicular ad hoc network,Wireless networking,Wireless & mobile,2,FALSE,551
+Inter-working function,Wireless networking,Wireless & mobile,0,FALSE,543
+Wireless network interface controller,Wireless networking,Wireless & mobile,10,FALSE,10757
+International Journal of Wireless Information Networks,Wireless networking,Wireless & mobile,0,FALSE,299
+Intersymbol interference,Wireless networking,Wireless & mobile,4,FALSE,11813
+IP over Avian Carriers,Wireless networking,Wireless & mobile,4,FALSE,239672
+IP-DECT,Wireless networking,Wireless & mobile,0,FALSE,1258
+KisMAC,Wireless networking,Wireless & mobile,8,FALSE,1915
+Kismet (software),Wireless networking,Wireless & mobile,8,FALSE,12425
+Legality of piggybacking,Wireless networking,Wireless & mobile,4,FALSE,6112
+Li-Fi,Wireless networking,Wireless & mobile,28,FALSE,56305
+Ligado Networks,Wireless networking,Organizations & companies,0,FALSE,6369
+Lightweight Extensible Authentication Protocol,Wireless networking,Security,4,FALSE,2082
+Link Labs,Wireless networking,Organizations & companies,0,FALSE,679
+Link margin,Wireless networking,Wireless & mobile,0,FALSE,3034
+Linksys,Wireless networking,Organizations & companies,4,FALSE,33926
+Local multipoint distribution service,Wireless networking,Wireless & mobile,10,FALSE,1359
+LoRa,Wireless networking,Wireless & mobile,8,FALSE,286701
+LoRaWAN,Wireless networking,Wireless & mobile,3,FALSE,24877
+Low-power wide-area network,Wireless networking,Wireless & mobile,19,FALSE,14150
+Manhattan mobility model,Wireless networking,Wireless & mobile,1,FALSE,1030
+Wireless distribution system,Wireless networking,Wireless & mobile,3,FALSE,10684
+Media-independent handover,Wireless networking,Wireless & mobile,2,FALSE,446
+Microwave transmission,Wireless networking,Wireless & mobile,15,FALSE,30239
+Mioty,Wireless networking,Wireless & mobile,6,FALSE,2454
+MMARP,Wireless networking,Wireless & mobile,0,FALSE,214
+Mobile communications over IP,Wireless networking,Wireless & mobile,0,FALSE,469
+Mobile QoS,Wireless networking,Wireless & mobile,1,FALSE,939
+Mobility model,Wireless networking,Wireless & mobile,3,FALSE,626
+Mobolize,Wireless networking,Wireless & mobile,0,FALSE,363
+Monitor mode,Wireless networking,Wireless & mobile,3,FALSE,5259
+MORE protocol,Wireless networking,Wireless & mobile,0,FALSE,194
+Multi-hop routing,Wireless networking,Wireless & mobile,4,FALSE,3748
+Multicast-broadcast single-frequency network,Wireless networking,Wireless & mobile,0,FALSE,675
+National Broadband Plan (United States),Wireless networking,Wireless & mobile,4,FALSE,2616
+Navini Networks,Wireless networking,Organizations & companies,0,FALSE,617
+NB-Fi,Wireless networking,Wireless & mobile,1,FALSE,841
+Near-term digital radio,Wireless networking,Wireless & mobile,2,FALSE,671
+Negroponte switch,Wireless networking,Wireless & mobile,0,FALSE,956
+Net3,Wireless networking,Wireless & mobile,0,FALSE,957
+NetGenie,Wireless networking,Wireless & mobile,0,FALSE,432
+NetStumbler,Wireless networking,Security,7,FALSE,3005
+Network detector,Wireless networking,Security,3,FALSE,651
+Network enumeration,Wireless networking,Security,4,FALSE,2376
+Networked flying platform,Wireless networking,Wireless & mobile,1,FALSE,234
+NIMO (non-interfering multiple output),Wireless networking,Wireless & mobile,0,FALSE,246
+Nomad (eSIM),Wireless networking,Organizations & companies,0,FALSE,11810
+Nomad Digital,Wireless networking,Organizations & companies,0,FALSE,2954
+Nomadix,Wireless networking,Organizations & companies,1,FALSE,1866
+ODMRP,Wireless networking,Wireless & mobile,0,FALSE,260
+Open spectrum,Wireless networking,Wireless & mobile,6,FALSE,1546
+OpenWireless.org,Wireless networking,Wireless & mobile,1,FALSE,926
+Opportunistic mesh,Wireless networking,Wireless & mobile,0,FALSE,225
+Order One Network Protocol,Wireless networking,Wireless & mobile,0,FALSE,541
+Packet analyzer,Wireless networking,Wireless & mobile,17,FALSE,23197
+Paradox Engineering,Wireless networking,Organizations & companies,0,FALSE,1062
+Personal communications network,Wireless networking,Wireless & mobile,0,FALSE,869
+Piggybacking (Internet access),Wireless networking,Wireless & mobile,7,FALSE,3505
+Point-to-multipoint communication,Wireless networking,Wireless & mobile,16,FALSE,7017
+Policies promoting wireless broadband in the United States,Wireless networking,Wireless & mobile,3,FALSE,312
+Private Shared Wireless Network,Wireless networking,Wireless & mobile,1,FALSE,702
+Qianfan,Wireless networking,Organizations & companies,6,FALSE,33700
+QualNet,Wireless networking,Wireless & mobile,1,FALSE,1078
+Radio Link Protocol,Wireless networking,Wireless & mobile,1,FALSE,1395
+Radio modem,Wireless networking,Wireless & mobile,3,FALSE,1988
+Ralink,Wireless networking,Organizations & companies,3,FALSE,7817
+Random waypoint model,Wireless networking,Wireless & mobile,2,FALSE,875
+Reconfigurability,Wireless networking,Wireless & mobile,0,FALSE,571
+Restricted random waypoint model,Wireless networking,Wireless & mobile,0,FALSE,111
+Rise over thermal,Wireless networking,Wireless & mobile,1,FALSE,437
+Rogue access point,Wireless networking,Security,4,FALSE,8011
+Wireless Router Application Platform,Wireless networking,Wireless & mobile,0,FALSE,352
+SecureEasySetup,Wireless networking,Wireless & mobile,0,FALSE,328
+Network encryption cracking,Wireless networking,Security,1,FALSE,1003
+Wireless security,Wireless networking,Security,14,FALSE,15656
+Self-interference cancellation,Wireless networking,Wireless & mobile,0,FALSE,1630
+Semaphore Flag Signaling System,Wireless networking,History & early telecom,3,FALSE,5214
+Service set (802.11 network),Wireless networking,Wireless & mobile,19,FALSE,23388
+Shared mesh,Wireless networking,Wireless & mobile,2,FALSE,458
+Sierra Wireless,Wireless networking,Organizations & companies,1,FALSE,7726
+Sigfox,Wireless networking,Organizations & companies,4,FALSE,11413
+Silver Spring Networks,Wireless networking,Organizations & companies,0,FALSE,3413
+NetSpot,Wireless networking,Wireless & mobile,3,FALSE,4151
+TamoGraph Site Survey,Wireless networking,Wireless & mobile,0,FALSE,699
+Wireless site survey,Wireless networking,Wireless & mobile,4,FALSE,2079
+Smartphone ad hoc network,Wireless networking,Wireless & mobile,3,FALSE,4739
+Solstar,Wireless networking,Organizations & companies,0,FALSE,1359
+SpaceX Starshield,Wireless networking,Wireless & mobile,3,FALSE,118911
+Spatial capacity,Wireless networking,Wireless & mobile,1,FALSE,238
+Spectral efficiency,Wireless networking,Wireless & mobile,21,FALSE,16436
+Spectrum commons theory,Wireless networking,Wireless & mobile,1,FALSE,400
+Starlink,Wireless networking,Organizations & companies,10,FALSE,1148033
+Streaming data,Wireless networking,Wireless & mobile,0,FALSE,4187
+Successive interference cancellation,Wireless networking,Wireless & mobile,1,FALSE,1031
+Switched mesh,Wireless networking,Wireless & mobile,3,FALSE,610
+Temporal Key Integrity Protocol,Wireless networking,Security,5,FALSE,11538
+Temporally ordered routing algorithm,Wireless networking,Wireless & mobile,0,FALSE,728
+Tethering,Wireless networking,Wireless & mobile,8,FALSE,24177
+Thread (network protocol),Wireless networking,Wireless & mobile,9,FALSE,90835
+Topology dissemination based on reverse-path forwarding,Wireless networking,Wireless & mobile,0,FALSE,374
+TP-Link,Wireless networking,Organizations & companies,1,FALSE,145735
+Tp-Link Deco,Wireless networking,Wireless & mobile,0,FALSE,1384
+Traffic indication map,Wireless networking,Wireless & mobile,1,FALSE,2658
+TRENDnet,Wireless networking,Organizations & companies,0,FALSE,6604
+Twimight,Wireless networking,Wireless & mobile,0,FALSE,609
+Typhoid adware,Wireless networking,Security,1,FALSE,756
+UAProf,Wireless networking,Wireless & mobile,1,FALSE,1268
+UASAT,Wireless networking,Wireless & mobile,4,FALSE,2836
+UMTS,Wireless networking,Wireless & mobile,59,FALSE,39072
+Vehicular ad hoc network,Wireless networking,Wireless & mobile,19,FALSE,5413
+Vehicular communication systems,Wireless networking,Wireless & mobile,6,FALSE,5984
+Vehicle-to-device,Wireless networking,Wireless & mobile,1,FALSE,682
+Vehicle-to-everything,Wireless networking,Wireless & mobile,6,FALSE,35575
+Vertical handover,Wireless networking,Wireless & mobile,2,FALSE,673
+Voice over WLAN,Wireless networking,Wireless & mobile,1,FALSE,40925
+Wardriving,Wireless networking,Security,10,FALSE,43933
+Warshipping,Wireless networking,Security,1,FALSE,1308
+WaveLAN,Wireless networking,Wireless & mobile,5,FALSE,4962
+White space Internet,Wireless networking,Wireless & mobile,1,FALSE,176
+White spaces (radio),Wireless networking,Wireless & mobile,5,FALSE,4131
+Wi-Fi positioning system,Wireless networking,Wireless & mobile,3,FALSE,28291
+WiFi Explorer,Wireless networking,Wireless & mobile,2,FALSE,2358
+WiFi-Where,Wireless networking,Wireless & mobile,1,FALSE,719
+Wireless Gigabit Alliance,Wireless networking,Wireless & mobile,2,FALSE,2948
+WiGLE,Wireless networking,Wireless & mobile,3,FALSE,13425
+Wired Equivalent Privacy,Wireless networking,Security,17,FALSE,34896
+Wireless ad hoc network,Wireless networking,Wireless & mobile,53,FALSE,38868
+Wireless application service provider,Wireless networking,Wireless & mobile,1,FALSE,259
+Wireless broadband,Wireless networking,Wireless & mobile,15,FALSE,8797
+Wireless game adapter,Wireless networking,Wireless & mobile,0,FALSE,560
+Wireless HDMI,Wireless networking,Wireless & mobile,0,FALSE,9016
+Wireless Infrastructure Association,Wireless networking,Organizations & companies,0,FALSE,1158
+Wireless Intelligent Network,Wireless networking,Wireless & mobile,0,FALSE,437
+Wireless Internet service provider,Wireless networking,Organizations & companies,10,FALSE,9453
+Wireless intrusion prevention system,Wireless networking,Security,4,FALSE,4449
+Wireless LAN,Wireless networking,Wireless & mobile,93,FALSE,64673
+Wireless LAN controller,Wireless networking,Wireless & mobile,1,FALSE,4581
+Wireless mobility management,Wireless networking,Wireless & mobile,1,FALSE,655
+Wireless Multimedia Extensions,Wireless networking,Wireless & mobile,2,FALSE,6981
+Wireless Network after Next,Wireless networking,Wireless & mobile,1,FALSE,795
+Wireless supplicant,Wireless networking,Wireless & mobile,0,FALSE,783
+Wireless WAN,Wireless networking,Wireless & mobile,20,FALSE,10072
+Wireless Zero Configuration,Wireless networking,Wireless & mobile,1,FALSE,1696
+Wirelesspt,Wireless networking,Wireless & mobile,0,FALSE,281
+WSSUS model,Wireless networking,Wireless & mobile,1,FALSE,1042
+WURFL,Wireless networking,Wireless & mobile,1,FALSE,1352
+Xsupplicant,Wireless networking,Wireless & mobile,3,FALSE,554
+Zero-rating,Wireless networking,Wireless & mobile,1,FALSE,10042
+ZHLS-GF,Wireless networking,Wireless & mobile,1,FALSE,850
+Zone Routing Protocol,Wireless networking,Wireless & mobile,1,FALSE,1219
+Computer network,Seed article,Other networking concepts,449,TRUE,364017
+10BASE2,Seed neighbourhood,Protocols & standards,37,FALSE,22839
+10BASE5,Seed neighbourhood,Protocols & standards,36,FALSE,18814
+ADSL,Seed neighbourhood,Protocols & standards,17,FALSE,41131
+ALOHAnet,Seed neighbourhood,History & early telecom,20,FALSE,21839
+API,Seed neighbourhood,Software & computing,38,FALSE,460557
+ARPANET,Seed neighbourhood,Organizations & companies,230,TRUE,271284
+Address Resolution Protocol,Seed neighbourhood,Protocols & standards,56,FALSE,133065
+Alexander Graham Bell,Seed neighbourhood,People,189,FALSE,790172
+Alexander Stepanovich Popov,Seed neighbourhood,People,190,FALSE,12693
+Alfred Vail,Seed neighbourhood,People,188,FALSE,19963
+Algorithm,Seed neighbourhood,Software & computing,53,FALSE,412322
+Almon Brown Strowger,Seed neighbourhood,People,188,FALSE,14424
+Amos Dolbear,Seed neighbourhood,People,188,FALSE,4314
+Andrew S. Tanenbaum,Seed neighbourhood,People,14,FALSE,76592
+Antonio Meucci,Seed neighbourhood,People,188,FALSE,125782
+Application software,Seed neighbourhood,Software & computing,37,FALSE,201999
+Artificial intelligence,Seed neighbourhood,Software & computing,44,FALSE,4213174
+Asynchronous Transfer Mode,Seed neighbourhood,Protocols & standards,61,FALSE,34660
+Audio coding format,Seed neighbourhood,Other networking concepts,190,FALSE,17027
+BITNET,Seed neighbourhood,History & early telecom,188,FALSE,9596
+Backbone network,Seed neighbourhood,Other networking concepts,37,FALSE,19052
+Bandwidth (computing),Seed neighbourhood,Other networking concepts,228,TRUE,40183
+Beacon,Seed neighbourhood,Other networking concepts,190,FALSE,44774
+Bluetooth,Seed neighbourhood,Wireless & mobile,94,FALSE,744946
+Bob Kahn,Seed neighbourhood,People,202,TRUE,31987
+Booting,Seed neighbourhood,Other networking concepts,18,FALSE,60306
+Broadcast domain,Seed neighbourhood,Other networking concepts,13,FALSE,9176
+Bus network,Seed neighbourhood,Other networking concepts,9,FALSE,9626
+CDMA2000,Seed neighbourhood,Wireless & mobile,21,FALSE,20301
+CSMA/CA,Seed neighbourhood,Wireless & mobile,6,FALSE,16375
+CYCLADES,Seed neighbourhood,History & early telecom,201,TRUE,10529
+Cable Internet access,Seed neighbourhood,Hardware & transmission media,24,FALSE,10599
+Cable protection system,Seed neighbourhood,Hardware & transmission media,188,FALSE,2105
+Cable television,Seed neighbourhood,Hardware & transmission media,196,TRUE,133439
+Camille Tissot,Seed neighbourhood,People,188,FALSE,1270
+CdmaOne,Seed neighbourhood,Wireless & mobile,16,FALSE,11763
+Cellular network,Seed neighbourhood,Wireless & mobile,223,TRUE,116072
+Charles Bourseul,Seed neighbourhood,People,188,FALSE,2394
+Charles Grafton Page,Seed neighbourhood,People,188,FALSE,2874
+Charles K. Kao,Seed neighbourhood,People,189,FALSE,42466
+Charles Sumner Tainter,Seed neighbourhood,People,188,FALSE,4230
+Charles Wheatstone,Seed neighbourhood,People,188,FALSE,26400
+Circuit switching,Seed neighbourhood,Protocols & standards,216,TRUE,18211
+Claude Chappe,Seed neighbourhood,People,188,FALSE,11917
+Claude Shannon,Seed neighbourhood,People,196,TRUE,513695
+Client (computing),Seed neighbourhood,Other networking concepts,30,FALSE,38016
+Cloud computing,Seed neighbourhood,Software & computing,33,FALSE,657379
+Coaxial cable,Seed neighbourhood,Wireless & mobile,198,TRUE,180707
+Code-division multiple access,Seed neighbourhood,Wireless & mobile,209,TRUE,55351
+Communications satellite,Seed neighbourhood,Wireless & mobile,200,TRUE,82930
+Computer,Seed neighbourhood,Other networking concepts,73,FALSE,1214552
+Computer data storage,Seed neighbourhood,Other networking concepts,48,FALSE,85991
+Computer file,Seed neighbourhood,Software & computing,20,FALSE,66317
+Computer hardware,Seed neighbourhood,Hardware & transmission media,63,FALSE,247537
+Computer science,Seed neighbourhood,Software & computing,59,FALSE,461937
+Computer security,Seed neighbourhood,Security,53,FALSE,271417
+Computing,Seed neighbourhood,Other networking concepts,47,FALSE,117844
+Computing platform,Seed neighbourhood,Other networking concepts,39,FALSE,112568
+Confidentiality,Seed neighbourhood,Security,11,FALSE,29806
+Cryptography,Seed neighbourhood,Security,49,FALSE,291489
+DARPA,Seed neighbourhood,Organizations & companies,37,FALSE,418855
+DOCSIS,Seed neighbourhood,Protocols & standards,25,FALSE,60315
+Daniel Davis Jr.,Seed neighbourhood,People,188,FALSE,2039
+Darknet,Seed neighbourhood,Software & computing,12,FALSE,297769
+Data,Seed neighbourhood,Other networking concepts,26,FALSE,237835
+Data communication,Seed neighbourhood,Other networking concepts,233,TRUE,32080
+Data compression,Seed neighbourhood,Software & computing,211,TRUE,105694
+Data integrity,Seed neighbourhood,Other networking concepts,17,FALSE,31047
+Data link,Seed neighbourhood,Other networking concepts,14,FALSE,18381
+Data link layer,Seed neighbourhood,Protocols & standards,86,FALSE,80160
+Database,Seed neighbourhood,Software & computing,54,FALSE,274899
+Dawon Kahng,Seed neighbourhood,People,190,FALSE,10730
+Denial-of-service attack,Seed neighbourhood,Security,27,FALSE,244475
+Device driver,Seed neighbourhood,Other networking concepts,21,FALSE,62643
+Device file,Seed neighbourhood,Software & computing,19,FALSE,24514
+DiffServ,Seed neighbourhood,Protocols & standards,6,FALSE,34805
+Digital AMPS,Seed neighbourhood,Other networking concepts,14,FALSE,9219
+Digital Enhanced Cordless Telecommunications,Seed neighbourhood,Wireless & mobile,16,FALSE,29317
+Digital data,Seed neighbourhood,Other networking concepts,41,FALSE,53297
+Digital media,Seed neighbourhood,Other networking concepts,193,FALSE,86195
+Digital subscriber line,Seed neighbourhood,Hardware & transmission media,57,FALSE,71854
+Digital television,Seed neighbourhood,Other networking concepts,196,FALSE,61479
+Discrete cosine transform,Seed neighbourhood,Other networking concepts,189,FALSE,93909
+Distributed computing,Seed neighbourhood,Software & computing,47,FALSE,83763
+Distributed hash table,Seed neighbourhood,Other networking concepts,15,FALSE,46922
+Donald Davies,Seed neighbourhood,People,200,TRUE,14742
+Drums in communication,Seed neighbourhood,History & early telecom,188,FALSE,6658
+Dynamic Host Configuration Protocol,Seed neighbourhood,Protocols & standards,60,FALSE,206270
+Edholm's law,Seed neighbourhood,Hardware & transmission media,188,FALSE,4910
+Edwin Howard Armstrong,Seed neighbourhood,People,188,FALSE,35389
+Electrical telegraph,Seed neighbourhood,History & early telecom,189,FALSE,184812
+Electronic Frontier Foundation,Seed neighbourhood,Organizations & companies,20,FALSE,109451
+Elisha Gray,Seed neighbourhood,People,188,FALSE,47445
+Email,Seed neighbourhood,History & early telecom,52,FALSE,1004308
+Embedded system,Seed neighbourhood,Other networking concepts,49,FALSE,152295
+Emile Berliner,Seed neighbourhood,People,188,FALSE,39921
+Encrypting,Seed neighbourhood,Security,4,FALSE,144393
+End-to-end encryption,Seed neighbourhood,Security,14,FALSE,93051
+End-to-end principle,Seed neighbourhood,Software & computing,25,FALSE,30229
+Enterprise software,Seed neighbourhood,Software & computing,33,FALSE,43095
+Erna Schneider Hoover,Seed neighbourhood,People,188,FALSE,11908
+Ethernet,Seed neighbourhood,Protocols & standards,330,TRUE,254421
+Ethernet frame,Seed neighbourhood,Protocols & standards,26,FALSE,162807
+Ethernet hub,Seed neighbourhood,Protocols & standards,22,FALSE,22365
+Ethernet over coax,Seed neighbourhood,Protocols & standards,17,FALSE,10271
+Evolution-Data Optimized,Seed neighbourhood,Wireless & mobile,31,FALSE,7930
+Facebook,Seed neighbourhood,Organizations & companies,22,FALSE,6940483
+Fault tolerance,Seed neighbourhood,Software & computing,44,FALSE,28683
+Fax,Seed neighbourhood,Protocols & standards,190,FALSE,209682
+Fiber Distributed Data Interface,Seed neighbourhood,Protocols & standards,27,FALSE,9181
+Fiber-optic cable,Seed neighbourhood,Hardware & transmission media,20,FALSE,108624
+Fiber-optic communication,Seed neighbourhood,Hardware & transmission media,192,FALSE,78886
+FidoNet,Seed neighbourhood,Software & computing,195,FALSE,34384
+File attribute,Seed neighbourhood,Software & computing,16,FALSE,10127
+File server,Seed neighbourhood,Software & computing,14,FALSE,12998
+File system,Seed neighbourhood,Software & computing,36,FALSE,96347
+Firewall (computing),Seed neighbourhood,Security,34,FALSE,94720
+Frame (networking),Seed neighbourhood,Protocols & standards,33,FALSE,16188
+Francis Blake (inventor),Seed neighbourhood,People,188,FALSE,1370
+Free-space optical communication,Seed neighbourhood,Wireless & mobile,195,FALSE,34916
+Frequency-division multiplexing,Seed neighbourhood,History & early telecom,197,TRUE,18179
+Friend-to-friend,Seed neighbourhood,Security,11,FALSE,10218
+Gardiner Greene Hubbard,Seed neighbourhood,People,188,FALSE,18938
+General Packet Radio Service,Seed neighbourhood,Wireless & mobile,36,FALSE,54202
+General Services Administration,Seed neighbourhood,Organizations & companies,22,FALSE,82915
+Global System for Mobile Communications,Seed neighbourhood,Wireless & mobile,7,FALSE,226388
+Goodput,Seed neighbourhood,Other networking concepts,8,FALSE,12774
+Guglielmo Marconi,Seed neighbourhood,People,190,FALSE,286686
+HTTP,Seed neighbourhood,Protocols & standards,105,FALSE,591522
+HTTPS,Seed neighbourhood,Security,58,FALSE,528645
+Harold Hopkins (physicist),Seed neighbourhood,People,188,FALSE,6262
+Header (computing),Seed neighbourhood,Other networking concepts,20,FALSE,13491
+Hedy Lamarr,Seed neighbourhood,People,188,FALSE,1402611
+Heliograph,Seed neighbourhood,History & early telecom,188,FALSE,38061
+Henry Sutton (inventor),Seed neighbourhood,People,188,FALSE,4033
+History of broadcasting,Seed neighbourhood,History & early telecom,188,FALSE,16451
+History of mobile phones,Seed neighbourhood,History & early telecom,195,FALSE,162494
+History of prepaid mobile phones,Seed neighbourhood,History & early telecom,188,FALSE,3664
+History of radio,Seed neighbourhood,History & early telecom,188,FALSE,90951
+History of telecommunication,Seed neighbourhood,History & early telecom,188,FALSE,20257
+History of television,Seed neighbourhood,History & early telecom,188,FALSE,262379
+History of the Internet,Seed neighbourhood,History & early telecom,208,TRUE,471039
+History of the telephone,Seed neighbourhood,History & early telecom,188,FALSE,153585
+History of the transistor,Seed neighbourhood,History & early telecom,189,FALSE,78744
+History of videotelephony,Seed neighbourhood,History & early telecom,188,FALSE,23932
+Home network,Seed neighbourhood,Wireless & mobile,28,FALSE,11813
+Host (network),Seed neighbourhood,Hardware & transmission media,36,FALSE,25460
+Hostname,Seed neighbourhood,Other networking concepts,12,FALSE,60311
+Hydraulic telegraph,Seed neighbourhood,History & early telecom,188,FALSE,9306
+IEEE 802,Seed neighbourhood,Protocols & standards,47,FALSE,48634
+IEEE 802.11,Seed neighbourhood,Wireless & mobile,95,FALSE,278855
+IEEE 802.1D,Seed neighbourhood,Protocols & standards,21,FALSE,6385
+IEEE 802.1Q,Seed neighbourhood,Protocols & standards,32,FALSE,107323
+IEEE 802.1X,Seed neighbourhood,Security,27,FALSE,70888
+IEEE 802.3,Seed neighbourhood,Protocols & standards,47,FALSE,87299
+IP address,Seed neighbourhood,Protocols & standards,75,FALSE,646144
+IP multicast,Seed neighbourhood,Routing,12,FALSE,23362
+IPv6,Seed neighbourhood,Protocols & standards,88,FALSE,257341
+ISO/IEC 11801,Seed neighbourhood,Protocols & standards,13,FALSE,42761
+ITU,Seed neighbourhood,Organizations & companies,14,FALSE,107886
+ITU-T,Seed neighbourhood,Organizations & companies,66,FALSE,25610
+Image compression,Seed neighbourhood,Other networking concepts,214,TRUE,31501
+Information Age,Seed neighbourhood,Other networking concepts,194,FALSE,172979
+Innocenzo Manzetti,Seed neighbourhood,People,188,FALSE,4403
+Inode,Seed neighbourhood,Software & computing,15,FALSE,54640
+Instant messaging,Seed neighbourhood,Software & computing,31,FALSE,166603
+Institute of Electrical and Electronics Engineers,Seed neighbourhood,People,128,FALSE,172612
+IntServ,Seed neighbourhood,Protocols & standards,5,FALSE,2136
+Integrated Services Digital Network,Seed neighbourhood,Protocols & standards,196,FALSE,42184
+Integrated circuit,Seed neighbourhood,Hardware & transmission media,64,FALSE,297230
+Integrated development environment,Seed neighbourhood,Software & computing,31,FALSE,162307
+Internet,Seed neighbourhood,History & early telecom,311,TRUE,1586072
+Internet Assigned Numbers Authority,Seed neighbourhood,Organizations & companies,31,FALSE,103622
+Internet Engineering Task Force,Seed neighbourhood,Organizations & companies,140,FALSE,143803
+Internet Protocol,Seed neighbourhood,Protocols & standards,171,FALSE,198833
+Internet backbone,Seed neighbourhood,Other networking concepts,11,FALSE,39954
+Internet of things,Seed neighbourhood,Other networking concepts,45,FALSE,388424
+Internet protocol suite,Seed neighbourhood,History & early telecom,147,FALSE,243183
+Internet service provider,Seed neighbourhood,Organizations & companies,61,FALSE,141901
+Internet video,Seed neighbourhood,Other networking concepts,189,FALSE,24243
+Internet2,Seed neighbourhood,Organizations & companies,191,FALSE,24290
+Internetworking,Seed neighbourhood,Other networking concepts,35,FALSE,21953
+Interplanetary Internet,Seed neighbourhood,Other networking concepts,20,FALSE,19639
+Intranet,Seed neighbourhood,Security,12,FALSE,122404
+JANET,Seed neighbourhood,Organizations & companies,191,FALSE,12348
+Jagadish Chandra Bose,Seed neighbourhood,People,188,FALSE,186808
+Johann Philipp Reis,Seed neighbourhood,People,188,FALSE,11448
+John Bardeen,Seed neighbourhood,People,191,FALSE,126585
+John Logie Baird,Seed neighbourhood,People,188,FALSE,188388
+Journaling file system,Seed neighbourhood,Software & computing,14,FALSE,31912
+Jun-ichi Nishizawa,Seed neighbourhood,People,188,FALSE,3914
+Kernel (operating system),Seed neighbourhood,Software & computing,22,FALSE,278125
+Last mile (telecommunications),Seed neighbourhood,Other networking concepts,13,FALSE,10557
+Leased line,Seed neighbourhood,Other networking concepts,17,FALSE,13565
+Lee de Forest,Seed neighbourhood,People,188,FALSE,34351
+Leonard Kleinrock,Seed neighbourhood,People,20,FALSE,20408
+Library (computing),Seed neighbourhood,Software & computing,38,FALSE,48651
+Line-of-sight propagation,Seed neighbourhood,Wireless & mobile,19,FALSE,28803
+Local area network,Seed neighbourhood,Other networking concepts,296,TRUE,140118
+Louis Pouzin,Seed neighbourhood,People,23,FALSE,6569
+MAC address,Seed neighbourhood,Other networking concepts,62,FALSE,232133
+MOSFET,Seed neighbourhood,Hardware & transmission media,199,TRUE,292535
+Machine learning,Seed neighbourhood,Software & computing,42,FALSE,834241
+Mass media,Seed neighbourhood,Other networking concepts,189,FALSE,221239
+Maximum transmission unit,Seed neighbourhood,Other networking concepts,16,FALSE,66816
+Mesh network,Seed neighbourhood,Other networking concepts,17,FALSE,87143
+Metrics (networking),Seed neighbourhood,Other networking concepts,12,FALSE,5122
+Metropolitan area network,Seed neighbourhood,Other networking concepts,24,FALSE,22465
+Microwave,Seed neighbourhood,Wireless & mobile,34,FALSE,195925
+Middleware,Seed neighbourhood,Other networking concepts,33,FALSE,54391
+Mobile computing,Seed neighbourhood,Wireless & mobile,41,FALSE,19692
+Mobile telephony,Seed neighbourhood,Wireless & mobile,198,TRUE,27553
+Modem,Seed neighbourhood,Protocols & standards,60,FALSE,132505
+Mohamed M. Atalla,Seed neighbourhood,People,190,FALSE,19640
+Molecular communication,Seed neighbourhood,Other networking concepts,188,FALSE,2134
+Multicast,Seed neighbourhood,Routing,48,FALSE,48383
+Multipath routing,Seed neighbourhood,Routing,7,FALSE,1999
+Multiplexing,Seed neighbourhood,Wireless & mobile,207,TRUE,58520
+Municipal wireless network,Seed neighbourhood,Organizations & companies,30,FALSE,7247
+NPL network,Seed neighbourhood,History & early telecom,200,TRUE,7494
+Narinder Singh Kapany,Seed neighbourhood,People,188,FALSE,76224
+Nasir Ahmed (engineer),Seed neighbourhood,People,189,FALSE,14192
+National Physical Laboratory (United Kingdom),Seed neighbourhood,Organizations & companies,18,FALSE,23909
+National Science Foundation,Seed neighbourhood,Organizations & companies,21,FALSE,96816
+Near-field communication,Seed neighbourhood,Wireless & mobile,27,FALSE,168853
+Network address,Seed neighbourhood,Other networking concepts,27,FALSE,22678
+Network administrator,Seed neighbourhood,Other networking concepts,13,FALSE,13571
+Network architecture,Seed neighbourhood,Other networking concepts,38,FALSE,9821
+Network bridge,Seed neighbourhood,Protocols & standards,37,FALSE,33803
+Network congestion,Seed neighbourhood,Protocols & standards,33,FALSE,14041
+Network delay,Seed neighbourhood,Other networking concepts,18,FALSE,5669
+Network interface controller,Seed neighbourhood,Protocols & standards,47,FALSE,73618
+Network layer,Seed neighbourhood,Protocols & standards,72,FALSE,53761
+Network on a chip,Seed neighbourhood,Hardware & transmission media,9,FALSE,12242
+Network packet,Seed neighbourhood,Other networking concepts,78,FALSE,34318
+Network security,Seed neighbourhood,Security,42,FALSE,28523
+Network segment,Seed neighbourhood,Protocols & standards,19,FALSE,8378
+Network service,Seed neighbourhood,Other networking concepts,33,FALSE,15311
+Network simulation,Seed neighbourhood,Wireless & mobile,17,FALSE,6655
+Network switch,Seed neighbourhood,Protocols & standards,241,TRUE,87669
+Network topology,Seed neighbourhood,Other networking concepts,234,TRUE,72688
+Networking hardware,Seed neighbourhood,Hardware & transmission media,49,FALSE,28056
+Nikola Tesla,Seed neighbourhood,People,188,FALSE,2347803
+Node (networking),Seed neighbourhood,Routing,231,TRUE,1838
+OSI model,Seed neighbourhood,Protocols & standards,110,FALSE,534365
+Octet (computing),Seed neighbourhood,Other networking concepts,25,FALSE,35991
+Oliver Heaviside,Seed neighbourhood,People,188,FALSE,80404
+Online video platform,Seed neighbourhood,Other networking concepts,196,FALSE,263400
+Open source,Seed neighbourhood,Organizations & companies,46,FALSE,237034
+Open standard,Seed neighbourhood,Protocols & standards,16,FALSE,42304
+Operating system,Seed neighbourhood,Software & computing,104,FALSE,693122
+Optical communication,Seed neighbourhood,Other networking concepts,191,FALSE,16514
+Optical fiber,Seed neighbourhood,Hardware & transmission media,216,TRUE,209076
+Optical telegraph,Seed neighbourhood,History & early telecom,189,FALSE,50137
+Orbital angular momentum multiplexing,Seed neighbourhood,Wireless & mobile,189,FALSE,4427
+Overlay network,Seed neighbourhood,Other networking concepts,14,FALSE,39215
+PARC Universal Packet,Seed neighbourhood,Other networking concepts,12,FALSE,2426
+Packet forwarding,Seed neighbourhood,Routing,12,FALSE,3711
+Packet loss,Seed neighbourhood,Other networking concepts,21,FALSE,20525
+Packet radio,Seed neighbourhood,Wireless & mobile,9,FALSE,17531
+Pager,Seed neighbourhood,Wireless & mobile,192,FALSE,198829
+Paul Baran,Seed neighbourhood,People,195,FALSE,20593
+Peer-to-peer,Seed neighbourhood,Software & computing,60,FALSE,164613
+Peer-to-peer file sharing,Seed neighbourhood,Other networking concepts,14,FALSE,61972
+Peripheral,Seed neighbourhood,Software & computing,45,FALSE,58419
+Personal area network,Seed neighbourhood,Wireless & mobile,43,FALSE,35093
+Personal computer,Seed neighbourhood,Other networking concepts,44,FALSE,286237
+Philo Farnsworth,Seed neighbourhood,People,188,FALSE,164294
+Photophone,Seed neighbourhood,History & early telecom,188,FALSE,18390
+Phryctoria,Seed neighbourhood,History & early telecom,188,FALSE,7718
+Physical layer,Seed neighbourhood,Protocols & standards,74,FALSE,52811
+Point-to-point (telecommunications),Seed neighbourhood,Other networking concepts,35,FALSE,16390
+Polarization-division multiplexing,Seed neighbourhood,Wireless & mobile,189,FALSE,3936
+Port (computer networking),Seed neighbourhood,Protocols & standards,35,FALSE,87063
+Power line communication,Seed neighbourhood,Other networking concepts,14,FALSE,42226
+Pretty Good Privacy,Seed neighbourhood,History & early telecom,21,FALSE,169550
+Printer (computing),Seed neighbourhood,Other networking concepts,25,FALSE,69660
+Processor (computing),Seed neighbourhood,Other networking concepts,32,FALSE,50808
+Programming language,Seed neighbourhood,Software & computing,39,FALSE,279589
+Public data network,Seed neighbourhood,Other networking concepts,16,FALSE,4598
+Public switched telephone network,Seed neighbourhood,Other networking concepts,208,TRUE,71064
+Quality of service,Seed neighbourhood,Software & computing,62,FALSE,35255
+Radar,Seed neighbourhood,Wireless & mobile,31,FALSE,329257
+Radia Perlman,Seed neighbourhood,People,194,FALSE,46044
+Radio network,Seed neighbourhood,Wireless & mobile,190,FALSE,20768
+Radio wave,Seed neighbourhood,Wireless & mobile,193,FALSE,207261
+Radiotelephone,Seed neighbourhood,Wireless & mobile,194,FALSE,16141
+Real-time computing,Seed neighbourhood,Other networking concepts,40,FALSE,46716
+Reginald Fessenden,Seed neighbourhood,People,188,FALSE,26194
+Request for Comments,Seed neighbourhood,Other networking concepts,147,FALSE,254814
+Robert Hooke,Seed neighbourhood,People,188,FALSE,317509
+Robert Metcalfe,Seed neighbourhood,People,197,TRUE,48750
+Roberto Landell de Moura,Seed neighbourhood,People,188,FALSE,5087
+Router (computing),Seed neighbourhood,Routing,117,FALSE,96273
+Routing,Seed neighbourhood,Routing,67,FALSE,39615
+Routing table,Seed neighbourhood,Routing,29,FALSE,32859
+Rémi Després,Seed neighbourhood,People,10,FALSE,1261
+Samuel Morse,Seed neighbourhood,People,189,FALSE,175244
+Semaphore,Seed neighbourhood,History & early telecom,189,FALSE,95878
+Semiconductor,Seed neighbourhood,Hardware & transmission media,195,FALSE,363447
+Semiconductor device,Seed neighbourhood,Hardware & transmission media,190,FALSE,52185
+Server (computing),Seed neighbourhood,Hardware & transmission media,51,FALSE,205690
+Signal,Seed neighbourhood,Other networking concepts,29,FALSE,58296
+Sliding window,Seed neighbourhood,Other networking concepts,7,FALSE,13569
+Smartphone,Seed neighbourhood,Software & computing,215,TRUE,459947
+Smoke signal,Seed neighbourhood,History & early telecom,189,FALSE,32008
+Social media,Seed neighbourhood,Software & computing,196,FALSE,1046509
+Software configuration management,Seed neighbourhood,Protocols & standards,46,FALSE,25136
+Software maintenance,Seed neighbourhood,Protocols & standards,50,FALSE,18062
+Space-division multiple access,Seed neighbourhood,Other networking concepts,198,TRUE,4859
+Spread spectrum,Seed neighbourhood,Wireless & mobile,29,FALSE,36700
+Star network,Seed neighbourhood,Other networking concepts,17,FALSE,21788
+Storage area network,Seed neighbourhood,Other networking concepts,28,FALSE,60147
+Streaming media,Seed neighbourhood,Software & computing,209,TRUE,314804
+Streaming television,Seed neighbourhood,Software & computing,196,FALSE,135824
+Submarine communications cable,Seed neighbourhood,History & early telecom,190,FALSE,207944
+System on a chip,Seed neighbourhood,Hardware & transmission media,50,FALSE,162693
+TANet,Seed neighbourhood,Other networking concepts,188,FALSE,1477
+Telautograph,Seed neighbourhood,History & early telecom,188,FALSE,9243
+Telecommunication circuit,Seed neighbourhood,Other networking concepts,191,FALSE,4202
+Telecommunications,Seed neighbourhood,Other networking concepts,244,TRUE,207473
+Telecommunications equipment,Seed neighbourhood,Other networking concepts,192,FALSE,18094
+Telecommunications link,Seed neighbourhood,Other networking concepts,192,FALSE,13227
+Telecommunications network,Seed neighbourhood,Other networking concepts,210,TRUE,33482
+Telegraphy,Seed neighbourhood,History & early telecom,192,FALSE,186316
+Telephone,Seed neighbourhood,Other networking concepts,200,TRUE,263860
+Telephone exchange,Seed neighbourhood,Other networking concepts,197,TRUE,57891
+Telephony,Seed neighbourhood,History & early telecom,33,FALSE,36189
+Teleprinter,Seed neighbourhood,History & early telecom,199,TRUE,98328
+Television broadcasting,Seed neighbourhood,Other networking concepts,189,FALSE,56619
+Telex,Seed neighbourhood,Other networking concepts,190,FALSE,93327
+Terabit Ethernet,Seed neighbourhood,Protocols & standards,12,FALSE,30186
+Terminal (telecommunication),Seed neighbourhood,Other networking concepts,189,FALSE,3468
+The Telephone Cases,Seed neighbourhood,History & early telecom,188,FALSE,4326
+Thomas A. Watson,Seed neighbourhood,People,188,FALSE,18461
+Thomas Edison,Seed neighbourhood,People,188,FALSE,1283947
+Throughput,Seed neighbourhood,Other networking concepts,23,FALSE,18964
+Tim Berners-Lee,Seed neighbourhood,People,199,TRUE,830846
+Time-division multiplexing,Seed neighbourhood,History & early telecom,206,TRUE,36518
+Tivadar Puskás,Seed neighbourhood,People,188,FALSE,5615
+Toasternet,Seed neighbourhood,History & early telecom,188,FALSE,2132
+Token Ring,Seed neighbourhood,Protocols & standards,51,FALSE,43347
+Transceiver,Seed neighbourhood,Wireless & mobile,33,FALSE,34422
+Transmission Control Protocol,Seed neighbourhood,Protocols & standards,147,FALSE,402364
+Transmission line,Seed neighbourhood,Hardware & transmission media,190,FALSE,57708
+Transmission medium,Seed neighbourhood,Hardware & transmission media,201,TRUE,25101
+Transport Layer Security,Seed neighbourhood,Security,79,FALSE,576408
+Twisted pair,Seed neighbourhood,Hardware & transmission media,30,FALSE,90870
+UCLA,Seed neighbourhood,Organizations & companies,13,FALSE,453442
+USB,Seed neighbourhood,Protocols & standards,60,FALSE,472956
+Ubiquitous computing,Seed neighbourhood,Other networking concepts,34,FALSE,29144
+United States Department of Defense,Seed neighbourhood,Organizations & companies,29,FALSE,1163848
+Usenet,Seed neighbourhood,History & early telecom,208,TRUE,275885
+Video coding format,Seed neighbourhood,Other networking concepts,191,FALSE,23918
+Video game,Seed neighbourhood,Software & computing,37,FALSE,889883
+Vint Cerf,Seed neighbourhood,People,209,TRUE,282732
+Virtual file system,Seed neighbourhood,Software & computing,14,FALSE,17491
+Virtual machine,Seed neighbourhood,Software & computing,33,FALSE,148019
+Virtual private network,Seed neighbourhood,Security,62,FALSE,391456
+Vladimir K. Zworykin,Seed neighbourhood,People,189,FALSE,20977
+Walter Houser Brattain,Seed neighbourhood,People,189,FALSE,23151
+Whistled language,Seed neighbourhood,History & early telecom,188,FALSE,30301
+Wi-Fi,Seed neighbourhood,Wireless & mobile,153,FALSE,797077
+Wide area network,Seed neighbourhood,Other networking concepts,233,TRUE,74818
+Wire,Seed neighbourhood,Hardware & transmission media,12,FALSE,52843
+Wireless,Seed neighbourhood,Wireless & mobile,247,TRUE,78745
+Wireless access point,Seed neighbourhood,Wireless & mobile,61,FALSE,53237
+Wireless router,Seed neighbourhood,Wireless & mobile,21,FALSE,22017
+Wireless sensor network,Seed neighbourhood,Wireless & mobile,52,FALSE,30183
+World Wide Web,Seed neighbourhood,Software & computing,74,FALSE,1628133
+X.25,Seed neighbourhood,History & early telecom,61,FALSE,27389
+X.75,Seed neighbourhood,History & early telecom,9,FALSE,1089
+Xerox PARC,Seed neighbourhood,Organizations & companies,16,FALSE,67096
+Yogen Dalal,Seed neighbourhood,People,194,FALSE,18951
