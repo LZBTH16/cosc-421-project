@@ -1,0 +1,952 @@
+article,subfield,domain,in_degree,betweenness,pagerank,views_12m,length,edits_12m
+Communication protocol,Network protocols,Protocols & standards,406,57353.15314438954,0.010624462124723824,98905,66604,54
+Protocol ossification,Network protocols,Protocols & standards,3,13.070529357454763,3.553314886959408e-4,10641,18863,5
+2BASE-TL,Network protocols,Protocols & standards,1,0,2.0365038817127249e-4,4997,23447,3
+Access stratum,Network protocols,Wireless & mobile,1,2.0083633257228843,1.9373177397509692e-4,678,2007,0
+Acknowledgement (data networks),Network protocols,Routing,12,144.52294563015863,5.600955968465433e-4,18215,6065,12
+Alternating bit protocol,Network protocols,Protocols & standards,2,5.668498411394982,2.4142569373300642e-4,1968,7411,13
+AMX192,Network protocols,Protocols & standards,1,0,2.2614001240492548e-4,916,2099,0
+Apple Filing Protocol,Network protocols,Protocols & standards,15,711.2594414614463,8.057986291513889e-4,15605,15247,15
+AppleTalk,Network protocols,Protocols & standards,32,3390.4046561603905,0.0010768989725427449,22478,49650,26
+ARCNET,Network protocols,Protocols & standards,12,206.41188374870848,5.120825000824103e-4,12699,16538,3
+ATA over Ethernet,Network protocols,Protocols & standards,3,10.523740209958515,2.528710289530298e-4,5602,11731,6
+ATM adaptation layer,Network protocols,Protocols & standards,5,606.3920231032888,3.302747737243756e-4,1087,4860,0
+ATM Adaptation Layer 2,Network protocols,Protocols & standards,3,30.452662768697284,2.501855876765801e-4,525,7413,0
+ATM Adaptation Layer 5,Network protocols,Protocols & standards,5,44.21984736852797,3.3310762702697084e-4,1068,6889,0
+Automatic switched-transport network,Network protocols,Protocols & standards,3,445.7367582622155,2.9659312874410327e-4,396,3702,0
+Automatically switched optical network,Network protocols,Protocols & standards,2,109.49477885272981,2.566067632933934e-4,1533,8275,2
+Autonegotiation,Network protocols,Protocols & standards,12,49.87126677386508,5.501957729595236e-4,21260,19010,4
+Available bit rate,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,249,2234,1
+BACnet,Network protocols,Protocols & standards,14,44.58865907881941,4.4805657720839816e-4,32092,10446,7
+Bandwidth allocation protocol,Network protocols,Protocols & standards,2,0.0875,2.339644329954984e-4,321,1260,0
+BatiBUS,Network protocols,Protocols & standards,14,123.11936641293136,4.506882581294635e-4,1067,2481,1
+Bearer-Independent Call Control,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,700,2378,1
+BEEP,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,2319,8425,1
+BIP-8,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,1144,1287,1
+Bolt (network protocol),Network protocols,Protocols & standards,0,0,1.876962102961037e-4,2758,11059,1
+Bonjour Sleep Proxy,Network protocols,Protocols & standards,3,3746.233404612675,2.765633476498766e-4,4893,9466,0
+BSSGP,Network protocols,Protocols & standards,2,0.6918406110797415,2.2922808280017781e-4,383,1562,0
+C-Bus (protocol),Network protocols,Protocols & standards,14,213.40719406978084,4.55989005596046e-4,4654,8802,3
+CANopen,Network protocols,Protocols & standards,15,1609.631769772012,4.651287377693761e-4,46072,23832,8
+CcTalk,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,3154,8637,0
+Cell relay,Network protocols,Protocols & standards,6,9.037000457496676,3.2546395365746014e-4,1072,4666,0
+CIMD,Network protocols,Wireless & mobile,2,0.9693918973353899,2.582798099239823e-4,693,2683,0
+Coloured Book protocols,Network protocols,History & early telecom,5,1.78177149046882,2.5525000448400366e-4,1761,12722,7
+Commercial Internet Protocol Security Option,Network protocols,Security,1,8.104751686736572,2.286452668423703e-4,393,1568,1
+Common Gateway Interface,Network protocols,Protocols & standards,4,22.914954744881186,3.7460170586658807e-4,70605,17146,9
+Common Industrial Protocol,Network protocols,Protocols & standards,14,94.57822159291554,4.4699320127476706e-4,8805,2090,0
+Connection-oriented communication,Network protocols,Protocols & standards,28,701.0359668383121,0.001095967791344722,6621,6276,2
+Connectionless communication,Network protocols,Protocols & standards,18,1059.1340421381246,8.078385992852185e-4,4601,5091,4
+Constrained Shortest Path First,Network protocols,Routing,6,0,3.5516048442583764e-4,3477,2397,0
+Constraint-based Routing Label Distribution Protocol,Network protocols,Routing,2,180.49792047392464,2.6995947324538673e-4,358,1561,0
+Content Vectoring Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,292,2120,0
+ControlNet,Network protocols,Protocols & standards,15,427.3447441182897,4.8046393248788344e-4,6151,4041,0
+CRC-based framing,Network protocols,Protocols & standards,1,0.7284228436123965,2.2585949764455986e-4,1162,6338,0
+Cyphal,Network protocols,Protocols & standards,15,86.13052139334646,4.681012135571604e-4,2511,15736,0
+D54 (protocol),Network protocols,Protocols & standards,1,0,2.2614001240483413e-4,757,6167,1
+Data Stream Interface,Network protocols,Protocols & standards,2,0.2672727272727273,2.5348611909674427e-4,493,7911,0
+DCE/RPC,Network protocols,Protocols & standards,1,24.611944507112142,3.1235366434136975e-4,7085,5176,0
+Decentralized autonomous organization,Network protocols,Security,1,0.5238095238095237,1.9932856048917908e-4,82919,26012,39
+DECnet,Network protocols,History & early telecom,19,2241.7523143759468,7.328830608093582e-4,6986,16997,3
+Delay-tolerant networking,Network protocols,Protocols & standards,16,1368.8215161206763,5.773314904829707e-4,13025,27795,10
+Deterministic Networking,Network protocols,Protocols & standards,2,1873.250978000967,2.317824432977482e-4,3113,8960,0
+Devices Profile for Web Services,Network protocols,Protocols & standards,2,16.452586965029553,2.845823410564835e-4,1597,6627,2
+Digital Audio Access Protocol,Network protocols,Protocols & standards,2,1860.4051436756106,2.596033464329704e-4,2883,7889,3
+Digital Data Communications Message Protocol,Network protocols,Protocols & standards,1,1.4445911960510018,2.1076845480305222e-4,670,2212,0
+Digital Media Access Protocol,Network protocols,Protocols & standards,1,0,0.00021921947379153554,415,2869,1
+Digital Private Network Signalling System,Network protocols,History & early telecom,0,0,1.876962102961037e-4,1731,8820,0
+Direct Client-to-Client,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,7543,20710,4
+Direct End to End Secure Chat Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,294,4143,0
+DirectAccess,Network protocols,Protocols & standards,4,931.5989538820661,3.0784835376726727e-4,4236,7076,1
+Discovery and Launch,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,2875,3322,0
+Distributed data flow,Network protocols,Protocols & standards,2,13.684392040317674,2.2549156762676086e-4,822,8952,1
+Distributed Overlay Virtual Ethernet,Network protocols,Protocols & standards,2,980.2120262109053,2.3599612005936827e-4,1026,6882,1
+Distributed Universal Number Discovery,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,445,3987,1
+DMX512,Network protocols,Protocols & standards,6,1034.154073783599,4.007450965373948e-4,53647,34965,16
+DNP3,Network protocols,Protocols & standards,34,5599.454298485216,8.836433232971868e-4,21438,8741,1
+Domain Name System,Network protocols,Organizations & companies,80,3234.937883119126,0.003068736358048985,456002,72805,119
+DREAM (protocol),Network protocols,Routing,0,0,1.876962102961037e-4,323,2566,0
+Dynamic Adaptive Streaming over HTTP,Network protocols,Protocols & standards,11,70.11438178485807,4.3805606497227136e-4,30244,31043,9
+Dynamic synchronous transfer mode,Network protocols,Protocols & standards,1,21.85503121338036,2.0394743262343353e-4,803,3708,1
+EMI (protocol),Network protocols,Wireless & mobile,2,9.179014934731434,2.74304469663788e-4,998,3769,0
+Encapsulation (networking),Network protocols,Protocols & standards,17,373.7736813392023,8.018694998771889e-4,12670,6058,3
+ERIPAX,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,281,933,0
+Ethernet Automatic Protection Switching,Network protocols,Protocols & standards,4,0.47289826392102946,2.5914155953771125e-4,1643,4520,2
+Ethernet over SDH,Network protocols,Protocols & standards,2,8.651678611242659,2.7827446432876875e-4,2198,4306,6
+European Home Systems Protocol,Network protocols,Protocols & standards,14,213.72646091616082,4.5598900559603624e-4,852,1203,0
+Fibre Channel over Ethernet,Network protocols,Protocols & standards,5,109.64596613013508,3.20508134135729e-4,5838,11303,1
+Financial Information eXchange,Network protocols,Routing,0,0,1.876962102961037e-4,29715,21069,22
+Factory Interface Network Service,Network protocols,Protocols & standards,14,30.562709276370448,4.469932012747603e-4,1100,923,0
+FlexRay,Network protocols,Protocols & standards,14,40.05851341374915,4.480565772083811e-4,18195,17189,0
+Forward-confirmed reverse DNS,Network protocols,Security,1,0,2.581942077106942e-4,7410,4076,4
+Frame Relay,Network protocols,Protocols & standards,41,3024.0963762614074,0.0012798294592408575,13495,23837,2
+FUDI,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,3055,2420,2
+G.9963,Network protocols,Protocols & standards,6,10.494483522385472,3.518591926715345e-4,470,2015,0
+G.9970,Network protocols,Protocols & standards,6,28.106258515910636,3.728915635414782e-4,247,1361,0
+G.9972,Network protocols,Protocols & standards,6,11.780653289737389,3.7023586325653885e-4,408,2506,0
+G.hn,Network protocols,Protocols & standards,44,1959.0542079839083,0.0010932342029930655,18354,32403,8
+Gemini (protocol),Network protocols,Protocols & standards,4,55.11617840447216,3.42782462546495e-4,69036,15250,24
+Generalized Multi-Protocol Label Switching,Network protocols,Protocols & standards,3,1032.6574120245411,2.925883337403301e-4,1295,3647,1
+GPRS Tunnelling Protocol,Network protocols,Wireless & mobile,4,2111.9976406962583,3.5457040640353183e-4,15464,16987,0
+GPSoverIP,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,550,13811,0
+Handshake (computing),Network protocols,Protocols & standards,9,229.5905740137974,4.526669744088215e-4,22838,8047,8
+Heartbeat (computing),Network protocols,Protocols & standards,0,0,1.876962102961037e-4,14369,10447,4
+High Efficiency Streaming Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,1146,4196,1
+Highway Addressable Remote Transducer Protocol,Network protocols,Protocols & standards,14,20.83092234314443,4.4581067957826155e-4,16585,7729,0
+Hop-by-hop transport,Network protocols,Protocols & standards,2,19.885647622681407,2.7366379712022974e-4,1971,2159,1
+HTTP Live Streaming,Network protocols,Protocols & standards,5,34.04770461139093,0.00032443942229074115,86421,44828,8
+HTTP Speed+Mobility,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,219,3969,0
+HTTP tunnel,Network protocols,Security,2,3.1479407732565097,2.9860508644131306e-4,14503,5239,3
+Hybrid Wireless Mesh Protocol,Network protocols,Wireless & mobile,0,0,1.876962102961037e-4,1971,2236,0
+HyperSCSI,Network protocols,Protocols & standards,3,3.6992517491718093,2.4799104415838656e-4,898,3532,0
+IBM Advanced Peer-to-Peer Networking,Network protocols,Protocols & standards,3,36.861663155021645,2.816532604355108e-4,638,5141,0
+IBM Advanced Program-to-Program Communication,Network protocols,Protocols & standards,4,107.05164101795413,3.312820558748736e-4,1204,4965,0
+IBM LU6.2,Network protocols,Protocols & standards,2,0,2.387368348484692e-4,921,4280,7
+IBM Network Control Program,Network protocols,Protocols & standards,2,47.794380656956534,2.6101882116855293e-4,744,3171,0
+Systems Network Architecture,Network protocols,Protocols & standards,16,4172.5465478233655,7.183498333669387e-4,7747,38247,8
+Identity Registration Protocol,Network protocols,Protocols & standards,1,535.8527642539437,2.4087680321333306e-4,469,3458,1
+IEC 60870-5,Network protocols,Protocols & standards,16,527.5768443933316,5.298281787860558e-4,18319,13992,2
+IEC/IEEE 61850-9-3,Network protocols,Protocols & standards,3,14.144640015249376,2.910178624790838e-4,2596,6810,1
+IF-MAP,Network protocols,Security,0,0,1.876962102961037e-4,691,5106,2
+IL (network protocol),Network protocols,Protocols & standards,0,0,1.876962102961037e-4,2138,3963,1
+Inter-server,Network protocols,Protocols & standards,1,2.0331702446842397,2.0265192126244533e-4,1779,3162,0
+Interface Message Processor,Network protocols,History & early telecom,18,222.0242564313914,8.963446997385732e-4,12683,21805,11
+International Network Working Group,Network protocols,Protocols & standards,18,118.59143889095186,6.184921301285879e-4,3219,30725,9
+Internet Fibre Channel Protocol,Network protocols,Protocols & standards,3,39.6001404497246,2.6862071335102323e-4,593,2252,0
+Internet Gateway Device Protocol,Network protocols,Protocols & standards,3,7.411233968791258,2.4385933503471354e-4,14027,8045,3
+Internet Protocol Device Control,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,359,1339,0
+Internet Protocol Options,Network protocols,Routing,1,8.6407191915937,2.4087680321333306e-4,5093,5276,4
+Internet Storage Name Service,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,1458,4843,2
+InterPlaNet,Network protocols,Protocols & standards,1,0,2.001914483801482e-4,1325,4238,0
+InterPlanetary File System,Network protocols,Security,11,132.655201652793,4.7955742015648055e-4,78097,18795,14
+IP-HTTPS,Network protocols,Protocols & standards,1,7.278502304912882,2.114844921781172e-4,473,1854,0
+ISO 11783,Network protocols,Protocols & standards,6,10.18079435492632,3.241074090503457e-4,8517,3868,0
+ISO/IEC JTC 1/SC 25,Network protocols,Protocols & standards,1,3.7282693402641867,2.1630560029477748e-4,916,16983,0
+IWARP,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,4533,8018,2
+JXTA,Network protocols,Protocols & standards,4,15.615211066610144,2.714186505613946e-4,1442,8110,1
+Kinetics Internet Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,319,728,0
+Label Distribution Protocol,Network protocols,Protocols & standards,2,599.8372466221348,2.3674060614040936e-4,4960,3952,1
+LANtastic,Network protocols,Protocols & standards,2,17.393453356389518,2.4703436542357663e-4,2582,7923,6
+LEDBAT,Network protocols,Protocols & standards,1,2.2773539608042728,2.2542946902039866e-4,1714,6863,0
+Lightweight protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,392,510,0
+Link Layer Topology Discovery,Network protocols,Protocols & standards,1,8.3922234144265,2.048114516806639e-4,2116,6193,0
+Link-Local Multicast Name Resolution,Network protocols,Routing,1,33.569056827312295,2.1565325656054983e-4,17042,4388,0
+Link-ZA,Network protocols,Wireless & mobile,0,0,1.876962102961037e-4,599,4253,0
+Live distributed object,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,627,17246,3
+Local Area Transport,Network protocols,History & early telecom,1,0.6392446633825943,2.1076845480305222e-4,1679,6483,1
+Local Peer Discovery,Network protocols,Protocols & standards,2,11.491616409967953,2.192298238840998e-4,3843,3827,0
+LocalTalk,Network protocols,Protocols & standards,6,248.7234041195042,3.4471853096720346e-4,6670,7359,3
+LocalTalk-to-Ethernet bridge,Network protocols,Protocols & standards,2,11.191503296534798,2.447355922968261e-4,1275,4301,1
+Lockstep protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,3616,2939,0
+LonTalk,Network protocols,Protocols & standards,14,34.873272898784606,4.4901795065435793e-4,2124,3364,0
+Master–slave (technology),Network protocols,Protocols & standards,9,65.79879955027799,4.686216770165025e-4,57127,17533,36
+Media Redundancy Protocol,Network protocols,Protocols & standards,3,12.575510032176451,2.3412959406562343e-4,7039,5834,0
+Media Transfer Protocol,Network protocols,Protocols & standards,5,56.60665130978404,3.477144233817654e-4,27991,20899,6
+Medium-dependent interface,Network protocols,Protocols & standards,12,53.88090395798826,5.846882439387202e-4,19076,9677,0
+Messaging pattern,Network protocols,Protocols & standards,1,928.6502398068121,2.312595471757844e-4,7769,11705,2
+Microcom Networking Protocol,Network protocols,Protocols & standards,4,46.55976492288,2.655827157330539e-4,1445,20708,1
+Microsoft Host Integration Server,Network protocols,Protocols & standards,3,18.571929235827223,2.7932209677270533e-4,1099,14617,1
+Microsoft RPC,Network protocols,Protocols & standards,2,9.803070626701626,2.933116565770966e-4,4806,3178,1
+Minimal Lower Layer Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,894,3356,7
+Miredo,Network protocols,Security,0,0,1.876962102961037e-4,842,2947,0
+Modbus,Network protocols,Protocols & standards,20,1816.3318762447068,7.676852394112515e-4,157872,39558,13
+Morse Micro,Network protocols,Organizations & companies,0,0,1.876962102961037e-4,3979,20916,4
+Motorola FLEX,Network protocols,Wireless & mobile,1,0.7380952380952381,2.016430507380183e-4,1537,3778,3
+MPLS-TP,Network protocols,Protocols & standards,1,5.563423309075253,2.273305203487495e-4,3461,12676,0
+MQTT,Network protocols,Protocols & standards,35,459.2136066819936,0.0012191803874162517,148623,24248,24
+Multi-Drop Bus / Internal Communication Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,6158,8799,4
+Multiple Spanning Tree Protocol,Network protocols,Protocols & standards,4,975.5966429427359,2.728329265579395e-4,11381,27249,10
+Multiwavelength optical networking,Network protocols,Protocols & standards,2,2.169365400261829,2.6391387992074245e-4,371,1670,0
+MyriaNed,Network protocols,Wireless & mobile,4,12.995000478459357,2.340174850892439e-4,719,12532,3
+NAT Port Mapping Protocol,Network protocols,Protocols & standards,3,9.998261573512579,2.3859841029411617e-4,12492,2203,2
+NAT traversal,Network protocols,Security,13,3806.814701453251,4.685690491331846e-4,28242,10398,11
+NDMP,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,2757,1309,1
+Netatalk,Network protocols,Protocols & standards,3,5.3567838659793345,2.794892757782782e-4,2668,16478,14
+NetBIOS,Network protocols,Protocols & standards,25,1300.1832359637501,8.088823866268481e-4,32199,25024,23
+NetBIOS over TCP/IP,Network protocols,Protocols & standards,2,10.073464242452225,2.39795431338944e-4,9606,12812,8
+NetWare Core Protocol,Network protocols,Protocols & standards,10,43.91371203433635,5.761695862747405e-4,2356,9337,1
+NetWare Link Services Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,355,1772,1
+Network Control Protocol (ARPANET),Network protocols,Protocols & standards,11,259.7047861734375,4.7757777980925295e-4,7339,13898,5
+Network Device Control Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,452,2157,0
+Network Direct Attached Storage,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,779,5475,2
+Next Steps in Signaling,Network protocols,Organizations & companies,1,30.044814726117064,2.2542946902037568e-4,340,3687,0
+Next-generation network,Network protocols,Protocols & standards,191,602.2362513456009,0.0027623561177650274,10220,8331,11
+NISO Circulation Interchange Protocol,Network protocols,Protocols & standards,1,0,3.172910689961389e-4,746,1952,4
+NMEA 0183,Network protocols,Wireless & mobile,0,0,1.876962102961037e-4,59383,15894,11
+Non-access stratum,Network protocols,Wireless & mobile,2,922.8272189289333,1.988185682491892e-4,3317,3308,0
+Non-broadcast multiple-access network,Network protocols,Protocols & standards,3,67.27440218538602,3.0276017193756126e-4,1611,2909,3
+NWLink,Network protocols,Protocols & standards,1,1.240157540833329,2.1757843821457388e-4,1099,4168,0
+OFTP,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,3415,6060,1
+ONVIF,Network protocols,Organizations & companies,1,0,2.0176871578203747e-4,26787,13082,5
+Open Control Architecture,Network protocols,Protocols & standards,2,9.381948408596982,2.2320664183387876e-4,2467,21581,2
+OpenFlow,Network protocols,Protocols & standards,1,7.6292183371554,2.066606452232308e-4,17775,14569,1
+OpenWire (binary protocol),Network protocols,Protocols & standards,0,0,1.876962102961037e-4,847,718,0
+Optical burst switching,Network protocols,Protocols & standards,2,3.180611305989738,2.2084269855901587e-4,1033,9500,2
+Optical mesh network,Network protocols,Protocols & standards,10,3472.4027847793877,4.6381263309521934e-4,3828,25674,2
+Overlay transport virtualization,Network protocols,Protocols & standards,1,0.2,1.9258881278513902e-4,521,832,0
+P-cycle protection,Network protocols,Protocols & standards,2,1164.9890649997958,2.214733548742745e-4,387,19194,0
+PFCP,Network protocols,Wireless & mobile,1,922.8872184008484,2.0079989922840668e-4,4204,13512,2
+Packet over SONET/SDH,Network protocols,Protocols & standards,9,4806.6641285108435,5.433049734731926e-4,1058,3021,0
+Packet switching,Network protocols,History & early telecom,243,8011.071344047264,0.004248793907786279,54803,95795,72
+Parallel Redundancy Protocol,Network protocols,Protocols & standards,5,69.19339321122392,3.3628568441603846e-4,11385,10675,0
+PAROLI,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,258,9835,0
+Path protection,Network protocols,Protocols & standards,1,0.5616140810013188,2.0412290771821726e-4,864,14057,2
+Peer Distributed Transfer Protocol,Network protocols,Protocols & standards,1,0.43823632538569424,2.2679608270684655e-4,329,716,0
+Peer Name Resolution Protocol,Network protocols,Protocols & standards,1,7.757713237598404,1.9734385598432612e-4,1466,6092,0
+Photuris (protocol),Network protocols,Protocols & standards,0,0,1.876962102961037e-4,399,886,0
+Picture Transfer Protocol,Network protocols,Protocols & standards,2,24.29112904793617,2.724182290665631e-4,8908,13049,1
+PL-3,Network protocols,Protocols & standards,4,63.87240457430465,3.552819605100997e-4,413,2565,0
+PL-4,Network protocols,Protocols & standards,3,4.071724652033923,3.085411247948287e-4,296,2616,0
+PME Aggregation Function,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,750,4723,0
+Port Control Protocol,Network protocols,Protocols & standards,3,116.97237149663746,2.559527092925613e-4,13135,23687,6
+Precision Time Protocol,Network protocols,Protocols & standards,55,6272.886060351765,0.0016907094521607018,103882,30014,11
+Precision Time Protocol Industry Profile,Network protocols,Protocols & standards,2,0,2.4873321579408486e-4,1540,9302,2
+Private IP,Network protocols,Protocols & standards,1,1.3603767987957969,2.3042520356291918e-4,1958,1403,2
+Proprietary protocol,Network protocols,Protocols & standards,23,444.23319395196614,9.389212770140212e-4,4978,5165,2
+Protected Streaming,Network protocols,Protocols & standards,1,0,2.0476918614935983e-4,1358,4837,0
+Protocol for Web Description Resources,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,438,1406,1
+Protocol implementation conformance statement,Network protocols,Protocols & standards,1,0,2.0320966958643286e-4,632,1636,0
+Protocol pipelining,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,1042,1574,1
+Protocol stack,Network protocols,Protocols & standards,40,1111.1023172749992,0.0014350239348719864,35597,7565,10
+Protocol Wars,Network protocols,History & early telecom,32,844.3912804590994,0.0011870814167648676,25920,125642,47
+Provider Backbone Bridge Traffic Engineering,Network protocols,Protocols & standards,20,1955.0315474078957,6.087396716237722e-4,2620,7344,1
+Proximity-1 Space Link Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,1271,2294,1
+Proxy Mobile IPv6,Network protocols,Wireless & mobile,2,0,2.176952095808626e-4,1171,1778,0
+PXE boot,Network protocols,Protocols & standards,12,227.68608877608585,6.558773487037286e-4,7222,19329,6
+RADIUS,Network protocols,Security,11,441.3230723835426,5.504612802702463e-4,58881,33812,11
+RANAP,Network protocols,Wireless & mobile,4,14.811088580859403,2.4583969094153633e-4,806,2171,1
+RDM (lighting),Network protocols,Protocols & standards,3,37.06031852188151,2.8891476680353037e-4,8409,12213,3
+Real-Time Messaging Protocol,Network protocols,Protocols & standards,5,2950.749732107951,3.213736631201455e-4,28777,33789,13
+Regenerative Satellite Mesh – A,Network protocols,Wireless & mobile,0,0,1.876962102961037e-4,363,9187,3
+RelayNet,Network protocols,Protocols & standards,2,99.23241552298228,3.0380159351768864e-4,928,3668,1
+Reliability (computer networking),Network protocols,Protocols & standards,23,796.7832398814628,0.0011123440579889352,4622,17640,3
+Reliable Internet Stream Transport,Network protocols,Protocols & standards,1,2.144456650184667,2.0476918614935983e-4,4512,4831,0
+Remote Audio Output Protocol,Network protocols,Protocols & standards,1,96.54123622960006,2.192194737915358e-4,3856,3588,4
+Request–response,Network protocols,Protocols & standards,8,2033.9410215942396,4.612588610791525e-4,10613,2355,1
+Resilient Ethernet Protocol,Network protocols,Protocols & standards,1,0.6507552418850691,2.0320966958643286e-4,1521,4466,0
+Retransmission (data networks),Network protocols,Protocols & standards,10,49.60159990992506,4.674056257691464e-4,4263,4224,2
+Ring latency,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,176,539,0
+RNSAP,Network protocols,Protocols & standards,1,0,1.9149482407590577e-4,266,3069,0
+Route reestablishment notification,Network protocols,Protocols & standards,1,0,2.0394743262340398e-4,159,556,0
+Router alert label,Network protocols,Routing,0,0,1.876962102961037e-4,505,1146,0
+Routing in delay-tolerant networking,Network protocols,Routing,1,7.326983776121706,2.0814336725069444e-4,1691,30173,6
+RP-570,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,396,1085,1
+Secure Socket Tunneling Protocol,Network protocols,Protocols & standards,4,49.4584307879989,3.062982655273202e-4,12052,8914,0
+Security service (telecommunication),Network protocols,Security,28,74.82421650676369,9.339293295541079e-4,2419,14876,1
+Segmentation and reassembly,Network protocols,Protocols & standards,3,370.59651126166403,2.7316084423446136e-4,811,2665,1
+Sensor Media Access Control,Network protocols,Protocols & standards,1,10.424956034362687,2.136379629386222e-4,643,8578,3
+Server Message Block,Network protocols,Protocols & standards,25,1716.4538578024938,0.001096710801017876,125056,64517,22
+Service Advertising Protocol,Network protocols,Protocols & standards,3,6.722920527876679,2.6728644373346283e-4,682,1764,1
+Session ID,Network protocols,Protocols & standards,1,1.880625458870773,2.0476918614935983e-4,12432,2951,6
+Short Message Peer-to-Peer,Network protocols,Wireless & mobile,15,2013.102049792563,5.971538778134965e-4,7971,21073,1
+Signaling protocol,Network protocols,Protocols & standards,2,0,2.7201241256789925e-4,6743,7751,5
+Signalling System No. 7,Network protocols,Protocols & standards,10,910.4523669549179,4.4553486012400927e-4,54267,33833,11
+Simple Common Gateway Interface,Network protocols,Protocols & standards,3,0,3.4312431782185986e-4,4445,8164,3
+Simple Gateway Monitoring Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,655,5440,0
+Simple Network Paging Protocol,Network protocols,Protocols & standards,2,93.28402826953216,2.873413473016328e-4,3554,2626,0
+Simple Sensor Interface protocol,Network protocols,Protocols & standards,13,6.697694136211861,5.034096183354707e-4,1125,5100,2
+Singulation,Network protocols,Wireless & mobile,0,0,1.876962102961037e-4,1059,5311,0
+Skypix,Network protocols,Protocols & standards,2,0,0.00023908195580088393,676,5136,2
+SNDCP,Network protocols,Wireless & mobile,0,0,1.876962102961037e-4,510,1698,0
+Sockets Direct Protocol,Network protocols,Protocols & standards,2,1.5613972285024915,2.3024068462988717e-4,981,3695,0
+Sorcerer's Apprentice syndrome,Network protocols,Protocols & standards,2,13.163814702775188,2.4407341475571199e-4,4121,5948,0
+Source-specific multicast,Network protocols,Routing,3,4.390978447707664,2.8543131810566865e-4,3861,3545,4
+Spanning Tree Protocol,Network protocols,Protocols & standards,38,5340.624579690563,0.0010768165860351577,102839,50131,8
+SPI-3,Network protocols,Protocols & standards,3,3.5142216392335817,2.985646804572891e-4,430,1671,0
+SPI-4.2,Network protocols,Protocols & standards,5,192.78785774043487,3.9303066881429317e-4,497,2170,2
+Protocol spoofing,Network protocols,Protocols & standards,2,7.711651550865551,2.256378672388981e-4,857,6166,1
+Standard Interchange Protocol,Network protocols,Protocols & standards,1,774,4.573936189428217e-4,2756,4808,0
+Stateless protocol,Network protocols,Protocols & standards,5,82.46660853816016,4.0434758838316445e-4,15243,4900,3
+Stimulus protocol,Network protocols,Protocols & standards,1,0.22916666666666666,1.9188753471452842e-4,316,2639,7
+Store and forward,Network protocols,Protocols & standards,199,1771.733398534418,0.002954877873414224,12355,6404,12
+Structured Stream Transport,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,872,627,0
+Stunnel,Network protocols,Security,8,685.2264279583193,6.001680947407242e-4,9544,4428,2
+Switch56,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,403,4328,9
+Synchronous Ethernet,Network protocols,Protocols & standards,11,72.6298230230127,5.472120007926067e-4,11570,9793,0
+Synchronous optical networking,Network protocols,Protocols & standards,51,5487.259795517099,0.0017585580059573866,22563,46079,5
+System Packet Interface,Network protocols,Protocols & standards,5,42.43109765457755,3.984233414291732e-4,613,5667,0
+T-MPLS,Network protocols,Protocols & standards,2,922.3820825211176,2.331430003096813e-4,285,5419,1
+TDM over IP,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,2032,15294,7
+Telecommunications Management Network,Network protocols,Protocols & standards,1,5.769392720397772,2.4748718249862896e-4,2469,4100,0
+Telehash,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,743,4709,0
+Telocator Alphanumeric Protocol,Network protocols,Wireless & mobile,1,0,2.0164305073798794e-4,1004,2590,0
+Terminal Identifier – Address Resolution Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,235,899,0
+Third Party Control Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,207,676,0
+Time-Sensitive Networking,Network protocols,Protocols & standards,24,9367.135687026986,7.727069429936358e-4,33648,63063,17
+TransferJet,Network protocols,Protocols & standards,3,930.5296447103816,2.6483087042388425e-4,1910,11036,1
+Transparent Network Substrate,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,2391,2080,0
+Transport Driver Interface,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,1091,2425,0
+Traversal Using Relays around NAT,Network protocols,Protocols & standards,1,2.523711317771554,2.1614504542203633e-4,44081,6397,0
+Triangular routing,Network protocols,Routing,1,0.4671105401977873,2.3232610229027866e-4,1712,4294,2
+Trillium Digital Systems,Network protocols,Organizations & companies,0,0,1.876962102961037e-4,1530,38424,5
+Trivial File Transfer Protocol,Network protocols,Protocols & standards,5,59.34746308140516,3.296732331238957e-4,40319,11876,24
+Tunnel Setup Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,1444,1715,0
+Tunneling protocol,Network protocols,Security,45,4339.595440625089,0.00158517115001472,37153,17818,13
+TV Network Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,456,4390,0
+TZSP,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,2495,6822,1
+UniPro,Network protocols,Wireless & mobile,1,32.42711239993208,2.1665825814118765e-4,4227,27404,0
+UniPro protocol stack,Network protocols,Protocols & standards,1,2.071551417920924,2.04437984788828e-4,2388,36015,4
+Universal Communication Format,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,239,1646,3
+User Location Service,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,197,1339,0
+UUCP,Network protocols,Protocols & standards,193,2857.597417839381,0.002773455981132343,22231,32222,10
+Variant object,Network protocols,Protocols & standards,1,1.3901613684961072,2.5897580769096716e-4,364,2472,0
+Verse protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,609,2258,0
+Virtual circuit,Network protocols,Protocols & standards,27,775.722459941592,8.076498433667852e-4,6886,15045,13
+Virtual Interface Adapter,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,376,2184,0
+Virtual leased line,Network protocols,Protocols & standards,2,19.771646488864103,2.3132619794909658e-4,1031,2220,7
+Virtual Link Aggregation Control Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,559,1499,0
+Virtual Link Trunking,Network protocols,Protocols & standards,1,0.2625,1.9263042279768253e-4,2039,5578,4
+Virtual Private LAN Service,Network protocols,Protocols & standards,4,1638.0115120166338,2.795329611293441e-4,10297,10487,1
+VLAN,Network protocols,Protocols & standards,42,2562.3784812397844,0.0012499534917923174,91052,20167,4
+VoFR,Network protocols,Protocols & standards,1,0,2.094533111031862e-4,374,979,1
+VT1.5,Network protocols,Protocols & standards,1,0.1843982866866162,2.4748718249862896e-4,531,1603,0
+Waffle (BBS software),Network protocols,Protocols & standards,0,0,1.876962102961037e-4,1124,1558,0
+WAN optimization,Network protocols,Protocols & standards,4,128.47366313128904,2.956411312990202e-4,2556,10472,6
+Web Application Messaging Protocol,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,2099,17203,1
+Web Services for Devices,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,4651,1701,2
+WebTorrent,Network protocols,Security,10,1348.2009194766858,4.242386541005778e-4,15170,11309,2
+Windows Rally,Network protocols,Protocols & standards,2,811.9612676934573,4.4298271818861803e-4,962,9171,0
+Worldwide Industrial Telemetry Standards,Network protocols,Protocols & standards,0,0,1.876962102961037e-4,585,6126,2
+X.PC,Network protocols,Protocols & standards,2,17.96823986983265,2.501312656141321e-4,551,1741,0
+Xcast,Network protocols,Protocols & standards,1,2.683739818812884,2.3692243015622087e-4,921,6353,1
+Xerox Network Systems,Network protocols,Protocols & standards,7,76.35413644241768,4.016014704958488e-4,5560,27606,1
+XOT,Network protocols,Protocols & standards,1,0.6294188816798216,2.2504845357271627e-4,903,1047,0
+Z-Wave,Network protocols,Security,23,2498.8961959904022,6.979982060769757e-4,42029,48225,15
+Zebra Media Access Control,Network protocols,Protocols & standards,1,5.696839456005436,2.1363796293865067e-4,256,3122,2
+ZeroNet,Network protocols,Security,10,67.80235377123199,4.4552083146213165e-4,12569,8080,10
+Routing protocol,Routing protocols,Routing,46,6735.480433438127,0.0021638426102887315,19043,6885,5
+Associativity-based routing,Routing protocols,Wireless & mobile,2,22.239837386286485,2.4141345221211422e-4,654,12224,5
+Babel (protocol),Routing protocols,Routing,9,777.0779161694827,4.615065505395577e-4,6043,6447,2
+Backhaul Adaptation Protocol,Routing protocols,Wireless & mobile,0,0,1.876962102961037e-4,346,2373,0
+Border Gateway Multicast Protocol,Routing protocols,Routing,5,58.58293853533569,3.4432075689396407e-4,678,1251,0
+Border Gateway Protocol,Routing protocols,Routing,58,3751.5603135356278,0.002211853769107197,137970,68801,65
+Collection Tree Protocol,Routing protocols,Routing,6,260.97016076685287,3.5516048442580246e-4,589,3190,2
+Diffusing update algorithm,Routing protocols,Routing,2,2.5512488108567526,2.2755969449267464e-4,2090,6631,0
+Distance Vector Multicast Routing Protocol,Routing protocols,Routing,10,62.734447258037925,4.764309255352473e-4,1274,2362,0
+Distance-vector routing protocol,Routing protocols,Routing,16,995.6152799451106,6.47470208319497e-4,14847,20168,2
+Enhanced Interior Gateway Routing Protocol,Routing protocols,Routing,15,847.7960023886064,6.696674386473485e-4,17460,25660,5
+EraMobile,Routing protocols,Wireless & mobile,0,0,1.876962102961037e-4,228,2665,0
+Exterior gateway protocol,Routing protocols,Routing,6,11.275137989693736,4.732634573401783e-4,4084,1629,0
+Exterior Gateway Protocol,Routing protocols,Routing,12,61.551449441848334,5.511950351202074e-4,5144,931,1
+Fuzzy routing,Routing protocols,Wireless & mobile,1,1.910249196064918,2.3357280164399647e-4,247,921,0
+Geographic routing,Routing protocols,Wireless & mobile,2,16.736475696668112,2.8116186986145976e-4,1628,7974,0
+Holddown,Routing protocols,Routing,2,1.2180071562639463,2.559592676504721e-4,724,1553,3
+Interior gateway protocol,Routing protocols,Routing,12,284.46757031016733,6.522508540279486e-4,9254,2323,3
+Interior Gateway Routing Protocol,Routing protocols,Routing,13,590.2657811050144,5.430110172107643e-4,2721,3066,0
+IPv6 Routing Protocol for Low-Power and Lossy Networks,Routing protocols,Routing,0,0,1.876962102961037e-4,2016,5388,2
+IS-IS,Routing protocols,Routing,37,1805.6313896134345,0.0012950511164002976,24065,23554,79
+Link-state routing protocol,Routing protocols,Routing,19,2803.5556521217295,7.401984468052062e-4,11756,14317,3
+Lollipop sequence numbering,Routing protocols,Routing,0,0,1.876962102961037e-4,804,1975,5
+Longest prefix match,Routing protocols,Routing,0,0,1.876962102961037e-4,8728,2027,0
+Multicast Source Discovery Protocol,Routing protocols,Routing,2,3.9139936769233232,2.2315466539054088e-4,1948,2246,0
+Narada multicast protocol,Routing protocols,Routing,1,3.9413196234450463,2.3692243015624456e-4,240,1364,1
+Next Hop Resolution Protocol,Routing protocols,Routing,0,0,1.876962102961037e-4,1957,4179,1
+Open Shortest Path First,Routing protocols,Routing,60,5498.412389762311,0.002126981743888439,66110,76114,18
+Optimized Link State Routing Protocol,Routing protocols,Wireless & mobile,15,540.4698772397712,6.958806405501871e-4,5443,11877,2
+Path-vector routing protocol,Routing protocols,Routing,3,2.2903859109433125,3.303978601679809e-4,6781,2687,2
+Private Network-to-Network Interface,Routing protocols,Routing,2,10.295944230993463,2.4568820208084136e-4,1171,3582,1
+Protocol-Independent Multicast,Routing protocols,Routing,7,377.8231295864689,4.367798762821003e-4,8610,12784,0
+Resource Public Key Infrastructure,Routing protocols,Security,2,6.918159316406871,2.5321688624173176e-4,10739,21077,15
+Route poisoning,Routing protocols,Routing,2,1.7467134762256715,2.555548987790272e-4,2155,2872,1
+Routing Information Protocol,Routing protocols,Routing,54,3994.6254916312823,0.0017958670988673401,31243,17440,5
+SCION (Internet architecture),Routing protocols,Routing,0,0,1.876962102961037e-4,12090,14804,23
+Split horizon route advertisement,Routing protocols,Routing,6,81.16148548358608,3.603211459867178e-4,4320,9780,2
+Tinc (protocol),Routing protocols,Routing,7,82.59860202676508,4.311089180900613e-4,4153,4632,2
+Vehicular Reactive Routing protocol,Routing protocols,Routing,1,2.06025641025641,2.0820612299423104e-4,529,5240,0
+Virtual Router Redundancy Protocol,Routing protocols,Routing,3,1406.286511913986,3.37810326792686e-4,26797,9467,6
+Virtual Switch Redundancy Protocol,Routing protocols,Routing,0,0,1.876962102961037e-4,428,1167,0
+Wireless network,Wireless networking,Wireless & mobile,236,20049.37350572429,0.004337361184066252,54168,32842,7
+2016 United States wireless spectrum auction,Wireless networking,Wireless & mobile,3,64.51810927657898,2.632627854596879e-4,6538,65119,5
+Ad hoc wireless distribution service,Wireless networking,Wireless & mobile,1,14.24740054291187,2.2316217990292454e-4,651,2057,0
+Air2Web,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,420,4534,2
+AirHop Communications,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,558,10624,2
+Augmented tree-based routing,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,195,1448,0
+Backhaul (telecommunications),Wireless networking,Wireless & mobile,16,1436.8559029605483,5.172278977424206e-4,21153,14303,1
+Barker code,Wireless networking,Wireless & mobile,5,119.79619200248686,4.7940954783812944e-4,21460,23156,18
+Base station,Wireless networking,Wireless & mobile,27,1444.3967064860892,8.684604678764556e-4,14574,19804,4
+Base transceiver station,Wireless networking,Wireless & mobile,7,17.39869459762215,2.7258730226100005e-4,19124,6026,3
+Body area network,Wireless networking,Wireless & mobile,17,187.91054606411092,5.462729032254598e-4,21006,22249,7
+Broadcast storm,Wireless networking,Security,4,89.15626870244837,3.2777064541357145e-4,14531,6413,0
+Buffalo AirStation,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,1945,13260,1
+Bureau 1440,Wireless networking,Wireless & mobile,5,294.44725482426674,4.013107044584405e-4,27974,32930,56
+Cambium Networks,Wireless networking,Organizations & companies,2,24.796306329386415,2.2000522967595496e-4,14551,19419,8
+Cantenna,Wireless networking,Wireless & mobile,1,0.05263157894736842,1.952192178498198e-4,21986,4922,5
+Carrier aggregation,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,7181,5635,1
+Castalia (simulator),Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,294,2887,0
+CCKM,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,1908,1366,0
+CCMP (cryptography),Wireless networking,Security,4,9.508040236526274,2.908633815206186e-4,10314,4740,1
+Cellular V2X,Wireless networking,Wireless & mobile,3,8.679880014941935,3.48093971370257e-4,6400,12421,21
+Certified wireless network administrator,Wireless networking,Wireless & mobile,2,10.462149111702463,2.211104270593798e-4,1150,5625,2
+Certified wireless network expert,Wireless networking,Wireless & mobile,2,334.31148218669256,2.5741213896465515e-4,820,2766,0
+Certified wireless security professional,Wireless networking,Security,1,0.06666666666666667,1.8898327099092291e-4,342,2153,0
+Cisco Valet routers,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,492,3300,0
+Cognitive radio,Wireless networking,Wireless & mobile,6,160.11825014963304,4.1518023075915985e-4,11792,36912,5
+Communication Linking Protocol,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,222,1263,1
+CommView,Wireless networking,Wireless & mobile,2,33.39028771186901,2.3693425202093066e-4,1171,4863,1
+Wireless configuration utility,Wireless networking,Wireless & mobile,2,928.2076257060052,2.2825530405488903e-4,413,7945,3
+Competitive Carriers Association,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,1052,6126,4
+Complementary code keying,Wireless networking,Wireless & mobile,3,11.50157408878849,3.1971859117674095e-4,2986,3908,0
+Contention free pollable,Wireless networking,Wireless & mobile,1,9.027087800349804,2.1048789297491627e-4,278,1409,0
+Contention-based protocol,Wireless networking,Wireless & mobile,2,19.46203148827387,2.5170406655847504e-4,1040,1611,1
+Continuous phase modulation,Wireless networking,Wireless & mobile,3,119.65980970592295,2.2455282626519837e-4,6411,6819,3
+Control and Provisioning of Wireless Access Points protocol,Wireless networking,Wireless & mobile,2,932.3401789174977,2.849127543884567e-4,5602,2512,0
+CTIA (organization),Wireless networking,Organizations & companies,6,1599.7406920104659,6.508801104835768e-4,17064,23113,5
+DataTAC,Wireless networking,Wireless & mobile,11,54.488267541405285,3.488891635241716e-4,3633,2843,0
+Decentralized physical infrastructure network,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,11273,6131,14
+Dedicated short-range communications,Wireless networking,Wireless & mobile,6,539.3851430385453,4.733085490912935e-4,7776,7673,0
+Detect and avoid,Wireless networking,Wireless & mobile,1,9.311396869427375,2.439727702611626e-4,520,1301,0
+Device-to-device,Wireless networking,Wireless & mobile,4,24.437961767962584,3.295851595427012e-4,4424,4275,4
+Direct-sequence spread spectrum,Wireless networking,Wireless & mobile,29,615.4703687051949,7.819601846728556e-4,26581,6154,3
+DiY networking,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,678,9696,3
+Dynamic frequency hopping,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,738,1657,0
+Dynamic single-frequency networks,Wireless networking,Wireless & mobile,1,15.656896378052956,2.275816549840257e-4,431,3800,0
+ExOR,Wireless networking,Wireless & mobile,2,285.7358272390908,2.862821298102464e-4,287,9578,9
+Expected transmission count,Wireless networking,Wireless & mobile,2,22.394922230693474,2.818478402822293e-4,695,2101,1
+Exposed node problem,Wireless networking,Wireless & mobile,4,0.09230567226890757,2.461786031319865e-4,2251,2405,0
+Extensible Authentication Protocol,Wireless networking,Security,13,1689.433425261235,5.824279099004458e-4,30289,35372,5
+Federated Wireless,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,2310,10967,5
+Fixed wireless,Wireless networking,Wireless & mobile,10,349.6182824251367,3.2719282886628157e-4,7425,4593,4
+Frame-bursting,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,903,3836,2
+Fronthaul,Wireless networking,Wireless & mobile,1,4600.181138795038,2.1034451724590673e-4,1725,3055,1
+Gi-Fi,Wireless networking,Wireless & mobile,2,115.97105001591676,2.3887792583409726e-4,1290,3041,0
+Gigabit wireless,Wireless networking,Wireless & mobile,1,1.6642142689254664,2.063428961293814e-4,1356,12882,2
+GloMoSim,Wireless networking,Wireless & mobile,1,7.655749808353347,2.6575558137842604e-4,1072,1166,0
+Andrea Goldsmith (engineer),Wireless networking,People,1,3.660365312279935,2.871481298585154e-4,12706,16459,16
+Wireless grid,Wireless networking,Wireless & mobile,1,191.24847161083227,2.0594748260526735e-4,367,11213,1
+Guowang,Wireless networking,Organizations & companies,5,16.279694446548618,4.3991844762733567e-4,32240,17548,78
+Handover keying,Wireless networking,Wireless & mobile,1,0.8298361498534257,2.0749875923271278e-4,172,484,1
+Hazy Sighted Link State Routing Protocol,Wireless networking,Wireless & mobile,2,928.8224586454079,2.4348862531918097e-4,663,9398,0
+Hidden node problem,Wireless networking,Wireless & mobile,7,117.58052026115654,3.58508789203467e-4,8986,9036,2
+High Performance Wireless Research and Education Network,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,596,4100,1
+High-capacity data radio,Wireless networking,Wireless & mobile,1,53.591528620777666,2.2931556974946463e-4,979,2080,0
+IEEE 802.11ad,Wireless networking,Wireless & mobile,22,1083.9431523222001,6.847744229501087e-4,9425,9270,1
+IEEE 802.11af,Wireless networking,Wireless & mobile,20,410.39598616843404,6.141101167463378e-4,5823,10785,8
+IEEE 802.11ay,Wireless networking,Wireless & mobile,19,1.9243506125474301,5.786083912605836e-4,7800,6966,0
+Ingenu,Wireless networking,Organizations & companies,2,0,2.471598621646599e-4,946,8568,3
+InSSIDer,Wireless networking,Security,2,10.68713184563983,2.6393766587343257e-4,6439,4312,2
+Intel PRO/Wireless,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,1527,4607,3
+Intelligent vehicular ad hoc network,Wireless networking,Wireless & mobile,2,22.496994499934097,2.7993569539701323e-4,551,5106,2
+Inter-working function,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,543,1416,0
+Wireless network interface controller,Wireless networking,Wireless & mobile,10,263.90904194581276,4.7093009483275265e-4,10757,7151,9
+International Journal of Wireless Information Networks,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,299,1853,0
+Intersymbol interference,Wireless networking,Wireless & mobile,4,41.128610841223285,3.133248605928463e-4,11813,10336,2
+IP over Avian Carriers,Wireless networking,Wireless & mobile,4,76.7623639114188,2.7932344823419883e-4,239672,15964,24
+IP-DECT,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,1258,3361,0
+KisMAC,Wireless networking,Wireless & mobile,8,741.7151018193515,4.629459028758769e-4,1915,4462,3
+Kismet (software),Wireless networking,Wireless & mobile,8,385.9493387298851,4.52744370990997e-4,12425,6104,4
+Legality of piggybacking,Wireless networking,Wireless & mobile,4,51.36227397834038,2.5369036275639176e-4,6112,31081,1
+Li-Fi,Wireless networking,Wireless & mobile,28,564.5338218121852,6.272863094904285e-4,56305,27086,49
+Ligado Networks,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,6369,37223,7
+Lightweight Extensible Authentication Protocol,Wireless networking,Security,4,10.163072140141196,2.988919096208645e-4,2082,2890,1
+Link Labs,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,679,5595,3
+Link margin,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,3034,4974,2
+Linksys,Wireless networking,Organizations & companies,4,492.3473736248152,2.8553014035490764e-4,33926,19538,16
+Local multipoint distribution service,Wireless networking,Wireless & mobile,10,37.568043336317736,0.00032313812319319924,1359,3714,1
+LoRa,Wireless networking,Wireless & mobile,8,151.80722327655002,4.0657098835677975e-4,286701,12197,51
+LoRaWAN,Wireless networking,Wireless & mobile,3,34.243342160986366,3.334373827352279e-4,24877,14030,16
+Low-power wide-area network,Wireless networking,Wireless & mobile,19,2086.2937066968175,8.050636397850351e-4,14150,8973,5
+Manhattan mobility model,Wireless networking,Wireless & mobile,1,0.14877061935885466,1.8952322023124316e-4,1030,2261,0
+Wireless distribution system,Wireless networking,Wireless & mobile,3,169.80638021034093,2.6908869010461544e-4,10684,9067,2
+Media-independent handover,Wireless networking,Wireless & mobile,2,28.44814364382732,2.314290428752685e-4,446,11455,3
+Microwave transmission,Wireless networking,Wireless & mobile,15,85.34394966732187,3.7815540426878633e-4,30239,29434,3
+Mioty,Wireless networking,Wireless & mobile,6,50.4521181953583,3.699715798677615e-4,2454,24386,15
+MMARP,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,214,2188,0
+Mobile communications over IP,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,469,1723,1
+Mobile QoS,Wireless networking,Wireless & mobile,1,0,2.2542946902037568e-4,939,5684,0
+Mobility model,Wireless networking,Wireless & mobile,3,3860.9974322431267,3.6970083393410774e-4,626,4791,0
+Mobolize,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,363,NA,0
+Monitor mode,Wireless networking,Wireless & mobile,3,536.9050693609673,2.726571201117799e-4,5259,5208,0
+MORE protocol,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,194,2972,0
+Multi-hop routing,Wireless networking,Wireless & mobile,4,23.376525153593345,3.235080980880191e-4,3748,2014,2
+Multicast-broadcast single-frequency network,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,675,7995,0
+National Broadband Plan (United States),Wireless networking,Wireless & mobile,4,57.23121519989826,3.0742526795165517e-4,2616,44908,0
+Navini Networks,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,617,10284,1
+NB-Fi,Wireless networking,Wireless & mobile,1,1.5331712835847577,2.2191141498694938e-4,841,3174,1
+Near-term digital radio,Wireless networking,Wireless & mobile,2,926.2188440804266,2.4481976149035847e-4,671,2552,0
+Negroponte switch,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,956,5000,2
+Net3,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,957,5387,4
+NetGenie,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,432,4909,3
+NetStumbler,Wireless networking,Security,7,671.8554440379988,4.857381231284255e-4,3005,2406,0
+Network detector,Wireless networking,Security,3,188.25651750801927,3.00223831458133e-4,651,2333,0
+Network enumeration,Wireless networking,Security,4,16.691835803718924,2.866961810614158e-4,2376,3082,0
+Networked flying platform,Wireless networking,Wireless & mobile,1,3674.6051146014242,2.0756208136932675e-4,234,5865,0
+NIMO (non-interfering multiple output),Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,246,1244,0
+Nomad (eSIM),Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,11810,9479,28
+Nomad Digital,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,2954,18027,1
+Nomadix,Wireless networking,Organizations & companies,1,1.3242934290195956,2.0272325933355065e-4,1866,12624,3
+ODMRP,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,260,1152,1
+Open spectrum,Wireless networking,Wireless & mobile,6,988.800258616153,3.298596150186586e-4,1546,4299,0
+OpenWireless.org,Wireless networking,Wireless & mobile,1,4.469745069745071,1.952192178498198e-4,926,6331,1
+Opportunistic mesh,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,225,3569,0
+Order One Network Protocol,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,541,5407,0
+Packet analyzer,Wireless networking,Wireless & mobile,17,4708.924064989407,8.285024248077596e-4,23197,14216,13
+Paradox Engineering,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,1062,7629,2
+Personal communications network,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,869,2020,1
+Piggybacking (Internet access),Wireless networking,Wireless & mobile,7,2835.279925295373,3.09770899270688e-4,3505,31765,4
+Point-to-multipoint communication,Wireless networking,Wireless & mobile,16,787.7853933486803,4.99141467406032e-4,7017,5222,1
+Policies promoting wireless broadband in the United States,Wireless networking,Wireless & mobile,3,93.6696890233279,2.97022665624542e-4,312,30025,7
+Private Shared Wireless Network,Wireless networking,Wireless & mobile,1,2.702436184787723,2.2437656369529808e-4,702,12289,2
+Qianfan,Wireless networking,Organizations & companies,6,491.30848864101654,4.5336373505523963e-4,33700,14236,44
+QualNet,Wireless networking,Wireless & mobile,1,0,1.8952322023124316e-4,1078,4784,0
+Radio Link Protocol,Wireless networking,Wireless & mobile,1,10.087009874961328,2.5552795538245134e-4,1395,5901,0
+Radio modem,Wireless networking,Wireless & mobile,3,67.17533667266801,2.2707492808321698e-4,1988,2155,0
+Ralink,Wireless networking,Organizations & companies,3,60.72000153510962,2.9262468880112633e-4,7817,4770,1
+Random waypoint model,Wireless networking,Wireless & mobile,2,773.0000000000002,3.4906499898293127e-4,875,4825,1
+Reconfigurability,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,571,2222,2
+Restricted random waypoint model,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,111,5648,1
+Rise over thermal,Wireless networking,Wireless & mobile,1,0.2569822373393802,2.030531133815736e-4,437,676,0
+Rogue access point,Wireless networking,Security,4,37.284300710408026,2.548246178483971e-4,8011,5499,1
+Wireless Router Application Platform,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,352,2187,1
+SecureEasySetup,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,328,1456,1
+Network encryption cracking,Wireless networking,Security,1,0,2.0311708508821347e-4,1003,4084,3
+Wireless security,Wireless networking,Security,14,6093.843835742724,8.163992537002063e-4,15656,55383,23
+Self-interference cancellation,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,1630,15697,0
+Semaphore Flag Signaling System,Wireless networking,History & early telecom,3,5.26238272675468,2.4842018960457337e-4,5214,1516,0
+Service set (802.11 network),Wireless networking,Wireless & mobile,19,377.8767639193159,7.010096089136771e-4,23388,17660,15
+Shared mesh,Wireless networking,Wireless & mobile,2,3.7602940838349923,2.3855177078804514e-4,458,2216,0
+Sierra Wireless,Wireless networking,Organizations & companies,1,132.35388091300484,2.6746709967194774e-4,7726,17229,3
+Sigfox,Wireless networking,Organizations & companies,4,11.950750192027758,2.769463012682678e-4,11413,11126,8
+Silver Spring Networks,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,3413,10806,2
+NetSpot,Wireless networking,Wireless & mobile,3,389.8678354896826,2.9988395085778685e-4,4151,5513,6
+TamoGraph Site Survey,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,699,5781,0
+Wireless site survey,Wireless networking,Wireless & mobile,4,58.37347293811707,2.9788759057769367e-4,2079,9008,2
+Smartphone ad hoc network,Wireless networking,Wireless & mobile,3,87.98658202468448,3.310075231573413e-4,4739,11450,1
+Solstar,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,1359,11892,1
+SpaceX Starshield,Wireless networking,Wireless & mobile,3,16.030080741902136,3.2020076549304767e-4,118911,29333,24
+Spatial capacity,Wireless networking,Wireless & mobile,1,6.027835000848337,2.156635443251016e-4,238,1949,1
+Spectral efficiency,Wireless networking,Wireless & mobile,21,3084.5919908447427,6.580549183295576e-4,16436,25801,8
+Spectrum commons theory,Wireless networking,Wireless & mobile,1,0.34183673469387754,2.437723448492728e-4,400,11166,1
+Starlink,Wireless networking,Organizations & companies,10,2368.4004912300784,5.372434606504137e-4,1148033,297226,412
+Streaming data,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,4187,22436,2
+Successive interference cancellation,Wireless networking,Wireless & mobile,1,2.9110690016262772,2.076389326400647e-4,1031,1140,2
+Switched mesh,Wireless networking,Wireless & mobile,3,7.196572977348206,2.470686839567974e-4,610,2536,0
+Temporal Key Integrity Protocol,Wireless networking,Security,5,54.374595881878264,3.240189871405445e-4,11538,13361,6
+Temporally ordered routing algorithm,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,728,6525,2
+Tethering,Wireless networking,Wireless & mobile,8,35.43693118362183,3.093593813850971e-4,24177,20287,5
+Thread (network protocol),Wireless networking,Wireless & mobile,9,133.58018014747654,3.9026329848214976e-4,90835,40007,43
+Topology dissemination based on reverse-path forwarding,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,374,2183,0
+TP-Link,Wireless networking,Organizations & companies,1,10.207985270299199,2.1048789297491627e-4,145735,19567,92
+Tp-Link Deco,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,1384,13171,42
+Traffic indication map,Wireless networking,Wireless & mobile,1,1.0802493416677,2.045915206485499e-4,2658,8507,1
+TRENDnet,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,6604,3609,3
+Twimight,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,609,NA,0
+Typhoid adware,Wireless networking,Security,1,9.87441658072463,2.041771821576785e-4,756,4470,0
+UAProf,Wireless networking,Wireless & mobile,1,34.29260456863678,2.738533054056619e-4,1268,4919,0
+UASAT,Wireless networking,Wireless & mobile,4,0,3.8842358525095246e-4,2836,7216,25
+UMTS,Wireless networking,Wireless & mobile,59,6980.04565499619,0.0013808144178632784,39072,73190,30
+Vehicular ad hoc network,Wireless networking,Wireless & mobile,19,1512.8714264500197,8.683008252042697e-4,5413,27422,7
+Vehicular communication systems,Wireless networking,Wireless & mobile,6,902.3795134569134,0.00048306896799599636,5984,24462,4
+Vehicle-to-device,Wireless networking,Wireless & mobile,1,0,2.3030346140688715e-4,682,2389,1
+Vehicle-to-everything,Wireless networking,Wireless & mobile,6,1474.6903588583866,5.513879555514513e-4,35575,42082,22
+Vertical handover,Wireless networking,Wireless & mobile,2,18.32316199661904,2.066208804246272e-4,673,4737,1
+Voice over WLAN,Wireless networking,Wireless & mobile,1,0,2.1048789297491627e-4,40925,27655,12
+Wardriving,Wireless networking,Security,10,6537.051893806461,5.715988403385581e-4,43933,15610,5
+Warshipping,Wireless networking,Security,1,1.765337634965405,2.1806239868908347e-4,1308,4041,1
+WaveLAN,Wireless networking,Wireless & mobile,5,328.9186983708147,3.3333642121633367e-4,4962,18907,2
+White space Internet,Wireless networking,Wireless & mobile,1,0.896565934065934,2.226943261611528e-4,176,4840,6
+White spaces (radio),Wireless networking,Wireless & mobile,5,1010.432366998691,3.705682856299818e-4,4131,40069,20
+Wi-Fi positioning system,Wireless networking,Wireless & mobile,3,393.1572182849398,2.2814690989907328e-4,28291,32091,10
+WiFi Explorer,Wireless networking,Wireless & mobile,2,8.004632222985915,2.6874688225530174e-4,2358,6124,2
+WiFi-Where,Wireless networking,Wireless & mobile,1,1.8530810458219853,2.1806239868908347e-4,719,4272,3
+Wireless Gigabit Alliance,Wireless networking,Wireless & mobile,2,0.3497326203208556,2.2484004796054317e-4,2948,14657,1
+WiGLE,Wireless networking,Wireless & mobile,3,39.26959550568064,2.532889595876855e-4,13425,18342,2
+Wired Equivalent Privacy,Wireless networking,Security,17,421.77260444680155,7.357820424030326e-4,34896,23701,12
+Wireless ad hoc network,Wireless networking,Wireless & mobile,53,10462.970761386901,0.002086233506283579,38868,54542,7
+Wireless application service provider,Wireless networking,Wireless & mobile,1,774,3.4723798904779177e-4,259,1164,2
+Wireless broadband,Wireless networking,Wireless & mobile,15,2534.874807085418,5.185743891749842e-4,8797,16412,3
+Wireless game adapter,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,560,2637,0
+Wireless HDMI,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,9016,16967,20
+Wireless Infrastructure Association,Wireless networking,Organizations & companies,0,0,1.876962102961037e-4,1158,37630,4
+Wireless Intelligent Network,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,437,2829,18
+Wireless Internet service provider,Wireless networking,Organizations & companies,10,1020.9215610873164,3.509964392147277e-4,9453,9457,5
+Wireless intrusion prevention system,Wireless networking,Security,4,957.5740473384362,2.5206192258879116e-4,4449,7862,3
+Wireless LAN,Wireless networking,Wireless & mobile,93,8203.74547136054,0.002689880190646864,64673,17968,20
+Wireless LAN controller,Wireless networking,Wireless & mobile,1,18.30526084147566,2.222927590432734e-4,4581,6047,15
+Wireless mobility management,Wireless networking,Wireless & mobile,1,4.151965133556092,2.0594748260526735e-4,655,1075,2
+Wireless Multimedia Extensions,Wireless networking,Wireless & mobile,2,18.203958182368087,2.2236426074013108e-4,6981,4311,1
+Wireless Network after Next,Wireless networking,Wireless & mobile,1,3.034821961451902,3.6868255980102233e-4,795,2725,0
+Wireless supplicant,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,783,736,0
+Wireless WAN,Wireless networking,Wireless & mobile,20,1190.3190702340025,6.04146997163711e-4,10072,2603,4
+Wireless Zero Configuration,Wireless networking,Wireless & mobile,1,24.49019497099974,2.362004624077676e-4,1696,3947,0
+Wirelesspt,Wireless networking,Wireless & mobile,0,0,1.876962102961037e-4,281,5150,5
+WSSUS model,Wireless networking,Wireless & mobile,1,0,2.127246534692148e-4,1042,2082,4
+WURFL,Wireless networking,Wireless & mobile,1,27.876403656073258,3.0408386509351e-4,1352,14010,2
+Xsupplicant,Wireless networking,Wireless & mobile,3,10.329169560000938,2.598683378315429e-4,554,3677,0
+Zero-rating,Wireless networking,Wireless & mobile,1,0,2.1463770050749026e-4,10042,26124,2
+ZHLS-GF,Wireless networking,Wireless & mobile,1,0.33316535371199785,2.4179227555330154e-4,850,1447,0
+Zone Routing Protocol,Wireless networking,Wireless & mobile,1,2.1482937795786943,2.2316217990290936e-4,1219,3987,0
+Computer network,Seed article,Other networking concepts,449,121691.6739498711,0.012721938746545935,364017,101383,94
+10BASE2,Seed neighbourhood,Protocols & standards,37,284.9151304989667,0.0011565533483688763,22839,9026,9
+10BASE5,Seed neighbourhood,Protocols & standards,36,160.3749110110057,0.001081061917420484,18814,8147,22
+ADSL,Seed neighbourhood,Protocols & standards,17,173.71456913594352,4.888024279748286e-4,41131,17053,3
+ALOHAnet,Seed neighbourhood,History & early telecom,20,2139.728482416944,6.494141450971838e-4,21839,34763,8
+API,Seed neighbourhood,Software & computing,38,1582.598050424841,0.0015659382401283489,460557,49953,39
+ARPANET,Seed neighbourhood,Organizations & companies,230,4348.127811587472,0.004490242115254414,271284,95609,54
+Address Resolution Protocol,Seed neighbourhood,Protocols & standards,56,5225.0021777380125,0.0017380509098003842,133065,21119,14
+Alexander Graham Bell,Seed neighbourhood,People,189,83.50453029800458,0.0026246552982279944,790172,148437,51
+Alexander Stepanovich Popov,Seed neighbourhood,People,190,0,0.0027506319266928786,12693,27759,14
+Alfred Vail,Seed neighbourhood,People,188,0,0.002609741118251085,19963,14906,13
+Algorithm,Seed neighbourhood,Software & computing,53,314.9837019523825,0.002054482830888449,412322,67105,84
+Almon Brown Strowger,Seed neighbourhood,People,188,0,0.002609741118251055,14424,10356,14
+Amos Dolbear,Seed neighbourhood,People,188,0,0.0026097411182510236,4314,14116,4
+Andrew S. Tanenbaum,Seed neighbourhood,People,14,1035.0882028518222,7.020135498527649e-4,76592,23150,12
+Antonio Meucci,Seed neighbourhood,People,188,0,0.0026097411182509933,125782,65140,18
+Application software,Seed neighbourhood,Software & computing,37,369.24146810193383,0.001482365856302173,201999,17924,107
+Artificial intelligence,Seed neighbourhood,Software & computing,44,817.1385545852223,0.002072362860587746,4213174,284681,502
+Asynchronous Transfer Mode,Seed neighbourhood,Protocols & standards,61,6376.728198931975,0.001751021419517401,34660,35498,8
+Audio coding format,Seed neighbourhood,Other networking concepts,190,173.79218734403938,0.0028165749884719333,17027,20821,3
+BITNET,Seed neighbourhood,History & early telecom,188,441.36189809552104,0.0026105056403386627,9596,8695,2
+Backbone network,Seed neighbourhood,Other networking concepts,37,618.2316539375927,9.343672629308861e-4,19052,15517,4
+Bandwidth (computing),Seed neighbourhood,Other networking concepts,228,5151.527472593956,0.004074718546964141,40183,12713,11
+Beacon,Seed neighbourhood,Other networking concepts,190,196.01673251368678,0.002718931494178466,44774,20730,14
+Bluetooth,Seed neighbourhood,Wireless & mobile,94,10599.07831975786,0.002380147960869285,744946,142303,62
+Bob Kahn,Seed neighbourhood,People,202,0,0.003058329703450468,31987,22768,12
+Booting,Seed neighbourhood,Other networking concepts,18,318.83843670058263,8.11289750467938e-4,60306,102910,25
+Broadcast domain,Seed neighbourhood,Other networking concepts,13,58.73716670787969,5.466828500576993e-4,9176,4914,2
+Bus network,Seed neighbourhood,Other networking concepts,9,16.266271298354745,3.914911771506959e-4,9626,1918,2
+CDMA2000,Seed neighbourhood,Wireless & mobile,21,578.6920603843182,5.707597084823669e-4,20301,11091,23
+CSMA/CA,Seed neighbourhood,Wireless & mobile,6,0,3.508516968226041e-4,16375,10102,3
+CYCLADES,Seed neighbourhood,History & early telecom,201,1507.3178452206946,0.0031171406292404436,10529,17707,3
+Cable Internet access,Seed neighbourhood,Hardware & transmission media,24,857.3477470652149,5.60209554815218e-4,10599,7800,0
+Cable protection system,Seed neighbourhood,Hardware & transmission media,188,30.624230117592056,0.0026098216943423744,2105,13806,1
+Cable television,Seed neighbourhood,Hardware & transmission media,196,954.2637109379677,0.002821567745675004,133439,26764,40
+Camille Tissot,Seed neighbourhood,People,188,0,0.0026097411182505062,1270,10835,4
+CdmaOne,Seed neighbourhood,Wireless & mobile,16,331.51585304882036,4.4818082850337746e-4,11763,13961,7
+Cellular network,Seed neighbourhood,Wireless & mobile,223,5459.732481950819,0.0036704091408499926,116072,49686,30
+Charles Bourseul,Seed neighbourhood,People,188,0,0.0026097411182504746,2394,3689,2
+Charles Grafton Page,Seed neighbourhood,People,188,0,0.002609741118250442,2874,40336,6
+Charles K. Kao,Seed neighbourhood,People,189,111.60503874153831,0.002625009577308253,42466,92305,27
+Charles Sumner Tainter,Seed neighbourhood,People,188,0,0.0026097411182503783,4230,12810,3
+Charles Wheatstone,Seed neighbourhood,People,188,0,0.002609741118250346,26400,48169,16
+Circuit switching,Seed neighbourhood,Protocols & standards,216,3679.6384232413734,0.0034591913122517274,18211,8757,2
+Claude Chappe,Seed neighbourhood,People,188,0,0.00260974111825028,11917,10617,3
+Claude Shannon,Seed neighbourhood,People,196,563.2675004077115,0.0030914139765357536,513695,85217,84
+Client (computing),Seed neighbourhood,Other networking concepts,30,839.9240678390124,0.0012742366888603418,38016,5246,11
+Cloud computing,Seed neighbourhood,Software & computing,33,1268.0884378528401,0.0012246109959146146,657379,73226,43
+Coaxial cable,Seed neighbourhood,Wireless & mobile,198,1326.8970881158111,0.0030422819642078706,180707,86013,33
+Code-division multiple access,Seed neighbourhood,Wireless & mobile,209,4876.176132170256,0.0032520500651648837,55351,36380,12
+Communications satellite,Seed neighbourhood,Wireless & mobile,200,6517.182784235106,0.0031220183378840465,82930,53408,26
+Computer,Seed neighbourhood,Other networking concepts,73,2568.9216907492564,0.0026069053483773028,1214552,140679,50
+Computer data storage,Seed neighbourhood,Other networking concepts,48,1088.90079286285,0.0016296801717625342,85991,49162,57
+Computer file,Seed neighbourhood,Software & computing,20,364.9010140737113,8.951193012901091e-4,66317,34129,32
+Computer hardware,Seed neighbourhood,Hardware & transmission media,63,868.0603366754868,0.0024824308639424322,247537,39774,68
+Computer science,Seed neighbourhood,Software & computing,59,1364.1522246819693,0.002366930331896285,461937,73297,38
+Computer security,Seed neighbourhood,Security,53,2760.0817354640253,0.0020832751293725226,271417,227662,153
+Computing,Seed neighbourhood,Other networking concepts,47,1243.864813331208,0.0017512317856841378,117844,52884,29
+Computing platform,Seed neighbourhood,Other networking concepts,39,409.8559769851452,0.0014949151824702937,112568,10332,15
+Confidentiality,Seed neighbourhood,Security,11,0,6.154259009501053e-4,29806,23814,0
+Cryptography,Seed neighbourhood,Security,49,403.62203944658086,0.0018235045297435805,291489,103985,52
+DARPA,Seed neighbourhood,Organizations & companies,37,3521.7748894207243,0.0031938767559724804,418855,150987,66
+DOCSIS,Seed neighbourhood,Protocols & standards,25,228.30353320618065,5.999192851604668e-4,60315,31991,6
+Daniel Davis Jr.,Seed neighbourhood,People,188,0,0.0026097411182502473,2039,1545,9
+Darknet,Seed neighbourhood,Software & computing,12,290.94998794657363,4.893642636420583e-4,297769,16969,13
+Data,Seed neighbourhood,Other networking concepts,26,64.96304633649852,0.0010936089004279072,237835,26332,99
+Data communication,Seed neighbourhood,Other networking concepts,233,8989.493419751958,0.004349253320164479,32080,21393,8
+Data compression,Seed neighbourhood,Software & computing,211,3447.983577326236,0.0039807869308136875,105694,77361,32
+Data integrity,Seed neighbourhood,Other networking concepts,17,62.92339599563397,9.606855944959601e-4,31047,17042,7
+Data link,Seed neighbourhood,Other networking concepts,14,480.3540051117249,5.821419928299823e-4,18381,2585,1
+Data link layer,Seed neighbourhood,Protocols & standards,86,4891.694528700893,0.0025072672372299055,80160,15843,8
+Database,Seed neighbourhood,Software & computing,54,1313.7994410892795,0.0026156646658191786,274899,78568,24
+Dawon Kahng,Seed neighbourhood,People,190,49.176020742252234,0.002682030209368049,10730,14214,5
+Denial-of-service attack,Seed neighbourhood,Security,27,638.0033232083473,0.0013224471371444029,244475,117839,68
+Device driver,Seed neighbourhood,Other networking concepts,21,713.7422686243061,0.0011094945780337887,62643,30420,34
+Device file,Seed neighbourhood,Software & computing,19,560.9505858199262,9.88713823655049e-4,24514,38575,13
+DiffServ,Seed neighbourhood,Protocols & standards,6,0,3.1696096582619227e-4,34805,21452,10
+Digital AMPS,Seed neighbourhood,Other networking concepts,14,77.39170272169433,3.8802959163736044e-4,9219,18356,4
+Digital Enhanced Cordless Telecommunications,Seed neighbourhood,Wireless & mobile,16,0,4.752882206004642e-4,29317,53988,9
+Digital data,Seed neighbourhood,Other networking concepts,41,839.8110166236743,0.0014487438057189537,53297,45695,38
+Digital media,Seed neighbourhood,Other networking concepts,193,321.37615195233417,0.0029487229992850817,86195,66350,27
+Digital subscriber line,Seed neighbourhood,Hardware & transmission media,57,2971.6726055957247,0.0012188607594881158,71854,37389,11
+Digital television,Seed neighbourhood,Other networking concepts,196,506.75264833968043,0.0028884603266632865,61479,37109,72
+Discrete cosine transform,Seed neighbourhood,Other networking concepts,189,340.814136161322,0.0027558825813366735,93909,103886,33
+Distributed computing,Seed neighbourhood,Software & computing,47,1338.9478401993777,0.0015725307450481915,83763,58398,10
+Distributed hash table,Seed neighbourhood,Other networking concepts,15,1023.85528537061,5.385047742155012e-4,46922,36851,8
+Donald Davies,Seed neighbourhood,People,200,952.9756095786332,0.0029576235790150845,14742,56398,26
+Drums in communication,Seed neighbourhood,History & early telecom,188,0,0.002609741118249913,6658,11015,8
+Dynamic Host Configuration Protocol,Seed neighbourhood,Protocols & standards,60,2319.658676894619,0.0019201131203843743,206270,59023,18
+Edholm's law,Seed neighbourhood,Hardware & transmission media,188,972.6588748904325,0.00261057733725049,4910,11810,5
+Edwin Howard Armstrong,Seed neighbourhood,People,188,3.334690256647987,0.0026098216943416523,35389,67114,39
+Electrical telegraph,Seed neighbourhood,History & early telecom,189,43.44339481936513,0.0026506603220486174,184812,76830,27
+Electronic Frontier Foundation,Seed neighbourhood,Organizations & companies,20,811.8335218631155,0.0011715604929203656,109451,46356,78
+Elisha Gray,Seed neighbourhood,People,188,0,0.0026097411182498466,47445,28953,18
+Email,Seed neighbourhood,History & early telecom,52,580.7855183025996,0.0019699614349574157,1004308,85259,24
+Embedded system,Seed neighbourhood,Other networking concepts,49,1248.9949330911193,0.0016551056497402846,152295,43260,33
+Emile Berliner,Seed neighbourhood,People,188,0,0.0026097411182498128,39921,19012,27
+Encrypting,Seed neighbourhood,Security,4,0,0.00031454900668994625,144393,40751,67
+End-to-end encryption,Seed neighbourhood,Security,14,177.4101073770099,6.761850445904409e-4,93051,49998,42
+End-to-end principle,Seed neighbourhood,Software & computing,25,378.07889169397515,0.0010854319560410254,30229,36502,12
+Enterprise software,Seed neighbourhood,Software & computing,33,23.67661797076085,0.0011039746274987845,43095,9804,6
+Erna Schneider Hoover,Seed neighbourhood,People,188,28.748490721019085,0.002609821694341551,11908,14935,9
+Ethernet,Seed neighbourhood,Protocols & standards,330,32718.386014532633,0.006567125101792202,254421,68533,198
+Ethernet frame,Seed neighbourhood,Protocols & standards,26,838.4974524355266,0.0010428879726726101,162807,26506,16
+Ethernet hub,Seed neighbourhood,Protocols & standards,22,170.47638089175993,7.632632898745647e-4,22365,11392,11
+Ethernet over coax,Seed neighbourhood,Protocols & standards,17,306.8165204219202,6.868966634266577e-4,10271,4362,6
+Evolution-Data Optimized,Seed neighbourhood,Wireless & mobile,31,455.71234513703786,6.235143902891296e-4,7930,25133,19
+Facebook,Seed neighbourhood,Organizations & companies,22,1048.84537147902,0.0011917943366387327,6940483,276414,79
+Fault tolerance,Seed neighbourhood,Software & computing,44,116.31335986905653,0.001497932496651826,28683,37925,8
+Fax,Seed neighbourhood,Protocols & standards,190,1169.8228504656252,0.002670653214756714,209682,55179,26
+Fiber Distributed Data Interface,Seed neighbourhood,Protocols & standards,27,615.1114462006509,8.528701796656513e-4,9181,9973,0
+Fiber-optic cable,Seed neighbourhood,Hardware & transmission media,20,611.4130349978125,5.831308363572316e-4,108624,40922,37
+Fiber-optic communication,Seed neighbourhood,Hardware & transmission media,192,896.8968755126787,0.002725497085071212,78886,95897,87
+FidoNet,Seed neighbourhood,Software & computing,195,3155.729521844242,0.002950271173028474,34384,54105,18
+File attribute,Seed neighbourhood,Software & computing,16,163.9449698799429,8.117800478752044e-4,10127,17816,2
+File server,Seed neighbourhood,Software & computing,14,215.07577869067893,5.814916569539961e-4,12998,6934,4
+File system,Seed neighbourhood,Software & computing,36,1007.5887799235517,0.0016108258182391025,96347,79448,56
+Firewall (computing),Seed neighbourhood,Security,34,772.2845450201954,0.0013442417395287455,94720,27391,22
+Frame (networking),Seed neighbourhood,Protocols & standards,33,320.16895654738,0.0010111074687696587,16188,4109,4
+Francis Blake (inventor),Seed neighbourhood,People,188,0,0.002609741118249678,1370,5411,1
+Free-space optical communication,Seed neighbourhood,Wireless & mobile,195,2099.665308077703,0.002804838160135966,34916,37631,5
+Frequency-division multiplexing,Seed neighbourhood,History & early telecom,197,448.6530894769583,0.0028365499044684214,18179,9567,3
+Friend-to-friend,Seed neighbourhood,Security,11,13.182082384432249,4.4393683453388907e-4,10218,4649,5
+Gardiner Greene Hubbard,Seed neighbourhood,People,188,0,0.00260974111824961,18938,28837,10
+General Packet Radio Service,Seed neighbourhood,Wireless & mobile,36,0,7.41652400055221e-4,54202,28412,12
+General Services Administration,Seed neighbourhood,Organizations & companies,22,8.144990217600846,9.031213489813764e-4,82915,70624,30
+Global System for Mobile Communications,Seed neighbourhood,Wireless & mobile,7,0,3.1700714038539115e-4,226388,41406,54
+Goodput,Seed neighbourhood,Other networking concepts,8,110.44497711320868,4.006643460985928e-4,12774,4484,9
+Guglielmo Marconi,Seed neighbourhood,People,190,923.9710946989402,0.002825767416629679,286686,81718,130
+HTTP,Seed neighbourhood,Protocols & standards,105,9407.51533825558,0.0037736257444360715,591522,59277,229
+HTTPS,Seed neighbourhood,Security,58,2773.6877644786955,0.00198257529122131,528645,44875,92
+Harold Hopkins (physicist),Seed neighbourhood,People,188,0,0.0026097411182495413,6262,20011,56
+Header (computing),Seed neighbourhood,Other networking concepts,20,117.1206404071733,0.0010166838278963769,13491,2187,5
+Hedy Lamarr,Seed neighbourhood,People,188,157.4926055901266,0.002609901310336635,1402611,89933,118
+Heliograph,Seed neighbourhood,History & early telecom,188,0,0.0026097411182494728,38061,33447,9
+Henry Sutton (inventor),Seed neighbourhood,People,188,3.334690256647987,0.0026098216943412104,4033,31811,8
+History of broadcasting,Seed neighbourhood,History & early telecom,188,30.050454526589455,0.002609901310336531,16451,63728,18
+History of mobile phones,Seed neighbourhood,History & early telecom,195,2845.5469667074094,0.0027252469090532842,162494,72375,27
+History of prepaid mobile phones,Seed neighbourhood,History & early telecom,188,0,0.0026097411182493075,3664,8711,0
+History of radio,Seed neighbourhood,History & early telecom,188,97.90224521441472,0.002610134566329817,90951,79773,33
+History of telecommunication,Seed neighbourhood,History & early telecom,188,451.56233373358947,0.002610923993886275,20257,51299,9
+History of television,Seed neighbourhood,History & early telecom,188,243.6307879168854,0.002610134566330659,262379,182329,50
+History of the Internet,Seed neighbourhood,History & early telecom,208,6833.392225598843,0.003488258735648124,471039,211485,58
+History of the telephone,Seed neighbourhood,History & early telecom,188,262.43099752777994,0.002610359772073179,153585,58689,31
+History of the transistor,Seed neighbourhood,History & early telecom,189,169.1005145732426,0.002645285141579307,78744,69282,16
+History of videotelephony,Seed neighbourhood,History & early telecom,188,102.07642283391483,0.0026100577298690908,23932,63949,30
+Home network,Seed neighbourhood,Wireless & mobile,28,1382.0285214708829,8.859020797358031e-4,11813,10958,8
+Host (network),Seed neighbourhood,Hardware & transmission media,36,318.68587268665004,0.0013899747532364628,25460,4606,5
+Hostname,Seed neighbourhood,Other networking concepts,12,10.726152203925125,6.093872100528167e-4,60311,8796,13
+Hydraulic telegraph,Seed neighbourhood,History & early telecom,188,0,0.002609741118249105,9306,10472,1
+IEEE 802,Seed neighbourhood,Protocols & standards,47,3293.8985100382547,0.0013159873582520296,48634,8101,21
+IEEE 802.11,Seed neighbourhood,Wireless & mobile,95,11154.11064210681,0.0026484269641005673,278855,88559,39
+IEEE 802.1D,Seed neighbourhood,Protocols & standards,21,559.7134838191,6.4869154009392e-4,6385,2774,0
+IEEE 802.1Q,Seed neighbourhood,Protocols & standards,32,1144.3472630848305,9.397641464255031e-4,107323,9628,6
+IEEE 802.1X,Seed neighbourhood,Security,27,1360.2296313591426,7.738429578363422e-4,70888,26059,8
+IEEE 802.3,Seed neighbourhood,Protocols & standards,47,2642.04544518043,0.0014251628102435214,87299,21434,27
+IP address,Seed neighbourhood,Protocols & standards,75,1854.0936112840463,0.0026895086546836868,646144,36324,36
+IP multicast,Seed neighbourhood,Routing,12,3108.440248178213,5.764282355543298e-4,23362,34703,11
+IPv6,Seed neighbourhood,Protocols & standards,88,3826.236941530083,0.0027828050302270845,257341,63306,102
+ISO/IEC 11801,Seed neighbourhood,Protocols & standards,13,1241.5223760015074,4.7121348233109797e-4,42761,15337,6
+ITU,Seed neighbourhood,Organizations & companies,14,0,7.296888308046836e-4,107886,47330,29
+ITU-T,Seed neighbourhood,Organizations & companies,66,2986.477985609488,0.0019017916054277992,25610,26224,12
+Image compression,Seed neighbourhood,Other networking concepts,214,1209.223507081947,0.003457710810400818,31501,20199,13
+Information Age,Seed neighbourhood,Other networking concepts,194,2674.2929543193027,0.002931385285541575,172979,110073,65
+Innocenzo Manzetti,Seed neighbourhood,People,188,0,0.0026097411182489883,4403,7923,7
+Inode,Seed neighbourhood,Software & computing,15,122.71681677944,7.987079670283649e-4,54640,21419,6
+Instant messaging,Seed neighbourhood,Software & computing,31,522.7491080190067,0.0012622903801463791,166603,68795,29
+Institute of Electrical and Electronics Engineers,Seed neighbourhood,People,128,0,0.00405934050992417,172612,27090,23
+IntServ,Seed neighbourhood,Protocols & standards,5,0,2.792277071018972e-4,2136,6373,0
+Integrated Services Digital Network,Seed neighbourhood,Protocols & standards,196,0,0.0028166702779866596,42184,54090,28
+Integrated circuit,Seed neighbourhood,Hardware & transmission media,64,1951.8349025843818,0.0019503568256963187,297230,84424,41
+Integrated development environment,Seed neighbourhood,Software & computing,31,253.35466705854785,0.0010486974050984558,162307,16514,54
+Internet,Seed neighbourhood,History & early telecom,311,26631.08052373279,0.007607009000873244,1586072,143242,77
+Internet Assigned Numbers Authority,Seed neighbourhood,Organizations & companies,31,578.2882034813384,0.0017219049381196594,103622,40058,27
+Internet Engineering Task Force,Seed neighbourhood,Organizations & companies,140,3291.2855990152348,0.005047917086604288,143803,34832,64
+Internet Protocol,Seed neighbourhood,Protocols & standards,171,7727.3304979922,0.005093881851132277,198833,22117,34
+Internet backbone,Seed neighbourhood,Other networking concepts,11,44.17889143071739,4.786616277576435e-4,39954,16412,4
+Internet of things,Seed neighbourhood,Other networking concepts,45,8954.012927290827,0.0021089879407278416,388424,227337,101
+Internet protocol suite,Seed neighbourhood,History & early telecom,147,9209.717075425577,0.004811834032552336,243183,64493,56
+Internet service provider,Seed neighbourhood,Organizations & companies,61,6218.74882462313,0.0021702507690656817,141901,61822,55
+Internet video,Seed neighbourhood,Other networking concepts,189,41.768096668520435,0.0027549250077902794,24243,9861,18
+Internet2,Seed neighbourhood,Organizations & companies,191,175.3655010247472,0.0026876798962677012,24290,17882,6
+Internetworking,Seed neighbourhood,Other networking concepts,35,669.1318716549102,0.0011670929116883934,21953,16315,21
+Interplanetary Internet,Seed neighbourhood,Other networking concepts,20,1377.8419058106463,6.027114840539111e-4,19639,31240,9
+Intranet,Seed neighbourhood,Security,12,88.15144758451304,5.495950293856424e-4,122404,17560,17
+JANET,Seed neighbourhood,Organizations & companies,191,638.4061447320797,0.0026652444251591516,12348,20307,3
+Jagadish Chandra Bose,Seed neighbourhood,People,188,152.69555203822637,0.002609979983293057,186808,58180,65
+Johann Philipp Reis,Seed neighbourhood,People,188,0,0.0026097411182486826,11448,24560,4
+John Bardeen,Seed neighbourhood,People,191,114.34503283571071,0.002684611083941657,126585,53624,40
+John Logie Baird,Seed neighbourhood,People,188,30.050454526589455,0.002609901310335737,188388,36181,52
+Journaling file system,Seed neighbourhood,Software & computing,14,194.54060066452567,7.56563640075657e-4,31912,13411,3
+Jun-ichi Nishizawa,Seed neighbourhood,People,188,3.334690256647987,0.002609821694340345,3914,9388,3
+Kernel (operating system),Seed neighbourhood,Software & computing,22,514.9067964849075,0.001058207989646855,278125,87864,34
+Last mile (telecommunications),Seed neighbourhood,Other networking concepts,13,346.2501181631445,3.934221061961774e-4,10557,27249,10
+Leased line,Seed neighbourhood,Other networking concepts,17,209.71826393410856,4.80278808662095e-4,13565,11214,4
+Lee de Forest,Seed neighbourhood,People,188,3.334690256647987,0.0026098216943402715,34351,70535,24
+Leonard Kleinrock,Seed neighbourhood,People,20,1098.6113290573983,5.657241990568269e-4,20408,47494,14
+Library (computing),Seed neighbourhood,Software & computing,38,605.7450611215522,0.00133456643212222,48651,23726,13
+Line-of-sight propagation,Seed neighbourhood,Wireless & mobile,19,29.30176512119567,5.797213395493663e-4,28803,13727,3
+Local area network,Seed neighbourhood,Other networking concepts,296,19514.048080090874,0.005905585738257057,140118,30762,36
+Louis Pouzin,Seed neighbourhood,People,23,48.75107170229261,6.822351251653399e-4,6569,14698,4
+MAC address,Seed neighbourhood,Other networking concepts,62,6170.619297166696,0.0018136395078570324,232133,32551,47
+MOSFET,Seed neighbourhood,Hardware & transmission media,199,353.6809436359671,0.003008074675693145,292535,103339,27
+Machine learning,Seed neighbourhood,Software & computing,42,720.6779493238157,0.0018337053387213747,834241,146373,144
+Mass media,Seed neighbourhood,Other networking concepts,189,290.235540632234,0.0026296107823490524,221239,48697,51
+Maximum transmission unit,Seed neighbourhood,Other networking concepts,16,456.18369838465026,8.54100029226784e-4,66816,17657,2
+Mesh network,Seed neighbourhood,Other networking concepts,17,0,5.665429396323467e-4,87143,6650,7
+Metrics (networking),Seed neighbourhood,Other networking concepts,12,166.55186958720392,6.502586122076267e-4,5122,4216,0
+Metropolitan area network,Seed neighbourhood,Other networking concepts,24,153.0889690497778,6.685550045019234e-4,22465,14895,3
+Microwave,Seed neighbourhood,Wireless & mobile,34,1192.4313653375148,9.870813516431446e-4,195925,73896,11
+Middleware,Seed neighbourhood,Other networking concepts,33,276.4599338987538,0.001244761613731735,54391,11720,10
+Mobile computing,Seed neighbourhood,Wireless & mobile,41,589.1597891787977,0.0012446062313607085,19692,26309,14
+Mobile telephony,Seed neighbourhood,Wireless & mobile,198,1723.0631082955395,0.002815556936859467,27553,66684,15
+Modem,Seed neighbourhood,Protocols & standards,60,3860.0957837492774,0.0015140106259287026,132505,72936,55
+Mohamed M. Atalla,Seed neighbourhood,People,190,246.7272654658691,0.002682425090823113,19640,52810,24
+Molecular communication,Seed neighbourhood,Other networking concepts,188,13.665770235061887,0.002609821694340047,2134,3126,2
+Multicast,Seed neighbourhood,Routing,48,5367.783223958404,0.0016794827952283356,48383,14167,5
+Multipath routing,Seed neighbourhood,Routing,7,74.15657861552955,4.331101747091606e-4,1999,7597,10
+Multiplexing,Seed neighbourhood,Wireless & mobile,207,2566.318590383426,0.003301076937276047,58520,23121,4
+Municipal wireless network,Seed neighbourhood,Organizations & companies,30,1770.1779987963905,6.731179323933121e-4,7247,112703,19
+NPL network,Seed neighbourhood,History & early telecom,200,1928.0751550781074,0.0029664972289054174,7494,60836,18
+Narinder Singh Kapany,Seed neighbourhood,People,188,0,0.0026097411182482,76224,29386,21
+Nasir Ahmed (engineer),Seed neighbourhood,People,189,231.56060963367005,0.0027553403439885874,14192,21743,7
+National Physical Laboratory (United Kingdom),Seed neighbourhood,Organizations & companies,18,40.341864418346184,6.04356619748733e-4,23909,51607,25
+National Science Foundation,Seed neighbourhood,Organizations & companies,21,140.72070932457032,8.079313502720707e-4,96816,79742,35
+Near-field communication,Seed neighbourhood,Wireless & mobile,27,1050.4889731484884,7.954916455372644e-4,168853,86137,42
+Network address,Seed neighbourhood,Other networking concepts,27,126.21582951442306,0.0010340648474506389,22678,2325,13
+Network administrator,Seed neighbourhood,Other networking concepts,13,47.64918566298217,7.589219106978412e-4,13571,5032,16
+Network architecture,Seed neighbourhood,Other networking concepts,38,1955.7293040404008,0.0013158006082550147,9821,3346,0
+Network bridge,Seed neighbourhood,Protocols & standards,37,551.8716233825794,0.00111828985268098,33803,16477,4
+Network congestion,Seed neighbourhood,Protocols & standards,33,2323.599834260864,0.0012405630095881804,14041,25617,10
+Network delay,Seed neighbourhood,Other networking concepts,18,109.390067489134,8.359618878923902e-4,5669,2451,0
+Network interface controller,Seed neighbourhood,Protocols & standards,47,1192.618330280478,0.0017712423416335612,73618,18211,13
+Network layer,Seed neighbourhood,Protocols & standards,72,3038.954165853607,0.0022806685671226882,53761,5241,11
+Network on a chip,Seed neighbourhood,Hardware & transmission media,9,141.00835441128544,4.124861292869791e-4,12242,16259,16
+Network packet,Seed neighbourhood,Other networking concepts,78,2159.2907840244234,0.002545878180943443,34318,9960,6
+Network security,Seed neighbourhood,Security,42,2760.442147842007,0.0013665253502010727,28523,15110,8
+Network segment,Seed neighbourhood,Protocols & standards,19,134.5656253759471,7.520452299415172e-4,8378,3893,2
+Network service,Seed neighbourhood,Other networking concepts,33,1230.3611766516751,0.0011325968129955735,15311,4057,3
+Network simulation,Seed neighbourhood,Wireless & mobile,17,1956.108128635296,8.265109879309891e-4,6655,5948,2
+Network switch,Seed neighbourhood,Protocols & standards,241,7187.610236929627,0.004248480922606528,87669,29105,19
+Network topology,Seed neighbourhood,Other networking concepts,234,14168.677549867423,0.00410343057832911,72688,42180,14
+Networking hardware,Seed neighbourhood,Hardware & transmission media,49,1621.8944496071028,0.0016481202750053042,28056,16751,11
+Nikola Tesla,Seed neighbourhood,People,188,91.32903102378658,0.002610057729867986,2347803,126022,211
+Node (networking),Seed neighbourhood,Routing,231,0,0.004287949646560227,1838,6896,10
+OSI model,Seed neighbourhood,Protocols & standards,110,13234.349161940943,0.003269467289903207,534365,60455,51
+Octet (computing),Seed neighbourhood,Other networking concepts,25,195.46153877819793,0.0011458215936172283,35991,11145,3
+Oliver Heaviside,Seed neighbourhood,People,188,0,0.0026097411182479974,80404,44190,29
+Online video platform,Seed neighbourhood,Other networking concepts,196,4366.876646426234,0.0028288858989923213,263400,16850,37
+Open source,Seed neighbourhood,Organizations & companies,46,2029.5182740110101,0.0024443372121869863,237034,34841,214
+Open standard,Seed neighbourhood,Protocols & standards,16,475.04881745266596,8.346821363995619e-4,42304,77491,17
+Operating system,Seed neighbourhood,Software & computing,104,4682.178355614439,0.0037690659995600127,693122,73114,31
+Optical communication,Seed neighbourhood,Other networking concepts,191,1206.164550809849,0.002700585112325683,16514,34674,49
+Optical fiber,Seed neighbourhood,Hardware & transmission media,216,2568.494576895987,0.0033880951338935155,209076,104883,44
+Optical telegraph,Seed neighbourhood,History & early telecom,189,1217.1623775690375,0.002626373027111563,50137,80114,15
+Orbital angular momentum multiplexing,Seed neighbourhood,Wireless & mobile,189,97.38227296831704,0.002636353320633341,4427,25988,12
+Overlay network,Seed neighbourhood,Other networking concepts,14,577.4621596259542,5.469131844323163e-4,39215,11707,20
+PARC Universal Packet,Seed neighbourhood,Other networking concepts,12,188.1566112061473,4.697795355577085e-4,2426,11085,7
+Packet forwarding,Seed neighbourhood,Routing,12,151.17367036023708,6.036645994281024e-4,3711,4556,0
+Packet loss,Seed neighbourhood,Other networking concepts,21,445.0694989418454,8.891529350079036e-4,20525,14359,7
+Packet radio,Seed neighbourhood,Wireless & mobile,9,136.4833269697158,3.9033331495133805e-4,17531,21705,6
+Pager,Seed neighbourhood,Wireless & mobile,192,4044.902027088014,0.002822184183540368,198829,35207,23
+Paul Baran,Seed neighbourhood,People,195,1152.8286220330249,0.0027721266625662217,20593,34141,9
+Peer-to-peer,Seed neighbourhood,Software & computing,60,7645.56648539195,0.0020699932452759,164613,61775,38
+Peer-to-peer file sharing,Seed neighbourhood,Other networking concepts,14,325.8934857444188,5.333480741843272e-4,61972,44479,12
+Peripheral,Seed neighbourhood,Software & computing,45,667.1842609478211,0.0016724173407963666,58419,13203,13
+Personal area network,Seed neighbourhood,Wireless & mobile,43,1335.6435926184506,9.96313287496106e-4,35093,5759,11
+Personal computer,Seed neighbourhood,Other networking concepts,44,388.81803271196316,0.0016536785099402144,286237,100662,116
+Philo Farnsworth,Seed neighbourhood,People,188,26.715764269941555,0.0026098216943395316,164294,70718,40
+Photophone,Seed neighbourhood,History & early telecom,188,152.3904404786665,0.002610057729867672,18390,33729,2
+Phryctoria,Seed neighbourhood,History & early telecom,188,0,0.0026097411182476834,7718,10918,18
+Physical layer,Seed neighbourhood,Protocols & standards,74,4322.904494494686,0.0021914577421858054,52811,16769,9
+Point-to-point (telecommunications),Seed neighbourhood,Other networking concepts,35,1340.5704937766627,8.705937637840405e-4,16390,6021,6
+Polarization-division multiplexing,Seed neighbourhood,Wireless & mobile,189,112.34376991394143,0.002636432790960606,3936,10102,4
+Port (computer networking),Seed neighbourhood,Protocols & standards,35,460.11518286328646,0.001364528691006566,87063,13700,22
+Power line communication,Seed neighbourhood,Other networking concepts,14,0,4.649327483749239e-4,42226,42163,17
+Pretty Good Privacy,Seed neighbourhood,History & early telecom,21,437.54511762800126,8.318924525552486e-4,169550,36863,29
+Printer (computing),Seed neighbourhood,Other networking concepts,25,165.72678124771363,9.369952824741549e-4,69660,47714,22
+Processor (computing),Seed neighbourhood,Other networking concepts,32,42.5587695818942,0.0010163748160723445,50808,16440,62
+Programming language,Seed neighbourhood,Software & computing,39,307.77976881004696,0.0014786485779205215,279589,66732,91
+Public data network,Seed neighbourhood,Other networking concepts,16,364.1435076131421,6.686424461216907e-4,4598,13088,3
+Public switched telephone network,Seed neighbourhood,Other networking concepts,208,2020.7908187837063,0.003208574562931247,71064,16031,16
+Quality of service,Seed neighbourhood,Software & computing,62,7840.62918939264,0.001953251039845858,35255,39260,13
+Radar,Seed neighbourhood,Wireless & mobile,31,128.3964354159788,0.001049560956121087,329257,105752,66
+Radia Perlman,Seed neighbourhood,People,194,2713.399609490321,0.0027482436355452822,46044,23230,44
+Radio network,Seed neighbourhood,Wireless & mobile,190,417.7330471382055,0.0026835837510456226,20768,6270,8
+Radio wave,Seed neighbourhood,Wireless & mobile,193,732.9375299840714,0.0029253716015713786,207261,39340,24
+Radiotelephone,Seed neighbourhood,Wireless & mobile,194,409.62867230065274,0.0027193723511887645,16141,14378,6
+Real-time computing,Seed neighbourhood,Other networking concepts,40,387.8291640480078,0.0012385429094071262,46716,25674,21
+Reginald Fessenden,Seed neighbourhood,People,188,30.050454526589455,0.0026099013103344157,26194,62789,16
+Request for Comments,Seed neighbourhood,Other networking concepts,147,2157.3781877070132,0.005450433033517214,254814,26027,29
+Robert Hooke,Seed neighbourhood,People,188,0,0.0026097411182472484,317509,93850,26
+Robert Metcalfe,Seed neighbourhood,People,197,450.67325171904105,0.0027883899586794063,48750,23350,10
+Roberto Landell de Moura,Seed neighbourhood,People,188,0,0.002609741118247169,5087,24745,5
+Router (computing),Seed neighbourhood,Routing,117,6342.97865849415,0.0035881076543148923,96273,44532,51
+Routing,Seed neighbourhood,Routing,67,8778.853109767302,0.0024827331788271384,39615,27984,20
+Routing table,Seed neighbourhood,Routing,29,706.0705024005673,0.0012292428354211994,32859,8287,12
+Rémi Després,Seed neighbourhood,People,10,41.662300987641544,4.1507308812543627e-4,1261,8913,4
+Samuel Morse,Seed neighbourhood,People,189,31.667811594426002,0.0026497727105351107,175244,66511,20
+Semaphore,Seed neighbourhood,History & early telecom,189,78.43643730129067,0.002625981805333625,95878,16987,6
+Semiconductor,Seed neighbourhood,Hardware & transmission media,195,609.8285711812418,0.0029600449928973392,363447,49738,31
+Semiconductor device,Seed neighbourhood,Hardware & transmission media,190,115.82479921024753,0.002657309317802541,52185,38357,9
+Server (computing),Seed neighbourhood,Hardware & transmission media,51,1519.1440087249334,0.002021392541054358,205690,28037,36
+Signal,Seed neighbourhood,Other networking concepts,29,66.60022545780483,8.858883968597796e-4,58296,30953,20
+Sliding window,Seed neighbourhood,Other networking concepts,7,0,4.43498714082838e-4,13569,21928,11
+Smartphone,Seed neighbourhood,Software & computing,215,4656.8981296382835,0.003584943949152433,459947,121745,71
+Smoke signal,Seed neighbourhood,History & early telecom,189,28.82553404879373,0.0026505784850949328,32008,12380,10
+Social media,Seed neighbourhood,Software & computing,196,733.5217984075726,0.0029814657975165307,1046509,199461,191
+Software configuration management,Seed neighbourhood,Protocols & standards,46,1923.2464030204185,0.0014509377333305395,25136,6789,4
+Software maintenance,Seed neighbourhood,Protocols & standards,50,2416.632235936634,0.0014047576957784671,18062,23698,8
+Space-division multiple access,Seed neighbourhood,Other networking concepts,198,1416.6618520765833,0.002795858617694449,4859,3576,10
+Spread spectrum,Seed neighbourhood,Wireless & mobile,29,2751.083952560698,7.606782590041403e-4,36700,15706,1
+Star network,Seed neighbourhood,Other networking concepts,17,59.99039920904709,6.311817825991716e-4,21788,3625,6
+Storage area network,Seed neighbourhood,Other networking concepts,28,3613.5686135861233,9.688403350835575e-4,60147,21936,3
+Streaming media,Seed neighbourhood,Software & computing,209,8669.00113851598,0.003353232984152823,314804,90815,69
+Streaming television,Seed neighbourhood,Software & computing,196,2775.7646129881227,0.0031196225845501074,135824,70880,121
+Submarine communications cable,Seed neighbourhood,History & early telecom,190,533.4456303038298,0.002684944415967806,207944,117025,41
+System on a chip,Seed neighbourhood,Hardware & transmission media,50,2392.626739083847,0.0018218414079628554,162693,47325,57
+TANet,Seed neighbourhood,Other networking concepts,188,142.53078300682688,0.0026099013103339716,1477,7887,1
+Telautograph,Seed neighbourhood,History & early telecom,188,0,0.002609741118246804,9243,21434,4
+Telecommunication circuit,Seed neighbourhood,Other networking concepts,191,355.35095755939363,0.002648663648850095,4202,3359,2
+Telecommunications,Seed neighbourhood,Other networking concepts,244,10614.036858507641,0.005013110989550187,207473,92933,49
+Telecommunications equipment,Seed neighbourhood,Other networking concepts,192,555.5612248420481,0.0026990074159985913,18094,5396,2
+Telecommunications link,Seed neighbourhood,Other networking concepts,192,2011.3536281467557,0.002723763080249553,13227,6704,8
+Telecommunications network,Seed neighbourhood,Other networking concepts,210,3198.8380664572005,0.0033225079169610775,33482,7106,10
+Telegraphy,Seed neighbourhood,History & early telecom,192,267.30304035016013,0.0029129347529731507,186316,80889,45
+Telephone,Seed neighbourhood,Other networking concepts,200,716.8574016805456,0.003060021814989762,263860,59330,8
+Telephone exchange,Seed neighbourhood,Other networking concepts,197,644.5550742746617,0.002845778059311056,57891,48230,10
+Telephony,Seed neighbourhood,History & early telecom,33,1698.712981388853,8.826436128212105e-4,36189,26559,7
+Teleprinter,Seed neighbourhood,History & early telecom,199,1295.4361981004208,0.0032037537186548467,98328,56206,38
+Television broadcasting,Seed neighbourhood,Other networking concepts,189,0,0.00262318523916389,56619,45684,18
+Telex,Seed neighbourhood,Other networking concepts,190,118.7090033315611,0.0026992882810460096,93327,36976,20
+Terabit Ethernet,Seed neighbourhood,Protocols & standards,12,71.05198621277759,5.500248550040938e-4,30186,65606,24
+Terminal (telecommunication),Seed neighbourhood,Other networking concepts,189,123.85769040525742,0.0026634132066364414,3468,2562,0
+The Telephone Cases,Seed neighbourhood,History & early telecom,188,0,0.002609741118246431,4326,8403,2
+Thomas A. Watson,Seed neighbourhood,People,188,0,0.002609741118246389,18461,10448,6
+Thomas Edison,Seed neighbourhood,People,188,0,0.002609741118246347,1283947,105628,514
+Throughput,Seed neighbourhood,Other networking concepts,23,0,8.911766420562438e-4,18964,19546,16
+Tim Berners-Lee,Seed neighbourhood,People,199,2101.251279291957,0.003157515423803338,830846,52607,53
+Time-division multiplexing,Seed neighbourhood,History & early telecom,206,4686.036722718663,0.0033267208058298694,36518,14230,1
+Tivadar Puskás,Seed neighbourhood,People,188,0,0.002609741118246223,5615,9513,5
+Toasternet,Seed neighbourhood,History & early telecom,188,1208.2561443098389,0.0026107183258048767,2132,11640,5
+Token Ring,Seed neighbourhood,Protocols & standards,51,2185.832066775835,0.0013114139475923845,43347,31368,12
+Transceiver,Seed neighbourhood,Wireless & mobile,33,253.41842298455595,9.634981799766932e-4,34422,8179,11
+Transmission Control Protocol,Seed neighbourhood,Protocols & standards,147,9487.000126424076,0.004788123182568267,402364,115239,65
+Transmission line,Seed neighbourhood,Hardware & transmission media,190,122.24309744408599,0.0026938187528406936,57708,57662,28
+Transmission medium,Seed neighbourhood,Hardware & transmission media,201,1394.097146525105,0.0031380992891767343,25101,19323,10
+Transport Layer Security,Seed neighbourhood,Security,79,4209.214637082963,0.002474355572500963,576408,182504,67
+Twisted pair,Seed neighbourhood,Hardware & transmission media,30,1009.4319102100624,8.456938970431317e-4,90870,28860,17
+UCLA,Seed neighbourhood,Organizations & companies,13,0,4.7486302546161183e-4,453442,181727,120
+USB,Seed neighbourhood,Protocols & standards,60,5000.392434259943,0.0017701027925148313,472956,144149,182
+Ubiquitous computing,Seed neighbourhood,Other networking concepts,34,324.1790469809741,0.0011641018845708216,29144,20820,9
+United States Department of Defense,Seed neighbourhood,Organizations & companies,29,780.6583877046838,0.0018304902688865434,1163848,79913,224
+Usenet,Seed neighbourhood,History & early telecom,208,7248.213313119566,0.0033430412748293075,275885,72708,49
+Video coding format,Seed neighbourhood,Other networking concepts,191,136.0296338509728,0.002746951652671632,23918,38802,5
+Video game,Seed neighbourhood,Software & computing,37,127.15495370533655,0.0011853271788466798,889883,150656,46
+Vint Cerf,Seed neighbourhood,People,209,2015.480249786024,0.0035909455046737263,282732,60419,30
+Virtual file system,Seed neighbourhood,Software & computing,14,213.87543082601871,7.608280903014565e-4,17491,10229,2
+Virtual machine,Seed neighbourhood,Software & computing,33,1978.0799850374879,0.0010879126626152263,148019,35096,25
+Virtual private network,Seed neighbourhood,Security,62,10117.026156236328,0.002161422059646333,391456,46067,74
+Vladimir K. Zworykin,Seed neighbourhood,People,189,79.24455194856944,0.0026247721896343152,20977,29832,6
+Walter Houser Brattain,Seed neighbourhood,People,189,0,0.00262318523916389,23151,32180,18
+Whistled language,Seed neighbourhood,History & early telecom,188,0,0.002609741118246046,30301,36970,15
+Wi-Fi,Seed neighbourhood,Wireless & mobile,153,42022.60364788977,0.00414692006472325,797077,123947,56
+Wide area network,Seed neighbourhood,Other networking concepts,233,11569.935163584189,0.0039579098098391835,74818,10583,14
+Wire,Seed neighbourhood,Hardware & transmission media,12,5.5904032682287825,4.03945866555669e-4,52843,21997,10
+Wireless,Seed neighbourhood,Wireless & mobile,247,22169.647620208892,0.0057712645434549355,78745,1387,8
+Wireless access point,Seed neighbourhood,Wireless & mobile,61,1734.5354872874354,0.0018605058490637476,53237,12989,11
+Wireless router,Seed neighbourhood,Wireless & mobile,21,1387.7806308987917,7.604845850207818e-4,22017,6774,5
+Wireless sensor network,Seed neighbourhood,Wireless & mobile,52,3887.29617165512,0.001798847457477894,30183,54778,9
+World Wide Web,Seed neighbourhood,Software & computing,74,4578.509350865463,0.0028568126227776283,1628133,110236,219
+X.25,Seed neighbourhood,History & early telecom,61,3115.767402505371,0.001669864993542681,27389,41105,14
+X.75,Seed neighbourhood,History & early telecom,9,1.2134177798339998,3.689846527274713e-4,1089,2253,0
+Xerox PARC,Seed neighbourhood,Organizations & companies,16,0,5.796509607736401e-4,67096,18317,14
+Yogen Dalal,Seed neighbourhood,People,194,0,0.0028438928788977378,18951,167333,64
