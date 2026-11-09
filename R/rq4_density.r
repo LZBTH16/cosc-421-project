@@ -21,13 +21,7 @@ dens <- c(
   `Mean shortest path (undirected)`          = mean_distance(gu_giant, directed = FALSE),
   `Diameter (undirected)`                    = diameter(gu_giant, directed = FALSE),
   `Degree assortativity`                     = assortativity_degree(g, directed = TRUE))
-tibble(Metric = names(dens), Value = dens) |>
-  mutate(Value = if_else(Value >= 100, fmt_num(round(Value)), formatC(Value, format = "fg", digits = 3))) |>
-  save_table("tab_rq4_density")
-num("density", edge_density(g), 4); num("reciprocity", 100 * reciprocity(g), 0)
-num("transitivity", transitivity(gu, type = "global"))
-num("meanPath", mean_distance(gu_giant, directed = FALSE)); num("diameter", diameter(gu_giant, directed = FALSE))
-num("assortativity", assortativity_degree(g, directed = TRUE))
+# (the table is saved below, after the small-world index has been computed)
 
 net_stats <- function(gr) {
   gru <- to_undirected(gr, mode = "collapse"); cmp <- components(gru)
@@ -43,7 +37,24 @@ rewir <- rowMeans(replicate(5, net_stats(rewire(g, keeping_degseq(niter = 10 * m
 tibble(Statistic = names(obs), Observed = obs, `Random (ER)` = er, `Degree-preserving` = rewir) |>
   save_table("tab_rq4_null", digits = 3)
 sigma <- unname((obs["Clustering"] / er["Clustering"]) / (obs["Mean shortest path"] / er["Mean shortest path"]))
-num("sigma", sigma, 1); num("clusteringER", er["Clustering"], 3)
+# 3 decimals, the same rounding as the null-model table
+num("clusteringER", er["Clustering"], 3); num("pathER", er["Mean shortest path"], 3)
+num("clusteringRewired", rewir["Clustering"], 3); num("reciprocityRewired", rewir["Reciprocity"], 3)
+
+# Density table. The macros used in the text are taken from the formatted table
+# cells, so the paper always quotes exactly the value shown in the table.
+dens <- c(dens, `Small-world index sigma` = sigma)
+dens_tbl <- tibble(Metric = names(dens), Value = dens) |>
+  mutate(Value = if_else(Value >= 100, fmt_num(round(Value)), str_trim(formatC(Value, format = "fg", digits = 3))))
+save_table(dens_tbl, "tab_rq4_density")
+cell <- \(metric) dens_tbl$Value[dens_tbl$Metric == metric]
+num("density",       cell("Density"))
+num("reciprocity",   cell("Reciprocity"))
+num("transitivity",  cell("Global clustering (transitivity)"))
+num("meanPath",      cell("Mean shortest path (undirected)"))
+num("diameter",      cell("Diameter (undirected)"))
+num("assortativity", cell("Degree assortativity"))
+num("sigma",         cell("Small-world index sigma"))
 
 # Comparison with Wikipedia as a whole (needs total link counts)
 total_file <- file.path(DATA_DIR, "total_links.csv")

@@ -43,14 +43,15 @@ dom_compare |>
 # (simulated p-value, because some domains have very few hubs)
 set.seed(2026)
 chi <- chisq.test(table(cent$domain, cent$is_hub), simulate.p.value = TRUE, B = 10000)
-num("chiHubsP", if (chi$p.value <= 1 / 10001) "< 0.001" else formatC(chi$p.value, format = "g", digits = 2))
+stat("chiHubsP", "Chi-squared test, domains of hubs vs all articles (simulated p)",
+     if (chi$p.value <= 1 / 10001) "< 0.001" else formatC(chi$p.value, format = "g", digits = 2))
 num("hubN", HUB_N)
 top_dom <- dom_compare |> filter(hub_n >= 3) |> slice_max(ratio, n = 1)
-num("topHubDomain", top_dom$domain); num("topHubDomainRatio", top_dom$ratio, 1)
+num("topHubDomain", top_dom$domain); num("topHubDomainRatio", top_dom$ratio, 2)  # same rounding as the table
 
 # ---- 3. Does in-degree differ between domains? -----------------------------
 kw <- kruskal.test(in_degree ~ factor(domain), data = cent)
-num("kwP", formatC(kw$p.value, format = "e", digits = 1))
+stat("kwP", "Kruskal-Wallis test, in-degree by domain (p)", formatC(kw$p.value, format = "e", digits = 1))
 cent |> group_by(Domain = domain) |>
   summarise(Articles = n(), `Median in` = median(in_degree), `Mean in` = mean(in_degree),
             `Max in` = max(in_degree), .groups = "drop") |>
@@ -66,9 +67,10 @@ dom_factor <- as.integer(factor(V(g)$domain))
 r_obs  <- assortativity_nominal(g, dom_factor, directed = TRUE)
 r_null <- map_dbl(1:5, \(s) { set.seed(s)
   assortativity_nominal(rewire(g, keeping_degseq(niter = 10 * m)), dom_factor, directed = TRUE) })
-num("domAssort", r_obs); num("domAssortNull", mean(r_null))
+stat("domAssort", "Domain assortativity r (observed)", r_obs)
+stat("domAssortNull", "Domain assortativity r (rewired networks, mean of 5)", mean(r_null))
 same_domain <- mean(V(g)$domain[head_of(g, E(g))] == V(g)$domain[tail_of(g, E(g))])
-num("sameDomainLinks", 100 * same_domain, 0)
+stat("sameDomainLinks", "Links between two articles of the same domain (%)", 100 * same_domain, 0)
 
 # ---- 5. Reader popularity (pageviews over the last 12 months) ---------------
 last_month <- max(pageviews$month)
@@ -76,7 +78,8 @@ views_12m <- pageviews |> filter(month > last_month %m-% months(12)) |>
   group_by(title) |> summarise(views_12m = sum(views), .groups = "drop")
 cent <- cent |> left_join(views_12m, by = c("article" = "title")) |>
   mutate(views_12m = coalesce(views_12m, 0))
-num("corInViews", cor(cent$in_degree, cent$views_12m, method = "spearman"))
+stat("corInViews", "Spearman rho, in-degree vs pageviews (12 months)",
+     cor(cent$in_degree, cent$views_12m, method = "spearman"))
 cent |> group_by(Domain = domain) |>
   summarise(Articles = n(), `Median views` = median(views_12m),
             `View share` = sum(views_12m), `Median in` = median(in_degree), .groups = "drop") |>
@@ -98,9 +101,11 @@ save_fig(\() numbered_scatter(
 created <- page_meta |> select(title, created) |>
   inner_join(select(cent, article, domain, in_degree, is_hub), by = c("title" = "article")) |>
   filter(!is.na(created)) |> mutate(year = year(created))
-num("corYearIn", cor(created$year, created$in_degree, method = "spearman"))
-num("medianYearHubs", as.character(median(created$year[created$is_hub])))
-num("medianYearAll", as.character(median(created$year)))
+stat("corYearIn", "Spearman rho, creation year vs in-degree",
+     cor(created$year, created$in_degree, method = "spearman"))
+stat("medianYearHubs", paste0("Median creation year, top ", HUB_N, " hubs"),
+     as.character(median(created$year[created$is_hub])))
+stat("medianYearAll", "Median creation year, all articles", as.character(median(created$year)))
 years <- seq(min(created$year), max(created$year))
 cum_mat <- created |> count(domain, year) |>
   complete(domain, year = years, fill = list(n = 0)) |> arrange(domain, year) |>
@@ -157,6 +162,7 @@ if (file.exists(memb_file)) {
 
 write_csv(select(cent, article, subfield, domain, in_degree, is_hub, views_12m),
           rq_out("rq6_article_domains.csv"))
+save_stats()     # tab_rq6_stats: every number quoted in the RQ6 text
 write_numbers()
 message("rq6_hub_domains.r done.")
 }

@@ -31,9 +31,9 @@ cent <- cent |>
   left_join(select(page_meta, title, edits_12m, length), by = c("article" = "title")) |>
   mutate(views_12m = coalesce(views_12m, 0), edits_12m = coalesce(as.numeric(edits_12m), 0))
 
-num("medianEdits", median(cent$edits_12m))
-num("meanEdits", mean(cent$edits_12m), 1)
-num("shareNotEdited", 100 * mean(cent$edits_12m == 0), 0)
+stat("medianEdits", "Median edits per article (12 months)", median(cent$edits_12m))
+stat("meanEdits", "Mean edits per article (12 months)", mean(cent$edits_12m), 1)
+stat("shareNotEdited", "Articles not edited at all (%)", 100 * mean(cent$edits_12m == 0), 0)
 
 # ---- 1. Correlations --------------------------------------------------------
 cor_with_edits <- function(v) {
@@ -52,9 +52,9 @@ num("corEditsLength", cor_with_edits("length")[["rho"]])
 
 # ---- 2. Hubs vs other articles ----------------------------------------------
 wt <- wilcox.test(edits_12m ~ is_hub, data = cent, exact = FALSE)
-num("medianEditsHubs", median(cent$edits_12m[cent$is_hub]))
-num("medianEditsOthers", median(cent$edits_12m[!cent$is_hub]))
-num("wilcoxP", formatC(wt$p.value, format = "e", digits = 1))
+stat("medianEditsHubs", paste0("Median edits, top ", HUB_N, " hubs by in-degree"), median(cent$edits_12m[cent$is_hub]))
+stat("medianEditsOthers", "Median edits, all other articles", median(cent$edits_12m[!cent$is_hub]))
+stat("wilcoxP", "Wilcoxon test, hubs vs other articles (p)", formatC(wt$p.value, format = "e", digits = 1))
 num("hubNEdits", HUB_N)
 
 # ---- 3. Regression: centrality vs edits, controlling for views and size -----
@@ -72,8 +72,8 @@ tibble(Term = c("Intercept", "log(in-degree + 1)", "log(betweenness + 1)",
 num("betaIn", coefs["log1p(in_degree)", 1], 3)
 num("betaInP", formatC(coefs["log1p(in_degree)", 4], format = "e", digits = 1))
 num("betaViews", coefs["log1p(views_12m)", 1], 3)
-num("modelRsq", summary(fit)$r.squared)
-num("modelN", nrow(model_data))
+stat("modelRsq", "Regression R-squared", summary(fit)$r.squared)
+stat("modelN", "Regression: number of articles", nrow(model_data))
 
 # ---- 4. Most edited articles --------------------------------------------------
 cent |> slice_max(edits_12m, n = 10, with_ties = FALSE) |>
@@ -120,6 +120,7 @@ save_fig(\() log_boxplot(cent$edits_12m, cent$domain, domain_levels, domain_cols
 
 write_csv(select(cent, article, subfield, domain, in_degree, betweenness, pagerank,
                  views_12m, length, edits_12m), rq_out("rq7_edits_centrality.csv"))
+save_stats()     # tab_rq7_stats: every number quoted in the RQ7 text
 write_numbers()
 message("rq7_edit_frequency.r done.")
 }

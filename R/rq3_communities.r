@@ -39,9 +39,9 @@ gc_u <- to_undirected(gc_d, mode = "collapse")
 cat_res <- community_checks(gc_u, gc_d)
 
 fmt_stat <- \(x) map_chr(x, \(v) if (v == round(v)) fmt_num(v) else sprintf("%.2f", v))
-tibble(Statistic = names(full_res$stats), `Full network` = fmt_stat(full_res$stats),
-       `Category articles` = fmt_stat(cat_res$stats)) |>
-  save_table("tab_rq3_checks", align = "lrr")
+# (saved further down, once the participation coefficients are known)
+checks_tbl <- tibble(Statistic = names(full_res$stats), `Full network` = fmt_stat(full_res$stats),
+                     `Category articles` = fmt_stat(cat_res$stats))
 num("Qfull", full_res$stats[["Modularity Q"]]); num("QfullNull", full_res$stats[["Q of rewired networks (mean)"]])
 num("Qcat", cat_res$stats[["Modularity Q"]]);   num("QcatNull", cat_res$stats[["Q of rewired networks (mean)"]])
 num("nCommFull", full_res$stats[["Communities (5+ articles)"]])
@@ -49,6 +49,8 @@ num("nCommCat", cat_res$stats[["Communities (5+ articles)"]])
 num("nmiCatSubfield", cat_res$stats[["NMI vs subfield"]])
 num("nmiCatInfomap", cat_res$stats[["NMI Louvain vs Infomap"]])
 num("nCatGiant", vcount(gc_u))
+num("nmiFullInfomap", fmt_stat(full_res$stats[["NMI Louvain vs Infomap"]]))
+num("nmiCatRuns", fmt_stat(cat_res$stats[["NMI between Louvain runs (mean)"]]))
 
 # Full network: which subfields fall into which community
 tibble(article = names(full_res$memb), community = full_res$memb) |>
@@ -125,7 +127,16 @@ cat_bridges <- tibble(Article = short_label(V(gc_u)$name), Community = paste0("C
                       `Participation P` = P) |>
   slice_max(`Betw. within categories`, n = 10, with_ties = FALSE)
 save_table(cat_bridges, "tab_rq3_cat_bridges")
-num("medianP", median(P)); num("medianPBridges", median(cat_bridges$`Participation P`))
+# Add the participation medians to the checks table, and take the macros from
+# the table cells so the text and the table always show the same value
+checks_tbl <- checks_tbl |>
+  add_row(Statistic = "Median participation P (all articles)", `Full network` = "--",
+          `Category articles` = fmt_stat(median(P))) |>
+  add_row(Statistic = "Median participation P (top 10 bridges)", `Full network` = "--",
+          `Category articles` = fmt_stat(median(cat_bridges$`Participation P`)))
+save_table(checks_tbl, "tab_rq3_checks", align = "lrr")
+num("medianP", fmt_stat(median(P)))
+num("medianPBridges", fmt_stat(median(cat_bridges$`Participation P`)))
 
 write_csv(tibble(article = names(memb), community = memb, community_name = comm_name[as.character(memb)]),
           rq_out("rq3_membership.csv"))

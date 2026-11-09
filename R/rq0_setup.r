@@ -76,10 +76,28 @@ numbers <- list()
 tex_escape <- function(x) str_replace_all(x, c("\\\\" = "\\\\textbackslash{}",
                                                "([&%$#_{}])" = "\\\\\\1",
                                                "~" = "\\\\textasciitilde{}"))
-num <- function(name, value, digits = 2) {
-  numbers[[name]] <<- if (is.numeric(value)) {
+fmt_value <- function(value, digits = 2) {
+  if (is.numeric(value)) {
     format(round(value, digits), big.mark = ",", nsmall = 0, scientific = FALSE, trim = TRUE)
-  } else tex_escape(as.character(value))
+  } else as.character(value)
+}
+num <- function(name, value, digits = 2) {
+  numbers[[name]] <<- tex_escape(fmt_value(value, digits))
+}
+
+# Every number quoted in the paper must also be visible in a table. stat() does
+# both jobs at once: it creates the macro (like num()) AND adds a row to the
+# RQ's key-statistics table, using exactly the same formatted value.
+#   stat("medianEdits", "Median edits per article (12 months)", 4)
+#   save_stats()  -> generated/rqN/tab_rqN_stats.tex (+ results/rqN/tab_rqN_stats.csv)
+stats_rows <- tibble(Statistic = character(), Value = character())
+stat <- function(name, label, value, digits = 2) {
+  num(name, value, digits)
+  stats_rows <<- add_row(stats_rows, Statistic = label, Value = fmt_value(value, digits))
+}
+save_stats <- function() {
+  save_table(stats_rows, paste0("tab_", RQ, "_stats"), align = "lr")
+  stats_rows <<- stats_rows[0, ]
 }
 # Every macro gets the prefix \r (for "result") so it can't clash with LaTeX's
 # own commands: num("nNodes", ...) becomes \rNNodes, num("sigma", ...) \rSigma.
@@ -337,8 +355,15 @@ subfield_summary <- cent |>
   group_by(Subfield = subfield) |>
   summarise(Articles = n(), `Mean in` = mean(in_degree),
             `Median in` = median(in_degree), `Mean out` = mean(out_degree),
-            .groups = "drop")
-save_table(subfield_summary, "tab_subfields", digits = 1)
+            .groups = "drop") |>
+  # last row: the whole network, so the overall numbers quoted in the text
+  # (articles, links, mean and median degree) can be read off this table
+  mutate(Subfield = as.character(Subfield)) |>
+  add_row(Subfield = "All articles", Articles = n, `Mean in` = mean(cent$in_degree),
+          `Median in` = median(cent$in_degree), `Mean out` = mean(cent$out_degree))
+subfield_summary <- subfield_summary |>
+  mutate(Links = round(Articles * `Mean out`), .after = Articles)  # links starting in the group
+save_table(subfield_summary, "tab_subfields", digits = c(0, 0, 0, 1, 1, 1))
 num("meanInSeedNeighbourhood", mean(cent$in_degree[cent$subfield == "Seed neighbourhood"]), 1)
 num("meanInCategories", mean(cent$in_degree[cent$subfield %in% category_subfields]), 1)
 

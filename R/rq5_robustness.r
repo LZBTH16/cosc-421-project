@@ -82,11 +82,12 @@ robust_tbl |> transmute(Strategy, `R (S)` = R_S, `R (E)` = R_E, `E after 5%` = E
                         `E after 10%` = E10, `S after 10%` = S10) |>
   save_table("tab_rq5_robustness")
 worst <- robust_tbl |> filter(strategy != "random") |> slice_min(R_E, n = 1)
-num("RErandom", robust_tbl$R_E[robust_tbl$strategy == "random"])
-num("REworst", worst$R_E); num("REworstStrategy", str_to_lower(worst$Strategy))
-num("EfivePctRandom", 100 * robust_tbl$E5[robust_tbl$strategy == "random"], 0)
-num("EfivePctInDegree", 100 * robust_tbl$E5[robust_tbl$strategy == "in_degree"], 0)
-num("EtenPctWorst", 100 * worst$E10, 0)
+# 3 decimals, the same rounding as the table, so the text matches the table
+num("RErandom", robust_tbl$R_E[robust_tbl$strategy == "random"], 3)
+num("REworst", worst$R_E, 3); num("REworstStrategy", str_to_lower(worst$Strategy))
+num("EfiveRandom",   robust_tbl$E5[robust_tbl$strategy == "random"], 3)
+num("EfiveInDegree", robust_tbl$E5[robust_tbl$strategy == "in_degree"], 3)
+num("EtenWorst",     worst$E10, 3)
 
 
 write_numbers()

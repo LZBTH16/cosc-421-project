@@ -36,7 +36,7 @@ bridges |>
   transmute(Article = short_label(article), Subfield = sub_short[subfield], Degree = total_degree,
             `Betw. (norm.)` = betweenness_norm, `x expected` = 10^bridge_residual) |>
   save_table("tab_rq2_bridges", digits = c(0, 0, 0, 4, 1))
-num("topBeyondBridge", bridges$article[1]); num("topBeyondBridgeX", 10^bridges$bridge_residual[1], 0)
+num("topBeyondBridge", bridges$article[1]); num("topBeyondBridgeX", 10^bridges$bridge_residual[1], 1)  # same rounding as the table
 
 bt_ids <- match(union(top_btw$article[1:10], bridges$article), cent$article)
 save_fig(\() numbered_scatter(
