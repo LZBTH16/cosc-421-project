@@ -7,6 +7,7 @@ Reciprocity,0.687
 Share in largest strong component,0.788
 Global clustering (transitivity),0.75
 Mean local clustering,0.566
-Mean shortest path (undirected), 2.3
-Diameter (undirected),   6
+Mean shortest path (undirected),2.3
+Diameter (undirected),6
 Degree assortativity,0.394
+Small-world index sigma,6.42

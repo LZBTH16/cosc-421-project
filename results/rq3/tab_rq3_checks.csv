@@ -7,3 +7,5 @@ NMI between Louvain runs (mean),0.74,0.76
 Infomap communities,41,57
 NMI Louvain vs Infomap,0.34,0.59
 NMI vs subfield,0.17,0.28
+Median participation P (all articles),--,0.12
+Median participation P (top 10 bridges),--,0.63
