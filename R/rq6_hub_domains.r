@@ -43,7 +43,7 @@ dom_compare |>
 # (simulated p-value, because some domains have very few hubs)
 set.seed(2026)
 chi <- chisq.test(table(cent$domain, cent$is_hub), simulate.p.value = TRUE, B = 10000)
-num("chiHubsP", formatC(chi$p.value, format = "g", digits = 2))
+num("chiHubsP", if (chi$p.value <= 1 / 10001) "< 0.001" else formatC(chi$p.value, format = "g", digits = 2))
 num("hubN", HUB_N)
 top_dom <- dom_compare |> filter(hub_n >= 3) |> slice_max(ratio, n = 1)
 num("topHubDomain", top_dom$domain); num("topHubDomainRatio", top_dom$ratio, 1)
@@ -99,8 +99,8 @@ created <- page_meta |> select(title, created) |>
   inner_join(select(cent, article, domain, in_degree, is_hub), by = c("title" = "article")) |>
   filter(!is.na(created)) |> mutate(year = year(created))
 num("corYearIn", cor(created$year, created$in_degree, method = "spearman"))
-num("medianYearHubs", median(created$year[created$is_hub]), 0)
-num("medianYearAll", median(created$year), 0)
+num("medianYearHubs", as.character(median(created$year[created$is_hub])))
+num("medianYearAll", as.character(median(created$year)))
 years <- seq(min(created$year), max(created$year))
 cum_mat <- created |> count(domain, year) |>
   complete(domain, year = years, fill = list(n = 0)) |> arrange(domain, year) |>

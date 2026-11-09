@@ -159,17 +159,17 @@
 <line x1='153.84' y1='63.27' x2='146.64' y2='63.27' style='stroke-width: 0.75;' />
 <line x1='153.84' y1='43.93' x2='146.64' y2='43.93' style='stroke-width: 0.75;' />
 <line x1='153.84' y1='24.60' x2='146.64' y2='24.60' style='stroke-width: 0.75;' />
-<text x='139.44' y='201.90' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='114.05px' lengthAdjust='spacingAndGlyphs'>Other networking concepts</text>
-<text x='139.44' y='182.56' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='93.81px' lengthAdjust='spacingAndGlyphs'>Software &amp; computing</text>
-<text x='139.44' y='163.23' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='135.84px' lengthAdjust='spacingAndGlyphs'>Hardware &amp; transmission media</text>
-<text x='139.44' y='143.90' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='93.81px' lengthAdjust='spacingAndGlyphs'>Protocols &amp; standards</text>
-<text x='139.44' y='124.56' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='33.03px' lengthAdjust='spacingAndGlyphs'>Routing</text>
-<text x='139.44' y='105.23' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='76.72px' lengthAdjust='spacingAndGlyphs'>Wireless &amp; mobile</text>
-<text x='139.44' y='85.90' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='34.64px' lengthAdjust='spacingAndGlyphs'>Security</text>
-<text x='139.44' y='66.56' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='98.58px' lengthAdjust='spacingAndGlyphs'>History &amp; early telecom</text>
-<text x='139.44' y='47.23' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='117.23px' lengthAdjust='spacingAndGlyphs'>Organizations &amp; companies</text>
-<text x='139.44' y='27.90' text-anchor='end' style='font-size: 9.60px; font-family: "Liberation Sans";' textLength='29.84px' lengthAdjust='spacingAndGlyphs'>People</text>
-<text x='323.52' y='270.72' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='51.36px' lengthAdjust='spacingAndGlyphs'>In-degree</text>
+<text x='139.44' y='202.03' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='114.05px' lengthAdjust='spacingAndGlyphs'>Other networking concepts</text>
+<text x='139.44' y='182.70' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='93.81px' lengthAdjust='spacingAndGlyphs'>Software &amp; computing</text>
+<text x='139.44' y='163.37' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='135.84px' lengthAdjust='spacingAndGlyphs'>Hardware &amp; transmission media</text>
+<text x='139.44' y='144.03' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='93.81px' lengthAdjust='spacingAndGlyphs'>Protocols &amp; standards</text>
+<text x='139.44' y='124.70' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='33.03px' lengthAdjust='spacingAndGlyphs'>Routing</text>
+<text x='139.44' y='105.37' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='76.72px' lengthAdjust='spacingAndGlyphs'>Wireless &amp; mobile</text>
+<text x='139.44' y='86.03' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='34.64px' lengthAdjust='spacingAndGlyphs'>Security</text>
+<text x='139.44' y='66.70' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='98.58px' lengthAdjust='spacingAndGlyphs'>History &amp; early telecom</text>
+<text x='139.44' y='47.37' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='117.23px' lengthAdjust='spacingAndGlyphs'>Organizations &amp; companies</text>
+<text x='139.44' y='28.03' text-anchor='end' style='font-size: 9.60px; font-family: "Arial";' textLength='29.84px' lengthAdjust='spacingAndGlyphs'>People</text>
+<text x='323.52' y='270.72' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='51.36px' lengthAdjust='spacingAndGlyphs'>In-degree</text>
 <polygon points='153.84,216.00 493.20,216.00 493.20,7.20 153.84,7.20 ' style='stroke-width: 0.75;' />
 <line x1='166.41' y1='216.00' x2='486.15' y2='216.00' style='stroke-width: 0.75;' />
 <line x1='166.41' y1='216.00' x2='166.41' y2='223.20' style='stroke-width: 0.75;' />
@@ -182,16 +182,16 @@
 <line x1='403.78' y1='216.00' x2='403.78' y2='223.20' style='stroke-width: 0.75;' />
 <line x1='439.18' y1='216.00' x2='439.18' y2='223.20' style='stroke-width: 0.75;' />
 <line x1='486.15' y1='216.00' x2='486.15' y2='223.20' style='stroke-width: 0.75;' />
-<text x='166.41' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='5.67px' lengthAdjust='spacingAndGlyphs'>0</text>
-<text x='202.06' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='5.67px' lengthAdjust='spacingAndGlyphs'>1</text>
-<text x='222.92' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='5.67px' lengthAdjust='spacingAndGlyphs'>2</text>
-<text x='258.57' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='5.67px' lengthAdjust='spacingAndGlyphs'>5</text>
-<text x='289.74' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='11.34px' lengthAdjust='spacingAndGlyphs'>10</text>
-<text x='323.00' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='11.34px' lengthAdjust='spacingAndGlyphs'>20</text>
-<text x='368.64' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='11.34px' lengthAdjust='spacingAndGlyphs'>50</text>
-<text x='403.78' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='17.02px' lengthAdjust='spacingAndGlyphs'>100</text>
-<text x='439.18' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='17.02px' lengthAdjust='spacingAndGlyphs'>200</text>
-<text x='486.15' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Liberation Sans";' textLength='17.02px' lengthAdjust='spacingAndGlyphs'>500</text>
+<text x='166.41' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='5.67px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='202.06' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='5.67px' lengthAdjust='spacingAndGlyphs'>1</text>
+<text x='222.92' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='5.67px' lengthAdjust='spacingAndGlyphs'>2</text>
+<text x='258.57' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='5.67px' lengthAdjust='spacingAndGlyphs'>5</text>
+<text x='289.74' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='11.34px' lengthAdjust='spacingAndGlyphs'>10</text>
+<text x='323.00' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='11.34px' lengthAdjust='spacingAndGlyphs'>20</text>
+<text x='368.64' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='11.34px' lengthAdjust='spacingAndGlyphs'>50</text>
+<text x='403.78' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='17.02px' lengthAdjust='spacingAndGlyphs'>100</text>
+<text x='439.18' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='17.02px' lengthAdjust='spacingAndGlyphs'>200</text>
+<text x='486.15' y='241.92' text-anchor='middle' style='font-size: 10.20px; font-family: "Arial";' textLength='17.02px' lengthAdjust='spacingAndGlyphs'>500</text>
 </g>
 </g>
 </svg>

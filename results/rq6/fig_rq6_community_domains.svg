@@ -95,19 +95,19 @@
 <rect x='311.63' y='11.52' width='22.28' height='108.71' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #CC79A7;' />
 </g>
 <g clip-path='url(#cpMC4wMHw1MDQuMDB8MC4wMHwyNDQuODA=)'>
-<text x='82.14' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C1</text>
-<text x='108.87' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C2</text>
-<text x='135.61' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C3</text>
-<text x='162.35' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C4</text>
-<text x='189.09' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C5</text>
-<text x='215.82' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C6</text>
-<text x='242.56' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C7</text>
-<text x='269.30' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C8</text>
-<text x='296.03' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C9</text>
+<text x='82.14' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C1</text>
+<text x='108.87' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C2</text>
+<text x='135.61' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C3</text>
+<text x='162.35' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C4</text>
+<text x='189.09' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C5</text>
+<text x='215.82' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C6</text>
+<text x='242.56' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C7</text>
+<text x='269.30' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C8</text>
+<text x='296.03' y='213.12' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C9</text>
 </g>
 <g clip-path='url(#cpMC4wMHwzNTEuNjN8MC4wMHwyNDQuODA=)'>
-<text x='202.45' y='241.92' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='96.69px' lengthAdjust='spacingAndGlyphs'>Community (RQ3)</text>
-<text transform='translate(14.40,99.36) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='86.69px' lengthAdjust='spacingAndGlyphs'>Share of articles</text>
+<text x='202.45' y='241.92' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='96.69px' lengthAdjust='spacingAndGlyphs'>Community (RQ3)</text>
+<text transform='translate(14.40,99.36) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='86.69px' lengthAdjust='spacingAndGlyphs'>Share of articles</text>
 </g>
 <g clip-path='url(#cpMC4wMHw1MDQuMDB8MC4wMHwyNDQuODA=)'>
 <line x1='60.48' y1='185.46' x2='60.48' y2='11.52' style='stroke-width: 0.75;' />
@@ -117,12 +117,12 @@
 <line x1='60.48' y1='81.10' x2='53.28' y2='81.10' style='stroke-width: 0.75;' />
 <line x1='60.48' y1='46.31' x2='53.28' y2='46.31' style='stroke-width: 0.75;' />
 <line x1='60.48' y1='11.52' x2='53.28' y2='11.52' style='stroke-width: 0.75;' />
-<text x='46.08' y='189.59' text-anchor='end' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.0</text>
-<text x='46.08' y='154.80' text-anchor='end' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.2</text>
-<text x='46.08' y='120.01' text-anchor='end' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.4</text>
-<text x='46.08' y='85.23' text-anchor='end' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.6</text>
-<text x='46.08' y='50.44' text-anchor='end' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.8</text>
-<text x='46.08' y='15.65' text-anchor='end' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>1.0</text>
+<text x='46.08' y='189.76' text-anchor='end' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.0</text>
+<text x='46.08' y='154.97' text-anchor='end' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.2</text>
+<text x='46.08' y='120.18' text-anchor='end' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.4</text>
+<text x='46.08' y='85.39' text-anchor='end' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.6</text>
+<text x='46.08' y='50.61' text-anchor='end' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.8</text>
+<text x='46.08' y='15.82' text-anchor='end' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>1.0</text>
 </g>
 <defs>
   <clipPath id='cpMzUxLjYzfDQ5Ni44MHwxMS41MnwxODcuMjA='>
@@ -136,12 +136,12 @@
 <rect x='359.19' y='101.88' width='6.05' height='5.04' style='stroke-width: 0.75; stroke: none; fill: #F0E442;' />
 <rect x='359.19' y='111.96' width='6.05' height='5.04' style='stroke-width: 0.75; stroke: none; fill: #009E73;' />
 <rect x='359.19' y='122.04' width='6.05' height='5.04' style='stroke-width: 0.75; stroke: none; fill: #56B4E9;' />
-<text x='372.80' y='77.05' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='82.14px' lengthAdjust='spacingAndGlyphs'>Protocols &amp; standards</text>
-<text x='372.80' y='87.13' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='28.94px' lengthAdjust='spacingAndGlyphs'>Routing</text>
-<text x='372.80' y='97.21' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='67.16px' lengthAdjust='spacingAndGlyphs'>Wireless &amp; mobile</text>
-<text x='372.80' y='107.29' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='30.33px' lengthAdjust='spacingAndGlyphs'>Security</text>
-<text x='372.80' y='117.37' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='86.30px' lengthAdjust='spacingAndGlyphs'>History &amp; early telecom</text>
-<text x='372.80' y='127.45' style='font-size: 8.40px; font-family: "Liberation Sans";' textLength='102.67px' lengthAdjust='spacingAndGlyphs'>Organizations &amp; companies</text>
+<text x='372.80' y='77.16' style='font-size: 8.40px; font-family: "Arial";' textLength='82.14px' lengthAdjust='spacingAndGlyphs'>Protocols &amp; standards</text>
+<text x='372.80' y='87.24' style='font-size: 8.40px; font-family: "Arial";' textLength='28.94px' lengthAdjust='spacingAndGlyphs'>Routing</text>
+<text x='372.80' y='97.32' style='font-size: 8.40px; font-family: "Arial";' textLength='67.16px' lengthAdjust='spacingAndGlyphs'>Wireless &amp; mobile</text>
+<text x='372.80' y='107.40' style='font-size: 8.40px; font-family: "Arial";' textLength='30.33px' lengthAdjust='spacingAndGlyphs'>Security</text>
+<text x='372.80' y='117.48' style='font-size: 8.40px; font-family: "Arial";' textLength='86.30px' lengthAdjust='spacingAndGlyphs'>History &amp; early telecom</text>
+<text x='372.80' y='127.56' style='font-size: 8.40px; font-family: "Arial";' textLength='102.67px' lengthAdjust='spacingAndGlyphs'>Organizations &amp; companies</text>
 </g>
 </g>
 </svg>
