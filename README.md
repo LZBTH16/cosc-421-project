@@ -1,4 +1,4 @@
-# Structural Analysis of the Computer Networking Knowledge Graph on Wikipedia
+# Structural Analysis of the Computer Networking Hyperlink Network on Wikipedia
 
 Network science course project at UBCO for COSC 421. We build a directed hyperlink network of
 Wikipedia articles about computer networking and analyze it in R with igraph.
