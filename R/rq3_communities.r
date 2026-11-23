@@ -127,6 +127,76 @@ cat_bridges <- tibble(Article = short_label(V(gc_u)$name), Community = paste0("C
                       `Participation P` = P) |>
   slice_max(`Betw. within categories`, n = 10, with_ties = FALSE)
 save_table(cat_bridges, "tab_rq3_cat_bridges")
+# ---- Are the communities real subfields, or just densely linked groups? ------
+# Links were used to FIND the communities, so we check them against two signals
+# that do not come from the links:
+#   1. Wikipedia categories (written by editors). For every pair of articles we
+#      check whether they share at least one category, and compare pairs in the
+#      SAME community with pairs in DIFFERENT communities. The three categories
+#      we crawled and "...stubs" categories are left out, because every member
+#      of a subfield has its crawled category by construction. If communities
+#      were only "articles that link a lot", same-community pairs would not
+#      share categories more often than other pairs (ratio close to 1).
+#   2. The domain labels from rq0 (keyword rules on categories and titles):
+#      NMI between communities and domains, against 100 random groupings of
+#      the same sizes.
+seed_cats <- str_remove(category_subfields, "^Category:")
+art_cats <- if (has_meta) page_categories |>
+  filter(!category %in% seed_cats, !str_detect(category, "stubs$")) |>
+  distinct(title, category) else tibble(title = character(), category = character())
+
+category_check <- function(membership) {
+  arts <- names(membership)
+  ac <- filter(art_cats, title %in% arts)
+  inc <- table(factor(ac$title, levels = arts), ac$category)       # article x category
+  shares <- (tcrossprod(inc > 0) > 0)[upper.tri(diag(length(arts)))]  # pair shares a category?
+  same <- outer(membership, membership, "==")[upper.tri(diag(length(arts)))]
+  dom <- as.integer(factor(cent$domain[match(arts, cent$article)]))
+  set.seed(2026)
+  c(same = mean(shares[same]), diff = mean(shares[!same]),
+    ratio = mean(shares[same]) / mean(shares[!same]),
+    nmi_dom = compare(membership, dom, "nmi"),
+    nmi_null = mean(map_dbl(1:100, \(i) compare(sample(membership), dom, "nmi"))))
+}
+pct <- \(x) sprintf("%.1f%%", 100 * x)
+if (has_meta) {
+  chk_full <- category_check(full_res$memb)
+  chk_cat  <- category_check(cat_res$memb)
+  checks_tbl <- checks_tbl |>
+    add_row(Statistic = "Pairs sharing a category: same community",
+            `Full network` = pct(chk_full[["same"]]), `Category articles` = pct(chk_cat[["same"]])) |>
+    add_row(Statistic = "Pairs sharing a category: different communities",
+            `Full network` = pct(chk_full[["diff"]]), `Category articles` = pct(chk_cat[["diff"]])) |>
+    add_row(Statistic = "Ratio same / different",
+            `Full network` = sprintf("%.1f", chk_full[["ratio"]]), `Category articles` = sprintf("%.1f", chk_cat[["ratio"]])) |>
+    add_row(Statistic = "NMI vs domain",
+            `Full network` = fmt_stat(chk_full[["nmi_dom"]]), `Category articles` = fmt_stat(chk_cat[["nmi_dom"]])) |>
+    add_row(Statistic = "NMI vs domain, random groups (mean of 100)",
+            `Full network` = fmt_stat(chk_full[["nmi_null"]]), `Category articles` = fmt_stat(chk_cat[["nmi_null"]]))
+  # macros taken from the same formatted cells (the % sign is added in the text)
+  num("catSameComm", sprintf("%.1f", 100 * chk_cat[["same"]]))
+  num("catDiffComm", sprintf("%.1f", 100 * chk_cat[["diff"]]))
+  num("catRatio",    sprintf("%.1f", chk_cat[["ratio"]]))
+  num("nmiCatDomain",     fmt_stat(chk_cat[["nmi_dom"]]))
+  num("nmiCatDomainNull", fmt_stat(chk_cat[["nmi_null"]]))
+
+  # Table: each category-article community and its most common Wikipedia
+  # category, a label chosen by editors rather than by us
+  tibble(title = names(cat_res$memb), community = cat_res$memb) |>
+    filter(community <= K) |>
+    add_count(community, name = "size") |>
+    inner_join(art_cats, by = "title", relationship = "many-to-many") |>
+    count(community, size, category, name = "n_members") |>
+    group_by(community) |>
+    slice_max(n_members, n = 1, with_ties = FALSE) |>
+    ungroup() |>
+    arrange(community) |>
+    transmute(C = paste0("C", community), Size = size,
+              `Most common category (excl. crawled ones)` = category,
+              `Members` = n_members) |>
+    save_table("tab_rq3_comm_categories")
+}
+
 # Add the participation medians to the checks table, and take the macros from
 # the table cells so the text and the table always show the same value
 checks_tbl <- checks_tbl |>
